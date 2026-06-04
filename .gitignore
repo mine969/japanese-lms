@@ -10,6 +10,7 @@ venv/
 !.env.example
 *.db
 *.sqlite
+*.log
 .test-venv/
 .test-venv312/
 postgres-data/
