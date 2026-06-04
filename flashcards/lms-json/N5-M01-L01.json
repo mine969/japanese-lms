@@ -1,0 +1,77 @@
+{
+  "lesson_code": "N5-M01-L01",
+  "status": "ready",
+  "source": "source_markdown",
+  "cards": [
+    {
+      "front": "私 (reading + meaning)",
+      "back": "わたし — I, me",
+      "card_type": "source"
+    },
+    {
+      "front": "名前 (reading + meaning)",
+      "back": "なまえ — name",
+      "card_type": "source"
+    },
+    {
+      "front": "学生 (reading + meaning)",
+      "back": "がくせい — student",
+      "card_type": "source"
+    },
+    {
+      "front": "先生 (reading + meaning)",
+      "back": "せんせい — teacher",
+      "card_type": "source"
+    },
+    {
+      "front": "会社員 (reading + meaning)",
+      "back": "かいしゃいん — company employee",
+      "card_type": "source"
+    },
+    {
+      "front": "日本人 (reading + meaning)",
+      "back": "にほんじん — Japanese person",
+      "card_type": "source"
+    },
+    {
+      "front": "はじめまして",
+      "back": "Nice to meet you (used at first meeting)",
+      "card_type": "source"
+    },
+    {
+      "front": "Kanji 日 — readings & meaning",
+      "back": "ニチ/ジツ; ひ/び/か — day, sun (4 strokes)",
+      "card_type": "source"
+    },
+    {
+      "front": "Kanji 本 — readings & meaning",
+      "back": "ホン; もと — book, origin (5 strokes)",
+      "card_type": "source"
+    },
+    {
+      "front": "Kanji 人 — readings & meaning",
+      "back": "ジン/ニン; ひと — person (2 strokes)",
+      "card_type": "source"
+    },
+    {
+      "front": "Kanji 学 — readings & meaning",
+      "back": "ガク; まなぶ — study (8 strokes)",
+      "card_type": "source"
+    },
+    {
+      "front": "Kanji 生 — readings & meaning",
+      "back": "セイ/ショウ; いきる/うまれる/なま — life, raw (5 strokes)",
+      "card_type": "source"
+    },
+    {
+      "front": "Grammar: how do you make a statement into a yes/no question?",
+      "back": "Add か to the end (politely after です): 学生です → 学生ですか。",
+      "card_type": "source"
+    },
+    {
+      "front": "Grammar: how do you say \"my book\"?",
+      "back": "私の本 (Noun A + の + Noun B)",
+      "card_type": "source"
+    }
+  ]
+}

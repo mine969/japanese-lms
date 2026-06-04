@@ -14,11 +14,10 @@ Base path: `/api/v1`
 
 ## Phase 1 Contracts
 
-Endpoints currently return scaffold responses until persistence workflows are connected.
+Phase 1 beta endpoints are backed by SQLAlchemy sessions and startup-seeded LMS assets.
 
 Important contract rule: future work may add fields but should not rename or remove existing response fields without explicit approval.
 
 ## Auth
 
-JWT bearer auth is planned for protected endpoints. Phase 1 includes token helpers and dependency placeholders.
-
+JWT bearer auth protects user-specific dashboard, progress, quiz submission, and admin seed workflows.

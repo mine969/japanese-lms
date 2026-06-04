@@ -15,11 +15,11 @@ This repository owns the LMS platform: backend APIs, database design, content im
 
 | Area | Status |
 | --- | --- |
-| Backend | FastAPI scaffold with health check and versioned route groups |
-| Database | PostgreSQL schema and SQLAlchemy models |
-| Auth | JWT helper structure and bearer dependency placeholder |
+| Backend | FastAPI beta API with auth, lesson, quiz, flashcard, progress, dashboard, and admin import routes |
+| Database | PostgreSQL schema, SQLAlchemy models, and startup seed loading |
+| Auth | JWT registration/login/me flow with password hashing |
 | Deployment | Dockerfile and Docker Compose for backend + Postgres |
-| Import Pipeline | Starter scripts for markdown, quizzes, flashcards, and validation |
+| Import Pipeline | Markdown-to-LMS JSON packaging for provided handoff lessons |
 | Frontend | Planned for Next.js or React |
 
 ## Current Lesson Intake
@@ -49,6 +49,15 @@ Interactive API docs:
 http://localhost:8000/docs
 ```
 
+Beta admin seed:
+
+```text
+email: admin@example.com
+password: change-me
+```
+
+Change this before exposing a public beta.
+
 ## Repository Map
 
 ```text
@@ -67,13 +76,13 @@ scripts/      Import and validation utilities
 
 Base path: `/api/v1`
 
-- `/auth`
-- `/lessons`
-- `/quizzes`
-- `/flashcards`
-- `/progress`
+- `/auth/register`, `/auth/login`, `/auth/me`
+- `/lessons`, `/lessons/courses`, `/lessons/{lesson_code}`
+- `/quizzes`, `/quizzes/{lesson_code}`, `/quizzes/{lesson_code}/submit`
+- `/flashcards`, `/flashcards/{lesson_code}`
+- `/progress/summary`, `/progress/lesson`
 - `/dashboard`
-- `/admin/import`
+- `/admin/import/status`, `/admin/import/seed`
 
 ## Documentation
 
@@ -97,4 +106,3 @@ Future handoffs must be scoped and incremental.
 ## License
 
 MIT License. See [LICENSE](LICENSE).
-

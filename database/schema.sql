@@ -18,14 +18,16 @@ CREATE TABLE IF NOT EXISTS levels (
     id SERIAL PRIMARY KEY,
     course_id INTEGER NOT NULL REFERENCES courses(id),
     code VARCHAR(20) NOT NULL,
-    title VARCHAR(255) NOT NULL
+    title VARCHAR(255) NOT NULL,
+    order_index INTEGER NOT NULL DEFAULT 0
 );
 
 CREATE TABLE IF NOT EXISTS modules (
     id SERIAL PRIMARY KEY,
     level_id INTEGER NOT NULL REFERENCES levels(id),
     code VARCHAR(40) NOT NULL,
-    title VARCHAR(255) NOT NULL
+    title VARCHAR(255) NOT NULL,
+    order_index INTEGER NOT NULL DEFAULT 0
 );
 
 CREATE TABLE IF NOT EXISTS lessons (
@@ -34,6 +36,9 @@ CREATE TABLE IF NOT EXISTS lessons (
     code VARCHAR(40) UNIQUE NOT NULL,
     title VARCHAR(255) NOT NULL,
     status VARCHAR(60) NOT NULL DEFAULT 'placeholder',
+    estimated_minutes INTEGER,
+    prerequisites TEXT,
+    summary TEXT,
     source_path VARCHAR(500),
     processed_path VARCHAR(500),
     created_at TIMESTAMP NOT NULL DEFAULT NOW()
@@ -43,7 +48,8 @@ CREATE TABLE IF NOT EXISTS quizzes (
     id SERIAL PRIMARY KEY,
     lesson_id INTEGER NOT NULL REFERENCES lessons(id),
     title VARCHAR(255) NOT NULL,
-    status VARCHAR(60) NOT NULL DEFAULT 'draft'
+    status VARCHAR(60) NOT NULL DEFAULT 'draft',
+    source VARCHAR(120) NOT NULL DEFAULT 'source_markdown'
 );
 
 CREATE TABLE IF NOT EXISTS questions (
@@ -62,6 +68,7 @@ CREATE TABLE IF NOT EXISTS flashcards (
     front TEXT NOT NULL,
     back TEXT NOT NULL,
     card_type VARCHAR(60) NOT NULL DEFAULT 'vocabulary',
+    source VARCHAR(120) NOT NULL DEFAULT 'source_markdown',
     order_index INTEGER NOT NULL DEFAULT 0
 );
 
@@ -81,6 +88,6 @@ CREATE TABLE IF NOT EXISTS progress (
     quiz_id INTEGER REFERENCES quizzes(id),
     status VARCHAR(60) NOT NULL DEFAULT 'not_started',
     score DOUBLE PRECISION,
-    updated_at TIMESTAMP NOT NULL DEFAULT NOW()
+    updated_at TIMESTAMP NOT NULL DEFAULT NOW(),
+    CONSTRAINT uq_progress_scope UNIQUE (user_id, lesson_id, quiz_id)
 );
-

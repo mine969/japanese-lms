@@ -1,0 +1,109 @@
+{
+  "lesson_code": "N5-M01-L03",
+  "title": "N5-M01-L03 Lesson Quiz",
+  "status": "ready",
+  "source": "lms_gap_repair",
+  "questions": [
+    {
+      "question_type": "multiple_choice",
+      "prompt": "What is the ます form of 食べる?",
+      "choices": {
+        "a": "食べます",
+        "b": "食べません",
+        "c": "食べるます",
+        "d": "食べります"
+      },
+      "answer_key": {
+        "answer": "a"
+      }
+    },
+    {
+      "question_type": "multiple_choice",
+      "prompt": "Which group is する?",
+      "choices": {
+        "a": "Group 1",
+        "b": "Group 2",
+        "c": "Group 3",
+        "d": "adjective"
+      },
+      "answer_key": {
+        "answer": "c"
+      }
+    },
+    {
+      "question_type": "multiple_choice",
+      "prompt": "Which particle marks a direct object?",
+      "choices": {
+        "a": "を",
+        "b": "で",
+        "c": "へ",
+        "d": "か"
+      },
+      "answer_key": {
+        "answer": "a"
+      }
+    },
+    {
+      "question_type": "fill_blank",
+      "prompt": "飲む → 飲み___",
+      "choices": null,
+      "answer_key": {
+        "answer": "ます"
+      }
+    },
+    {
+      "question_type": "fill_blank",
+      "prompt": "見ます → 見___",
+      "choices": null,
+      "answer_key": {
+        "answer": "ません"
+      }
+    },
+    {
+      "question_type": "fill_blank",
+      "prompt": "図書館___日本語を勉強します。",
+      "choices": null,
+      "answer_key": {
+        "answer": "で"
+      }
+    },
+    {
+      "question_type": "matching",
+      "prompt": "Match 書く to its ます form.",
+      "choices": {
+        "answer": "書きます"
+      },
+      "answer_key": {
+        "answer": "書きます"
+      }
+    },
+    {
+      "question_type": "matching",
+      "prompt": "Match 来る to its group.",
+      "choices": {
+        "answer": "Group 3"
+      },
+      "answer_key": {
+        "answer": "Group 3"
+      }
+    },
+    {
+      "question_type": "matching",
+      "prompt": "Match 待つ to its ます form.",
+      "choices": {
+        "answer": "待ちます"
+      },
+      "answer_key": {
+        "answer": "待ちます"
+      }
+    },
+    {
+      "question_type": "translation",
+      "prompt": "Translate to Japanese: I do not go to university on Sunday.",
+      "choices": null,
+      "answer_key": {
+        "answer": "日曜日は大学へ行きません。"
+      }
+    }
+  ]
+}

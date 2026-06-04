@@ -1,0 +1,237 @@
+{
+  "lesson_code": "N5-M01-L02",
+  "status": "ready",
+  "source": "lms_gap_repair",
+  "cards": [
+    {
+      "front": "零 / ゼロ (reading + meaning)",
+      "back": "れい / ゼロ — zero",
+      "card_type": "vocabulary"
+    },
+    {
+      "front": "一 (reading + meaning)",
+      "back": "いち — one",
+      "card_type": "vocabulary"
+    },
+    {
+      "front": "二 (reading + meaning)",
+      "back": "に — two",
+      "card_type": "vocabulary"
+    },
+    {
+      "front": "三 (reading + meaning)",
+      "back": "さん — three",
+      "card_type": "vocabulary"
+    },
+    {
+      "front": "四 (reading + meaning)",
+      "back": "し / よん — four",
+      "card_type": "vocabulary"
+    },
+    {
+      "front": "五 (reading + meaning)",
+      "back": "ご — five",
+      "card_type": "vocabulary"
+    },
+    {
+      "front": "六 (reading + meaning)",
+      "back": "ろく — six",
+      "card_type": "vocabulary"
+    },
+    {
+      "front": "七 (reading + meaning)",
+      "back": "しち / なな — seven",
+      "card_type": "vocabulary"
+    },
+    {
+      "front": "八 (reading + meaning)",
+      "back": "はち — eight",
+      "card_type": "vocabulary"
+    },
+    {
+      "front": "九 (reading + meaning)",
+      "back": "く / きゅう — nine",
+      "card_type": "vocabulary"
+    },
+    {
+      "front": "十 (reading + meaning)",
+      "back": "じゅう — ten",
+      "card_type": "vocabulary"
+    },
+    {
+      "front": "百 (reading + meaning)",
+      "back": "ひゃく — one hundred",
+      "card_type": "vocabulary"
+    },
+    {
+      "front": "千 (reading + meaning)",
+      "back": "せん — one thousand",
+      "card_type": "vocabulary"
+    },
+    {
+      "front": "万 (reading + meaning)",
+      "back": "まん — ten thousand",
+      "card_type": "vocabulary"
+    },
+    {
+      "front": "～時 (reading + meaning)",
+      "back": "～じ — o'clock (hours)",
+      "card_type": "vocabulary"
+    },
+    {
+      "front": "～分 (reading + meaning)",
+      "back": "～ふん / ～ぷん — minutes",
+      "card_type": "vocabulary"
+    },
+    {
+      "front": "半 (reading + meaning)",
+      "back": "はん — half (30 minutes)",
+      "card_type": "vocabulary"
+    },
+    {
+      "front": "今 (reading + meaning)",
+      "back": "いま — now",
+      "card_type": "vocabulary"
+    },
+    {
+      "front": "午前 (reading + meaning)",
+      "back": "ごぜん — AM (before noon)",
+      "card_type": "vocabulary"
+    },
+    {
+      "front": "午後 (reading + meaning)",
+      "back": "ごご — PM (after noon)",
+      "card_type": "vocabulary"
+    },
+    {
+      "front": "何時 (reading + meaning)",
+      "back": "なんじ — what time",
+      "card_type": "vocabulary"
+    },
+    {
+      "front": "何分 (reading + meaning)",
+      "back": "なんぷん — what minute",
+      "card_type": "vocabulary"
+    },
+    {
+      "front": "これ (reading + meaning)",
+      "back": "これ — this (thing)",
+      "card_type": "vocabulary"
+    },
+    {
+      "front": "それ (reading + meaning)",
+      "back": "それ — that (thing)",
+      "card_type": "vocabulary"
+    },
+    {
+      "front": "あれ (reading + meaning)",
+      "back": "あれ — that (thing over there)",
+      "card_type": "vocabulary"
+    },
+    {
+      "front": "どれ (reading + meaning)",
+      "back": "どれ — which (thing)",
+      "card_type": "vocabulary"
+    },
+    {
+      "front": "この (reading + meaning)",
+      "back": "この — this ~",
+      "card_type": "vocabulary"
+    },
+    {
+      "front": "その (reading + meaning)",
+      "back": "その — that ~",
+      "card_type": "vocabulary"
+    },
+    {
+      "front": "あの (reading + meaning)",
+      "back": "あの — that ~ over there",
+      "card_type": "vocabulary"
+    },
+    {
+      "front": "どの (reading + meaning)",
+      "back": "どの — which ~",
+      "card_type": "vocabulary"
+    },
+    {
+      "front": "ここ (reading + meaning)",
+      "back": "ここ — here",
+      "card_type": "vocabulary"
+    },
+    {
+      "front": "そこ (reading + meaning)",
+      "back": "そこ — there",
+      "card_type": "vocabulary"
+    },
+    {
+      "front": "あそこ (reading + meaning)",
+      "back": "あそこ — over there",
+      "card_type": "vocabulary"
+    },
+    {
+      "front": "どこ (reading + meaning)",
+      "back": "どこ — where",
+      "card_type": "vocabulary"
+    },
+    {
+      "front": "Kanji 一 — readings & meaning",
+      "back": "one | 1 strokes",
+      "card_type": "kanji"
+    },
+    {
+      "front": "Kanji 二 — readings & meaning",
+      "back": "two | 2 strokes",
+      "card_type": "kanji"
+    },
+    {
+      "front": "Kanji 三 — readings & meaning",
+      "back": "three | 3 strokes",
+      "card_type": "kanji"
+    },
+    {
+      "front": "Kanji 四 — readings & meaning",
+      "back": "four | 5 strokes",
+      "card_type": "kanji"
+    },
+    {
+      "front": "Kanji 五 — readings & meaning",
+      "back": "five | 4 strokes",
+      "card_type": "kanji"
+    },
+    {
+      "front": "Kanji 六 — readings & meaning",
+      "back": "six | 4 strokes",
+      "card_type": "kanji"
+    },
+    {
+      "front": "Kanji 七 — readings & meaning",
+      "back": "seven | 2 strokes",
+      "card_type": "kanji"
+    },
+    {
+      "front": "Kanji 八 — readings & meaning",
+      "back": "eight | 2 strokes",
+      "card_type": "kanji"
+    },
+    {
+      "front": "Kanji 九 — readings & meaning",
+      "back": "nine | 2 strokes",
+      "card_type": "kanji"
+    },
+    {
+      "front": "Kanji 十 — readings & meaning",
+      "back": "ten | 2 strokes",
+      "card_type": "kanji"
+    },
+    {
+      "front": "Kanji 百 — readings & meaning",
+      "back": "hundred | 6 strokes",
+      "card_type": "kanji"
+    },
+    {
+      "front": "Kanji 千 — readings & meaning",
+      "back": "thousand | 3 strokes",
+      "card_type": "kanji"
+    }
+  ]
+}

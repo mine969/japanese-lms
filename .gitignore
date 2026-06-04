@@ -8,9 +8,12 @@ venv/
 .env
 .env.*
 !.env.example
+*.db
+*.sqlite
+.test-venv/
+.test-venv312/
 postgres-data/
 dist/
 build/
 node_modules/
 .DS_Store
-

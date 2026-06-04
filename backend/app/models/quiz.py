@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 from sqlalchemy import ForeignKey, Integer, JSON, String, Text
 from sqlalchemy.orm import Mapped, mapped_column, relationship
 
@@ -11,6 +13,7 @@ class Quiz(Base):
     lesson_id: Mapped[int] = mapped_column(ForeignKey("lessons.id"))
     title: Mapped[str] = mapped_column(String(255))
     status: Mapped[str] = mapped_column(String(60), default="draft")
+    source: Mapped[str] = mapped_column(String(120), default="source_markdown")
     questions: Mapped[list["Question"]] = relationship(back_populates="quiz")
 
 
@@ -25,4 +28,3 @@ class Question(Base):
     answer_key: Mapped[dict] = mapped_column(JSON)
     order_index: Mapped[int] = mapped_column(Integer, default=0)
     quiz: Mapped[Quiz] = relationship(back_populates="questions")
-

@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 from sqlalchemy import ForeignKey, Integer, String, Text
 from sqlalchemy.orm import Mapped, mapped_column
 
@@ -12,5 +14,5 @@ class Flashcard(Base):
     front: Mapped[str] = mapped_column(Text)
     back: Mapped[str] = mapped_column(Text)
     card_type: Mapped[str] = mapped_column(String(60), default="vocabulary")
+    source: Mapped[str] = mapped_column(String(120), default="source_markdown")
     order_index: Mapped[int] = mapped_column(Integer, default=0)
-
