@@ -31,7 +31,6 @@ This repository is the software architecture layer only. Japanese lesson writing
 ## Setup
 
 ```bash
-cd jlpt-lms
 docker compose -f deployment/docker-compose.yml up --build
 ```
 
@@ -56,4 +55,3 @@ Future Claude and ChatGPT handoffs must update only affected modules.
 - Do not change folder structure.
 - Do not regenerate the whole project.
 - Do not rewrite Japanese lessons in this repository.
-
