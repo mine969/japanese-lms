@@ -19,6 +19,12 @@
 
         <div class="status-grid" id="statusGrid"></div>
 
+        <nav class="quick-nav" aria-label="Primary LMS areas">
+          <button type="button" data-jump="dashboard">Sitemap</button>
+          <button type="button" data-jump="current">Current Lesson</button>
+          <button type="button" data-jump="sources">Sources</button>
+        </nav>
+
         <label class="search-box">
           <span>Search</span>
           <input id="searchInput" type="search" placeholder="N5-M01-L04, grammar, mock..." />
@@ -29,6 +35,8 @@
       </aside>
 
       <main class="main-panel">
+        <section class="dashboard-panel" id="dashboardPanel" aria-label="LMS sitemap"></section>
+
         <header class="topbar">
           <div>
             <p class="eyebrow" id="activeMeta">Static, zero-budget, no backend required</p>

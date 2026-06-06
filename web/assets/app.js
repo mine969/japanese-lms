@@ -9,6 +9,7 @@ const state = {
 
 const els = {
   statusGrid: document.querySelector("#statusGrid"),
+  dashboardPanel: document.querySelector("#dashboardPanel"),
   levelFilters: document.querySelector("#levelFilters"),
   lessonList: document.querySelector("#lessonList"),
   searchInput: document.querySelector("#searchInput"),
@@ -43,11 +44,15 @@ async function fetchJson(url) {
 
 function renderShell() {
   renderStats();
+  renderDashboard();
   renderFilters();
   renderList();
   els.searchInput.addEventListener("input", renderList);
   els.toggleComplete.addEventListener("click", toggleCurrentComplete);
   els.resetProgress.addEventListener("click", resetProgress);
+  document.querySelectorAll("[data-jump]").forEach((button) => {
+    button.addEventListener("click", () => jumpToArea(button.dataset.jump));
+  });
 }
 
 function renderStats() {
@@ -62,6 +67,131 @@ function renderStats() {
 
 function stat(label, value) {
   return `<div class="stat"><strong>${escapeHtml(String(value))}</strong><span>${escapeHtml(label)}</span></div>`;
+}
+
+function renderDashboard() {
+  const completed = Object.keys(state.progress.completed).length;
+  const nextNode = state.path.find((node) => !state.progress.completed[node.id]) || state.path[0];
+  const extracted = state.path.filter((node) => node.content_ref).length;
+  const sourceBacked = state.path.filter((node) => !node.content_ref && node.source_document).length;
+  const levels = ["FOUNDATIONS", "N5", "N4", "N3", "N2", "N1"].filter((level) => state.summary.levels[level] || level === "FOUNDATIONS");
+  els.dashboardPanel.innerHTML = `
+    <div class="dashboard-heading">
+      <div>
+        <p class="eyebrow">Zero-budget static LMS</p>
+        <h2>Find the right Japanese study area fast</h2>
+      </div>
+      <button class="primary-button" type="button" data-action="continue" data-id="${escapeHtml(nextNode.id)}">Continue ${escapeHtml(nextNode.id)}</button>
+    </div>
+
+    <div class="feature-grid" id="featureMap">
+      ${featureCard("Learning Path", `${state.summary.indexed_nodes} indexed items`, "Browse Foundations through N1 in order.", "path")}
+      ${featureCard("Lesson Reader", `${extracted} extracted lessons`, "Open lessons with objectives, vocabulary, and source content.", "current")}
+      ${featureCard("Source Library", `${state.summary.source_documents} handoff documents`, "Review bundled original source files when a lesson is not split yet.", "sources")}
+      ${featureCard("Progress", `${completed} completed locally`, "Completion is saved in this browser with no account required.", "progress")}
+    </div>
+
+    <div class="level-map" id="levelMap">
+      ${levels.map((level) => levelButton(level)).join("")}
+    </div>
+
+    <div class="dashboard-foot">
+      <button class="ghost-button" type="button" data-action="showExtracted">Show extracted lessons</button>
+      <button class="ghost-button" type="button" data-action="showSourceBacked">Show source-backed nodes</button>
+      <span>${sourceBacked} nodes currently open their source document directly.</span>
+    </div>
+  `;
+  els.dashboardPanel.querySelectorAll("[data-action]").forEach((button) => {
+    button.addEventListener("click", () => handleDashboardAction(button.dataset.action, button.dataset.id));
+  });
+  els.dashboardPanel.querySelectorAll("[data-level]").forEach((button) => {
+    button.addEventListener("click", () => {
+      state.currentLevel = button.dataset.level;
+      els.searchInput.value = "";
+      renderFilters();
+      renderList();
+      document.querySelector(".sidebar").scrollIntoView({ behavior: "smooth", block: "start" });
+    });
+  });
+}
+
+function featureCard(title, metric, body, action) {
+  return `
+    <button class="feature-card" type="button" data-action="${escapeHtml(action)}">
+      <strong>${escapeHtml(title)}</strong>
+      <span>${escapeHtml(metric)}</span>
+      <small>${escapeHtml(body)}</small>
+    </button>
+  `;
+}
+
+function levelButton(level) {
+  const levelInfo = state.summary.levels[level];
+  const count = levelInfo?.lesson_count || state.path.filter((node) => node.level === level).length;
+  const optional = levelInfo?.optional ? ` + ${levelInfo.optional} optional` : "";
+  const first = state.path.find((node) => node.level === level);
+  return `
+    <button class="level-card" type="button" data-level="${escapeHtml(level)}" data-first="${escapeHtml(first?.id || "")}">
+      <span>${escapeHtml(level)}</span>
+      <strong>${escapeHtml(String(count))}</strong>
+      <small>${first ? `Starts at ${escapeHtml(first.id)}${escapeHtml(optional)}` : "Coming soon"}</small>
+    </button>
+  `;
+}
+
+function handleDashboardAction(action, nodeId) {
+  if (action === "continue" && nodeId) {
+    navigateToNode(nodeId);
+    return;
+  }
+  if (action === "path") {
+    jumpToArea("sidebar");
+    return;
+  }
+  if (action === "current") {
+    jumpToArea("current");
+    return;
+  }
+  if (action === "sources") {
+    els.searchInput.value = ".md";
+    state.currentLevel = "ALL";
+    renderFilters();
+    renderList();
+    jumpToArea("sidebar");
+    return;
+  }
+  if (action === "progress") {
+    renderStats();
+    document.querySelector(".status-grid").scrollIntoView({ behavior: "smooth", block: "center" });
+    return;
+  }
+  if (action === "showExtracted") {
+    els.searchInput.value = "lesson extract";
+    renderList();
+    jumpToArea("sidebar");
+    return;
+  }
+  if (action === "showSourceBacked") {
+    els.searchInput.value = "source doc";
+    renderList();
+    jumpToArea("sidebar");
+  }
+}
+
+function jumpToArea(area) {
+  if (area === "dashboard") {
+    els.dashboardPanel.scrollIntoView({ behavior: "smooth", block: "start" });
+  } else if (area === "current") {
+    document.querySelector(".topbar").scrollIntoView({ behavior: "smooth", block: "start" });
+  } else if (area === "sources") {
+    els.searchInput.value = ".md";
+    state.currentLevel = "ALL";
+    renderFilters();
+    renderList();
+    document.querySelector(".sidebar").scrollIntoView({ behavior: "smooth", block: "start" });
+  } else {
+    document.querySelector(".sidebar").scrollIntoView({ behavior: "smooth", block: "start" });
+  }
 }
 
 function renderFilters() {
@@ -82,7 +212,8 @@ function renderList() {
   const query = els.searchInput.value.trim().toLowerCase();
   const filtered = state.path.filter((node) => {
     const levelMatch = state.currentLevel === "ALL" || node.level === state.currentLevel;
-    const queryMatch = !query || `${node.id} ${node.title} ${node.skill || ""} ${node.source_document || ""}`.toLowerCase().includes(query);
+    const contentType = node.content_ref ? "lesson extract" : "source doc";
+    const queryMatch = !query || `${node.id} ${node.title} ${node.skill || ""} ${node.source_document || ""} ${contentType}`.toLowerCase().includes(query);
     return levelMatch && queryMatch;
   });
   els.lessonList.innerHTML = filtered
@@ -323,6 +454,7 @@ function toggleCurrentComplete() {
   }
   saveProgress();
   renderStats();
+  renderDashboard();
   renderList();
   els.toggleComplete.textContent = state.progress.completed[state.currentNode.id] ? "Mark Incomplete" : "Mark Complete";
 }
@@ -332,6 +464,7 @@ function resetProgress() {
   state.progress = { completed: {} };
   saveProgress();
   renderStats();
+  renderDashboard();
   renderList();
   if (state.currentNode) els.toggleComplete.textContent = "Mark Complete";
 }
