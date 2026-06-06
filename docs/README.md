@@ -9,8 +9,8 @@ This directory documents the LMS architecture and implementation contracts.
 - [Database Design](database-design.md)
 - [Import Pipeline](import-pipeline.md)
 - [Project Status](project-status.md)
+- [Static Zero-Budget LMS](static-lms.md)
 
 ## Rule
 
 Docs should clarify the existing architecture. They should not quietly redefine API contracts, folder structure, or content ownership.
-

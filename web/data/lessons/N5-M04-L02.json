@@ -1,0 +1,75 @@
+{
+  "id": "N5-M04-L02",
+  "title": "N5 Review + Mock Exam · Lesson 02",
+  "source_document": "N5_M3_M4_complete.md",
+  "markdown": "# Lesson 2 — なら (Contextual Conditional)\n\n**Lesson:** N5 · M3 · L2 | **Est. Time:** 80 min\n\n## Learning Objectives\n1. Use ～なら to respond to or build on new information.\n2. Distinguish なら from ば/たら/と.\n3. Use なら for recommendation and advice based on context.\n4. Express \"if that's the case\" with なら.\n\n## Vocabulary\n\n| # | Japanese | Furigana | Meaning |\n|---|----------|----------|---------|\n| 1 | それなら | それなら | if that's the case |\n| 2 | だったら | だったら | if that's so (casual) |\n| 3 | 場合によって | ばあいによって | depending on the case |\n| 4 | 特に | とくに | especially / particularly |\n| 5 | おすすめ | おすすめ | recommendation |\n| 6 | 〜のであれば | 〜のであれば | if it is the case that ~ (formal) |\n| 7 | 相談 | そうだん | consultation |\n| 8 | 提案 | ていあん | proposal / suggestion |\n| 9 | 選ぶ | えらぶ | to choose |\n| 10 | 判断する | はんだんする | to judge / to decide |\n\n**Example sentences**\n\n1. 東京に行くなら、渋谷に行ってみてください。\n   *Tōkyō ni iku nara, Shibuya ni itte mite kudasai.* — If you're going to Tokyo, please try going to Shibuya.\n\n2. 日本語を勉強するなら、毎日練習することが大切です。\n   *Nihongo o benkyō suru nara, mainichi renshū suru koto ga taisetsu desu.* — If you're studying Japanese, daily practice is important.\n\n3. それなら、私も行きます。\n   *Sorenara, watashi mo ikimasu.* — If that's the case, I'll go too.\n\n4. 安いものがほしいなら、百円ショップがいいですよ。\n   *Yasui mono ga hoshii nara, hyakuen shoppu ga ii desu yo.* — If you want something cheap, the 100-yen shop is good.\n\n## Grammar\n\n### Grammar Point 1 — なら Formation\n\n- **Structure:** [Plain form / Noun / な-adjective] + なら\n  - 行くなら (if you're going)\n  - 学生なら (if you're a student)\n  - 静かなら (if it's quiet)\n\n- **Key nuance:** なら is always based on information already given or assumed from context. It never introduces a completely hypothetical new condition — it responds to something.\n  - A: 明日、大阪に行きます。B: 大阪に行くなら、たこ焼きを食べてください。\n  - (B responds to A's stated plan with なら — this is なら's natural habitat)\n\n### Grammar Point 2 — なら vs たら for Recommendations\n\n- 大阪に行くなら、たこ焼きを食べてください。(If you're going to Osaka [as you said], eat takoyaki.)\n- 大阪に行ったら、たこ焼きを食べてください。(When/if you go to Osaka, eat takoyaki.)\n- Both are natural; なら is more responsive to context, たら more independent.\n\n## Reading Practice\n\n**Passage**\n\n> 友達がミャンマー料理を食べたいと言っていました。「ミャンマー料理が食べたいなら、高田馬場に行くといいよ」と教えてあげました。高田馬場には本格的なミャンマー料理のレストランがあります。\n>\n> 友達は「安いなら行ってみたい」と言っていました。「値段も手頃だし、美味しいよ」と言ったら、「それなら今週末行こう」となりました。\n\n**Comprehension Questions**\n1. 友達は何が食べたいですか。\n2. どこに行くといいですか。\n3. 週末どうなりましたか。\n\n**Answers**\n1. ミャンマー料理が食べたいです。\n2. 高田馬場がいいです。\n3. 一緒に行くことになりました。\n\n## Lesson Summary\nなら is the most context-sensitive of all conditionals — it specifically reacts to given information and makes a recommendation or draws a conclusion. This makes it the most natural conditional for advice-giving: if someone has stated an intention or situation, なら hooks directly onto that information. Mastering なら vs たら in recommendation contexts significantly increases natural-sounding Japanese.\n\n> **Next Lesson:** N5 · M3 · L3 — Connecting Clauses: て/で、が、けど、し (Review & Extension)\n\n---\n\n*(Lessons N5 M3 L3–L19 follow the same full format. Topics:)*",
+  "objectives": [
+    "Use ～なら to respond to or build on new information.",
+    "Distinguish なら from ば/たら/と.",
+    "Use なら for recommendation and advice based on context.",
+    "Express \"if that's the case\" with なら."
+  ],
+  "vocabulary": [
+    {
+      "#": "1",
+      "Japanese": "それなら",
+      "Furigana": "それなら",
+      "Meaning": "if that's the case"
+    },
+    {
+      "#": "2",
+      "Japanese": "だったら",
+      "Furigana": "だったら",
+      "Meaning": "if that's so (casual)"
+    },
+    {
+      "#": "3",
+      "Japanese": "場合によって",
+      "Furigana": "ばあいによって",
+      "Meaning": "depending on the case"
+    },
+    {
+      "#": "4",
+      "Japanese": "特に",
+      "Furigana": "とくに",
+      "Meaning": "especially / particularly"
+    },
+    {
+      "#": "5",
+      "Japanese": "おすすめ",
+      "Furigana": "おすすめ",
+      "Meaning": "recommendation"
+    },
+    {
+      "#": "6",
+      "Japanese": "〜のであれば",
+      "Furigana": "〜のであれば",
+      "Meaning": "if it is the case that ~ (formal)"
+    },
+    {
+      "#": "7",
+      "Japanese": "相談",
+      "Furigana": "そうだん",
+      "Meaning": "consultation"
+    },
+    {
+      "#": "8",
+      "Japanese": "提案",
+      "Furigana": "ていあん",
+      "Meaning": "proposal / suggestion"
+    },
+    {
+      "#": "9",
+      "Japanese": "選ぶ",
+      "Furigana": "えらぶ",
+      "Meaning": "to choose"
+    },
+    {
+      "#": "10",
+      "Japanese": "判断する",
+      "Furigana": "はんだんする",
+      "Meaning": "to judge / to decide"
+    }
+  ],
+  "checklist": []
+}

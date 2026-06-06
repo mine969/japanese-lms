@@ -2,7 +2,9 @@
 
 ## Phase 1
 
-Repository scaffold has been upgraded to a production-beta backend MVP with database-backed auth, course navigation, lesson packaging, quiz/flashcard delivery, progress tracking, admin seed import, Docker deployment, and smoke tests.
+The project has been restarted around a zero-budget static LMS. The learner-facing app now lives in `web/`, loads JSON generated from the final complete handoff, and stores progress in browser `localStorage`.
+
+The previous FastAPI backend remains available as optional tooling, but it is no longer required for learner use.
 
 ## Lesson Intake Status
 
@@ -19,6 +21,15 @@ Repository scaffold has been upgraded to a production-beta backend MVP with data
 - Docker Compose config: passing
 - Backend API smoke tests: passing on Python 3.12
 - Docker image build: not run locally because Docker Desktop is not running
+
+## Static LMS Verification
+
+- Final handoff copied into `handoff/final/`
+- Static data builder generated 367 indexed nodes from 30 source documents
+- 56 direct lesson content extracts generated
+- All generated JSON files parse successfully
+- Static site serves locally on `http://127.0.0.1:4180`
+- Static app JavaScript syntax check passes
 
 ## Architecture Lock
 

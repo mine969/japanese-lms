@@ -1,0 +1,79 @@
+{
+  "title": "日本語大学 — JLPT 0→N1 Static LMS",
+  "source": "handoff\\final\\FINAL_LMS_HANDOFF_COMPLETE.md",
+  "source_documents": 30,
+  "indexed_nodes": 367,
+  "content_blocks": 56,
+  "levels": {
+    "FOUNDATIONS": {
+      "lesson_count": 7,
+      "main": 6,
+      "optional": 1,
+      "modules": {
+        "FOUNDATIONS": 7
+      }
+    },
+    "N5": {
+      "lesson_count": 85,
+      "main": 80,
+      "optional": 5,
+      "modules": {
+        "OPTIONAL": 5,
+        "M01": 20,
+        "M02": 20,
+        "M03": 20,
+        "M04": 20
+      }
+    },
+    "N4": {
+      "lesson_count": 82,
+      "main": 76,
+      "optional": 6,
+      "modules": {
+        "OPTIONAL": 6,
+        "M01": 16,
+        "M02": 20,
+        "M03": 20,
+        "M04": 20
+      }
+    },
+    "N3": {
+      "lesson_count": 70,
+      "main": 63,
+      "optional": 7,
+      "modules": {
+        "OPTIONAL": 7,
+        "M01": 20,
+        "M02": 3,
+        "M03": 20,
+        "M04": 20
+      }
+    },
+    "N2": {
+      "lesson_count": 67,
+      "main": 60,
+      "optional": 7,
+      "modules": {
+        "OPTIONAL": 7,
+        "M01": 20,
+        "M02": 10,
+        "M03": 10,
+        "M04": 20
+      }
+    },
+    "N1": {
+      "lesson_count": 56,
+      "main": 51,
+      "optional": 5,
+      "modules": {
+        "OPTIONAL": 5,
+        "M01": 20,
+        "M02": 10,
+        "M03": 1,
+        "M04": 20
+      }
+    }
+  },
+  "storage": "browser localStorage",
+  "backend_required": false
+}

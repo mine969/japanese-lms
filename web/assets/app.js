@@ -1,0 +1,288 @@
+const state = {
+  summary: null,
+  path: [],
+  docs: [],
+  currentLevel: "ALL",
+  currentNode: null,
+  progress: loadProgress(),
+};
+
+const els = {
+  statusGrid: document.querySelector("#statusGrid"),
+  levelFilters: document.querySelector("#levelFilters"),
+  lessonList: document.querySelector("#lessonList"),
+  searchInput: document.querySelector("#searchInput"),
+  activeMeta: document.querySelector("#activeMeta"),
+  activeTitle: document.querySelector("#activeTitle"),
+  overviewBand: document.querySelector("#overviewBand"),
+  contentView: document.querySelector("#contentView"),
+  toggleComplete: document.querySelector("#toggleComplete"),
+  resetProgress: document.querySelector("#resetProgress"),
+};
+
+async function boot() {
+  const [summary, path, docs] = await Promise.all([
+    fetchJson("data/summary.json"),
+    fetchJson("data/learning-path.json"),
+    fetchJson("data/source-documents.json"),
+  ]);
+  state.summary = summary;
+  state.path = path;
+  state.docs = docs;
+  renderShell();
+  selectNode(path.find((node) => node.id === "F01") || path[0]);
+}
+
+async function fetchJson(url) {
+  const response = await fetch(url);
+  if (!response.ok) throw new Error(`Failed to load ${url}`);
+  return response.json();
+}
+
+function renderShell() {
+  renderStats();
+  renderFilters();
+  renderList();
+  els.searchInput.addEventListener("input", renderList);
+  els.toggleComplete.addEventListener("click", toggleCurrentComplete);
+  els.resetProgress.addEventListener("click", resetProgress);
+}
+
+function renderStats() {
+  const completed = Object.keys(state.progress.completed).length;
+  els.statusGrid.innerHTML = [
+    stat("Nodes", state.summary.indexed_nodes),
+    stat("Done", completed),
+    stat("Sources", state.summary.source_documents),
+    stat("Extracted", state.summary.content_blocks),
+  ].join("");
+}
+
+function stat(label, value) {
+  return `<div class="stat"><strong>${escapeHtml(String(value))}</strong><span>${escapeHtml(label)}</span></div>`;
+}
+
+function renderFilters() {
+  const levels = ["ALL", ...Object.keys(state.summary.levels)];
+  els.levelFilters.innerHTML = levels
+    .map((level) => `<button class="filter-button ${level === state.currentLevel ? "active" : ""}" data-level="${level}">${level}</button>`)
+    .join("");
+  els.levelFilters.querySelectorAll("button").forEach((button) => {
+    button.addEventListener("click", () => {
+      state.currentLevel = button.dataset.level;
+      renderFilters();
+      renderList();
+    });
+  });
+}
+
+function renderList() {
+  const query = els.searchInput.value.trim().toLowerCase();
+  const filtered = state.path.filter((node) => {
+    const levelMatch = state.currentLevel === "ALL" || node.level === state.currentLevel;
+    const queryMatch = !query || `${node.id} ${node.title} ${node.skill || ""} ${node.source_document || ""}`.toLowerCase().includes(query);
+    return levelMatch && queryMatch;
+  });
+  els.lessonList.innerHTML = filtered
+    .slice(0, 500)
+    .map((node) => {
+      const done = Boolean(state.progress.completed[node.id]);
+      const active = state.currentNode?.id === node.id;
+      return `
+        <button class="lesson-button ${done ? "done" : ""} ${active ? "active" : ""}" data-id="${node.id}">
+          <strong>${escapeHtml(node.id)} · ${escapeHtml(node.title)}</strong>
+          <span>${escapeHtml(node.level)} / ${escapeHtml(node.module)} · ${escapeHtml(node.track)}${node.content_ref ? " · lesson extract" : " · source doc"}</span>
+        </button>
+      `;
+    })
+    .join("");
+  els.lessonList.querySelectorAll("button").forEach((button) => {
+    button.addEventListener("click", () => selectNode(state.path.find((node) => node.id === button.dataset.id)));
+  });
+}
+
+async function selectNode(node) {
+  if (!node) return;
+  state.currentNode = node;
+  els.activeMeta.textContent = `${node.level} · ${node.module} · ${node.track}`;
+  els.activeTitle.textContent = `${node.id} — ${node.title}`;
+  renderOverview(node);
+  renderList();
+  els.contentView.innerHTML = "<p>Loading content...</p>";
+  if (node.content_ref) {
+    const lesson = await fetchJson(node.content_ref);
+    els.contentView.innerHTML = renderLesson(lesson);
+  } else if (node.source_document) {
+    const source = await fetchJson(`data/source-docs/${safeFilename(node.source_document)}.json`);
+    els.contentView.innerHTML = renderSourceFallback(node, source);
+  } else {
+    els.contentView.innerHTML = renderNoContent(node);
+  }
+  els.toggleComplete.textContent = state.progress.completed[node.id] ? "Mark Incomplete" : "Mark Complete";
+}
+
+function renderOverview(node) {
+  const doc = state.docs.find((item) => item.filename === node.source_document);
+  els.overviewBand.innerHTML = [
+    overview("Track", node.track),
+    overview("Skill", node.skill || "mixed"),
+    overview("Time", node.estimated_minutes ? `${node.estimated_minutes} min` : "not set"),
+    overview("Source", doc ? doc.filename : node.source_document || "index only"),
+  ].join("");
+}
+
+function overview(label, value) {
+  return `<div class="overview-item"><span>${escapeHtml(label)}</span><strong>${escapeHtml(String(value))}</strong></div>`;
+}
+
+function renderLesson(lesson) {
+  return `
+    <div class="pill">${escapeHtml(lesson.source_document)}</div>
+    ${lesson.objectives?.length ? `<h2>Learning Objectives</h2><ul>${lesson.objectives.map((item) => `<li>${escapeHtml(item)}</li>`).join("")}</ul>` : ""}
+    ${lesson.vocabulary?.length ? `<h2>Vocabulary Extract</h2>${renderTable(lesson.vocabulary.slice(0, 80))}` : ""}
+    ${lesson.checklist?.length ? `<h2>Progress Checklist</h2><ul>${lesson.checklist.map((item) => `<li>${escapeHtml(item)}</li>`).join("")}</ul>` : ""}
+    <h2>Lesson Source</h2>
+    ${renderMarkdown(lesson.markdown)}
+  `;
+}
+
+function renderSourceFallback(node, source) {
+  return `
+    <div class="pill">Bundled source document</div>
+    <p>This node is indexed from the curriculum map. Its content lives in the bundled source document below.</p>
+    <h2>${escapeHtml(source.filename)}</h2>
+    ${renderMarkdown(source.markdown)}
+  `;
+}
+
+function renderNoContent(node) {
+  return `
+    <h2>${escapeHtml(node.id)}</h2>
+    <p>This node exists in the learning path index, but no source document was matched by the parser yet.</p>
+  `;
+}
+
+function renderTable(rows) {
+  if (!rows.length) return "";
+  const headers = Object.keys(rows[0]);
+  return `
+    <table>
+      <thead><tr>${headers.map((header) => `<th>${escapeHtml(header)}</th>`).join("")}</tr></thead>
+      <tbody>${rows.map((row) => `<tr>${headers.map((header) => `<td>${escapeHtml(row[header] || "")}</td>`).join("")}</tr>`).join("")}</tbody>
+    </table>
+  `;
+}
+
+function renderMarkdown(markdown) {
+  const lines = markdown.split(/\r?\n/);
+  const html = [];
+  let inList = false;
+  let table = [];
+  const flushList = () => {
+    if (inList) {
+      html.push("</ul>");
+      inList = false;
+    }
+  };
+  const flushTable = () => {
+    if (table.length >= 2) {
+      const headers = table[0].slice(1, -1).split("|").map((cell) => cell.trim());
+      const rows = table.slice(2).map((row) => row.slice(1, -1).split("|").map((cell) => cell.trim()));
+      html.push(`<table><thead><tr>${headers.map((h) => `<th>${escapeHtml(h)}</th>`).join("")}</tr></thead><tbody>`);
+      rows.forEach((row) => html.push(`<tr>${row.map((cell) => `<td>${inline(cell)}</td>`).join("")}</tr>`));
+      html.push("</tbody></table>");
+    }
+    table = [];
+  };
+
+  for (const line of lines) {
+    if (line.trim().startsWith("|")) {
+      flushList();
+      table.push(line.trim());
+      continue;
+    }
+    flushTable();
+    if (!line.trim()) {
+      flushList();
+      continue;
+    }
+    const heading = line.match(/^(#{1,4})\s+(.+)$/);
+    if (heading) {
+      flushList();
+      const level = Math.min(heading[1].length + 1, 4);
+      html.push(`<h${level}>${inline(heading[2])}</h${level}>`);
+      continue;
+    }
+    if (/^[-*]\s+/.test(line.trim())) {
+      if (!inList) {
+        html.push("<ul>");
+        inList = true;
+      }
+      html.push(`<li>${inline(line.trim().replace(/^[-*]\s+/, ""))}</li>`);
+      continue;
+    }
+    flushList();
+    html.push(`<p>${inline(line)}</p>`);
+  }
+  flushList();
+  flushTable();
+  return html.join("");
+}
+
+function inline(value) {
+  return escapeHtml(value)
+    .replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>")
+    .replace(/\*(.+?)\*/g, "<em>$1</em>");
+}
+
+function toggleCurrentComplete() {
+  if (!state.currentNode) return;
+  if (state.progress.completed[state.currentNode.id]) {
+    delete state.progress.completed[state.currentNode.id];
+  } else {
+    state.progress.completed[state.currentNode.id] = new Date().toISOString();
+  }
+  saveProgress();
+  renderStats();
+  renderList();
+  els.toggleComplete.textContent = state.progress.completed[state.currentNode.id] ? "Mark Incomplete" : "Mark Complete";
+}
+
+function resetProgress() {
+  if (!confirm("Reset all local progress on this device?")) return;
+  state.progress = { completed: {} };
+  saveProgress();
+  renderStats();
+  renderList();
+  if (state.currentNode) els.toggleComplete.textContent = "Mark Complete";
+}
+
+function loadProgress() {
+  try {
+    return JSON.parse(localStorage.getItem("nihongo-daigaku-progress")) || { completed: {} };
+  } catch {
+    return { completed: {} };
+  }
+}
+
+function saveProgress() {
+  localStorage.setItem("nihongo-daigaku-progress", JSON.stringify(state.progress));
+}
+
+function safeFilename(filename) {
+  return filename.replace(/[^A-Za-z0-9_.-]+/g, "_");
+}
+
+function escapeHtml(value) {
+  return value.replace(/[&<>"']/g, (char) => ({
+    "&": "&amp;",
+    "<": "&lt;",
+    ">": "&gt;",
+    '"': "&quot;",
+    "'": "&#039;",
+  })[char]);
+}
+
+boot().catch((error) => {
+  els.contentView.innerHTML = `<h2>Could not load LMS data</h2><pre>${escapeHtml(error.stack || String(error))}</pre>`;
+});

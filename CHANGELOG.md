@@ -7,6 +7,7 @@
 - Import handoff lesson sources and generated LMS JSON assets for N5-M01-L01 through N5-M01-L03.
 - Add auth, lesson, quiz, flashcard, progress, dashboard, and admin import API behavior.
 - Add beta API smoke tests.
+- Rebuild primary user experience as a zero-budget static LMS generated from the final complete handoff.
 
 ## 0.1.0
 

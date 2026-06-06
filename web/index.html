@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>日本語大学 | Static JLPT LMS</title>
+    <link rel="stylesheet" href="assets/styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar">
+        <div class="brand">
+          <div class="brand-mark">日</div>
+          <div>
+            <h1>日本語大学</h1>
+            <p>JLPT 0→N1 Static LMS</p>
+          </div>
+        </div>
+
+        <div class="status-grid" id="statusGrid"></div>
+
+        <label class="search-box">
+          <span>Search</span>
+          <input id="searchInput" type="search" placeholder="N5-M01-L04, grammar, mock..." />
+        </label>
+
+        <div class="filters" id="levelFilters"></div>
+        <nav class="lesson-list" id="lessonList" aria-label="Learning path"></nav>
+      </aside>
+
+      <main class="main-panel">
+        <header class="topbar">
+          <div>
+            <p class="eyebrow" id="activeMeta">Static, zero-budget, no backend required</p>
+            <h2 id="activeTitle">Loading LMS...</h2>
+          </div>
+          <div class="actions">
+            <button id="toggleComplete" class="primary-button" type="button">Mark Complete</button>
+            <button id="resetProgress" class="ghost-button" type="button">Reset Progress</button>
+          </div>
+        </header>
+
+        <section class="overview-band" id="overviewBand"></section>
+
+        <article class="content-view" id="contentView">
+          <p>Loading curriculum data...</p>
+        </article>
+      </main>
+    </div>
+
+    <script src="assets/app.js"></script>
+  </body>
+</html>

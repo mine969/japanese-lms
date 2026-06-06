@@ -1,26 +1,26 @@
 # JLPT LMS
 
-![Backend](https://img.shields.io/badge/backend-FastAPI-009688)
-![Database](https://img.shields.io/badge/database-PostgreSQL-336791)
-![Auth](https://img.shields.io/badge/auth-JWT-111827)
-![Deploy](https://img.shields.io/badge/deploy-Docker-2496ED)
-![Phase](https://img.shields.io/badge/phase-1_scaffold-f59e0b)
+![Static LMS](https://img.shields.io/badge/primary-static_LMS-1f7a68)
+![Budget](https://img.shields.io/badge/budget-%240-brightgreen)
+![Progress](https://img.shields.io/badge/progress-localStorage-b0842b)
+![Backend](https://img.shields.io/badge/optional-FastAPI-009688)
+![Deploy](https://img.shields.io/badge/deploy-GitHub_Pages-111827)
 ![License](https://img.shields.io/badge/license-MIT-blue)
 
-Software architecture for a JLPT N5 to N1 learning management system.
+Static-first LMS for a JLPT 0 to N1 Japanese learning system.
 
-This repository owns the LMS platform: backend APIs, database design, content import paths, quiz/flashcard export structure, deployment, and handoff discipline. Japanese lesson writing and curriculum generation are handled by a separate content workflow.
+The long-term plan is zero-budget hosting: the learner-facing LMS runs from static files in `web/`, loads generated JSON from the final handoff, and stores learner progress in the browser. The FastAPI backend remains in the repo as optional tooling for future/admin use.
 
 ## Project Snapshot
 
 | Area | Status |
 | --- | --- |
-| Backend | FastAPI beta API with auth, lesson, quiz, flashcard, progress, dashboard, and admin import routes |
-| Database | PostgreSQL schema, SQLAlchemy models, and startup seed loading |
-| Auth | JWT registration/login/me flow with password hashing |
-| Deployment | Dockerfile and Docker Compose for backend + Postgres |
-| Import Pipeline | Markdown-to-LMS JSON packaging for provided handoff lessons |
-| Frontend | Planned for Next.js or React |
+| Static LMS | Browser app in `web/` with search, reading view, and local progress |
+| Source | Final handoff file in `handoff/final/` |
+| Generated Data | Learning path, source docs, and lesson extracts in `web/data/` |
+| Backend | Optional FastAPI beta API retained for future tooling |
+| Database | Not required for learner-facing zero-budget mode |
+| Deployment | GitHub Pages workflow for `web/` |
 
 ## Current Lesson Intake
 
@@ -31,37 +31,30 @@ This repository owns the LMS platform: backend APIs, database design, content im
 | N5-M01-L03 | Provisional complete | Review before import |
 | N5-M01-L04 onward | Placeholder | Await source content |
 
-## Quick Start
+## Static Quick Start
+
+```bash
+python scripts/build_static_lms.py
+python -m http.server 4173 -d web
+```
+
+Open:
+
+```text
+http://127.0.0.1:4173
+```
+
+## Optional Backend
 
 ```bash
 docker compose -f deployment/docker-compose.yml up --build
 ```
 
-Health check:
-
-```bash
-curl http://localhost:8000/health
-```
-
-Interactive API docs:
-
-```text
-http://localhost:8000/docs
-```
-
-Beta admin seed:
-
-```text
-email: admin@example.com
-password: change-me
-```
-
-Change this before exposing a public beta.
-
 ## Repository Map
 
 ```text
-backend/      FastAPI app, routers, schemas, models, tests
+web/          Static LMS app and generated JSON data
+backend/      Optional FastAPI app, routers, schemas, models, tests
 content/      Source lesson intake, processed lesson JSON, metadata, placeholders
 database/     SQL schema and seed files
 deployment/   Docker Compose and GitHub Actions
@@ -72,17 +65,13 @@ quizzes/      Quiz source, LMS JSON, and Moodle XML export areas
 scripts/      Import and validation utilities
 ```
 
-## API Surface
+## Static Data
 
-Base path: `/api/v1`
-
-- `/auth/register`, `/auth/login`, `/auth/me`
-- `/lessons`, `/lessons/courses`, `/lessons/{lesson_code}`
-- `/quizzes`, `/quizzes/{lesson_code}`, `/quizzes/{lesson_code}/submit`
-- `/flashcards`, `/flashcards/{lesson_code}`
-- `/progress/summary`, `/progress/lesson`
-- `/dashboard`
-- `/admin/import/status`, `/admin/import/seed`
+- `web/data/learning-path.json`
+- `web/data/summary.json`
+- `web/data/source-documents.json`
+- `web/data/source-docs/*.json`
+- `web/data/lessons/*.json`
 
 ## Documentation
 
@@ -91,6 +80,7 @@ Base path: `/api/v1`
 - [Database Design](docs/database-design.md)
 - [Import Pipeline](docs/import-pipeline.md)
 - [Project Status](docs/project-status.md)
+- [Static Zero-Budget LMS](docs/static-lms.md)
 
 ## Development Rules
 
