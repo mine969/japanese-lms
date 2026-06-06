@@ -15,6 +15,7 @@ const els = {
   activeMeta: document.querySelector("#activeMeta"),
   activeTitle: document.querySelector("#activeTitle"),
   overviewBand: document.querySelector("#overviewBand"),
+  sectionTabs: document.querySelector("#sectionTabs"),
   contentView: document.querySelector("#contentView"),
   toggleComplete: document.querySelector("#toggleComplete"),
   resetProgress: document.querySelector("#resetProgress"),
@@ -30,7 +31,8 @@ async function boot() {
   state.path = path;
   state.docs = docs;
   renderShell();
-  selectNode(path.find((node) => node.id === "F01") || path[0]);
+  window.addEventListener("hashchange", handleRouteChange);
+  handleRouteChange({ replace: true, scroll: false });
 }
 
 async function fetchJson(url) {
@@ -97,18 +99,41 @@ function renderList() {
     })
     .join("");
   els.lessonList.querySelectorAll("button").forEach((button) => {
-    button.addEventListener("click", () => selectNode(state.path.find((node) => node.id === button.dataset.id)));
+    button.addEventListener("click", () => navigateToNode(button.dataset.id));
   });
 }
 
-async function selectNode(node) {
+function handleRouteChange(options = {}) {
+  const route = parseRoute();
+  const node = state.path.find((item) => item.id === route.nodeId) || state.path.find((item) => item.id === "F01") || state.path[0];
+  selectNode(node, { ...options, sectionId: route.sectionId });
+}
+
+function parseRoute() {
+  const raw = decodeURIComponent(window.location.hash.replace(/^#\/?/, ""));
+  const [nodeId, sectionId] = raw.split("/");
+  return { nodeId, sectionId };
+}
+
+function navigateToNode(nodeId, sectionId = "") {
+  const hash = sectionId ? `#/${encodeURIComponent(nodeId)}/${encodeURIComponent(sectionId)}` : `#/${encodeURIComponent(nodeId)}`;
+  if (window.location.hash === hash) {
+    selectNode(state.path.find((node) => node.id === nodeId), { sectionId });
+    return;
+  }
+  window.location.hash = hash;
+}
+
+async function selectNode(node, options = {}) {
   if (!node) return;
   state.currentNode = node;
+  document.title = `${node.id} | ${node.title}`;
   els.activeMeta.textContent = `${node.level} · ${node.module} · ${node.track}`;
   els.activeTitle.textContent = `${node.id} — ${node.title}`;
   renderOverview(node);
   renderList();
   els.contentView.innerHTML = "<p>Loading content...</p>";
+  els.sectionTabs.innerHTML = "";
   if (node.content_ref) {
     const lesson = await fetchJson(node.content_ref);
     els.contentView.innerHTML = renderLesson(lesson);
@@ -118,7 +143,17 @@ async function selectNode(node) {
   } else {
     els.contentView.innerHTML = renderNoContent(node);
   }
+  buildSectionTabs(node, options.sectionId);
   els.toggleComplete.textContent = state.progress.completed[node.id] ? "Mark Incomplete" : "Mark Complete";
+  if (options.replace && !window.location.hash) {
+    history.replaceState(null, "", `#/${encodeURIComponent(node.id)}`);
+  }
+  focusSelectedLesson();
+  if (options.sectionId) {
+    scrollToSection(options.sectionId);
+  } else if (options.scroll !== false) {
+    scrollMainIntoView();
+  }
 }
 
 function renderOverview(node) {
@@ -160,6 +195,50 @@ function renderNoContent(node) {
     <h2>${escapeHtml(node.id)}</h2>
     <p>This node exists in the learning path index, but no source document was matched by the parser yet.</p>
   `;
+}
+
+function buildSectionTabs(node, activeSectionId = "") {
+  const headings = Array.from(els.contentView.querySelectorAll("h2, h3")).slice(0, 10);
+  headings.forEach((heading, index) => {
+    const id = heading.id || `${node.id.toLowerCase()}-section-${index + 1}`;
+    heading.id = id;
+  });
+  if (!headings.length) {
+    els.sectionTabs.innerHTML = "";
+    return;
+  }
+  els.sectionTabs.innerHTML = headings
+    .map((heading) => {
+      const active = heading.id === activeSectionId ? " active" : "";
+      return `<button class="section-tab${active}" data-section="${escapeHtml(heading.id)}" type="button">${escapeHtml(heading.textContent.trim())}</button>`;
+    })
+    .join("");
+  els.sectionTabs.querySelectorAll("button").forEach((button) => {
+    button.addEventListener("click", () => navigateToNode(node.id, button.dataset.section));
+  });
+}
+
+function focusSelectedLesson() {
+  const active = els.lessonList.querySelector(".lesson-button.active");
+  if (active) active.scrollIntoView({ block: "nearest" });
+}
+
+function scrollMainIntoView() {
+  document.querySelector(".main-panel").scrollIntoView({ behavior: "smooth", block: "start" });
+}
+
+function scrollToSection(sectionId) {
+  requestAnimationFrame(() => {
+    const section = document.getElementById(sectionId);
+    if (!section) {
+      scrollMainIntoView();
+      return;
+    }
+    section.scrollIntoView({ behavior: "smooth", block: "start" });
+    els.sectionTabs.querySelectorAll(".section-tab").forEach((tab) => {
+      tab.classList.toggle("active", tab.dataset.section === sectionId);
+    });
+  });
 }
 
 function renderTable(rows) {
