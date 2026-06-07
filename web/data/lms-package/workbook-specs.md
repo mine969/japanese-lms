@@ -432,6 +432,19 @@ Appendix A: Module vocabulary
 Appendix B: Module kanji
 Appendix C: Module grammar quick reference
 
+## PDF WORKBOOK: N5_MOCK_Workbook.pdf
+### Contents:
+1. Module Overview
+2. Lesson MOCK-N5: JLPT N5 Mock Examination
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+3. Module Review + Self-assessment checklist
+Appendix A: Module vocabulary
+Appendix B: Module kanji
+Appendix C: Module grammar quick reference
+
 ## PDF WORKBOOK: N4_M01_Workbook.pdf
 ### Contents:
 1. Module Overview
@@ -515,7 +528,27 @@ Appendix C: Module grammar quick reference
    - Grammar summary from approved lesson source
    - Exercise sets and answer key when present
    - Writing / self-check prompt when present
-18. Module Review + Self-assessment checklist
+18. Lesson L17: Passive voice - Lesson 17
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+19. Lesson L18: Passive voice - Lesson 18
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+20. Lesson L19: Passive voice - Lesson 19
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+21. Lesson L20: Passive voice - Lesson 20
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+22. Module Review + Self-assessment checklist
 Appendix A: Module vocabulary
 Appendix B: Module kanji
 Appendix C: Module grammar quick reference
@@ -844,6 +877,19 @@ Appendix A: Module vocabulary
 Appendix B: Module kanji
 Appendix C: Module grammar quick reference
 
+## PDF WORKBOOK: N4_MOCK_Workbook.pdf
+### Contents:
+1. Module Overview
+2. Lesson MOCK-N4: JLPT N4 Mock Examination
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+3. Module Review + Self-assessment checklist
+Appendix A: Module vocabulary
+Appendix B: Module kanji
+Appendix C: Module grammar quick reference
+
 ## PDF WORKBOOK: N3_M01_Workbook.pdf
 ### Contents:
 1. Module Overview
@@ -970,7 +1016,92 @@ Appendix C: Module grammar quick reference
    - Grammar summary from approved lesson source
    - Exercise sets and answer key when present
    - Writing / self-check prompt when present
-5. Module Review + Self-assessment checklist
+5. Lesson L04: Reading - Lesson 04
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+6. Lesson L05: Reading - Lesson 05
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+7. Lesson L06: Reading - Lesson 06
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+8. Lesson L07: Reading - Lesson 07
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+9. Lesson L08: Reading - Lesson 08
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+10. Lesson L09: Reading - Lesson 09
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+11. Lesson L10: Reading - Lesson 10
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+12. Lesson L11: Reading - Lesson 11
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+13. Lesson L12: Reading - Lesson 12
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+14. Lesson L13: Reading - Lesson 13
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+15. Lesson L14: Reading - Lesson 14
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+16. Lesson L15: Reading - Lesson 15
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+17. Lesson L16: Reading - Lesson 16
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+18. Lesson L17: Reading - Lesson 17
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+19. Lesson L18: Reading - Lesson 18
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+20. Lesson L19: Reading - Lesson 19
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+21. Lesson L20: Reading - Lesson 20
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+22. Module Review + Self-assessment checklist
 Appendix A: Module vocabulary
 Appendix B: Module kanji
 Appendix C: Module grammar quick reference
@@ -1191,6 +1322,19 @@ Appendix A: Module vocabulary
 Appendix B: Module kanji
 Appendix C: Module grammar quick reference
 
+## PDF WORKBOOK: N3_MOCK_Workbook.pdf
+### Contents:
+1. Module Overview
+2. Lesson MOCK-N3: JLPT N3 Mock Examination
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+3. Module Review + Self-assessment checklist
+Appendix A: Module vocabulary
+Appendix B: Module kanji
+Appendix C: Module grammar quick reference
+
 ## PDF WORKBOOK: N2_M01_Workbook.pdf
 ### Contents:
 1. Module Overview
@@ -1352,7 +1496,57 @@ Appendix C: Module grammar quick reference
    - Grammar summary from approved lesson source
    - Exercise sets and answer key when present
    - Writing / self-check prompt when present
-12. Module Review + Self-assessment checklist
+12. Lesson L11: Keigo full system + business situations · Lesson 01 - Lesson 11
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+13. Lesson L12: Keigo full system + business situations · Lesson 01 - Lesson 12
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+14. Lesson L13: Keigo full system + business situations · Lesson 01 - Lesson 13
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+15. Lesson L14: Keigo full system + business situations · Lesson 01 - Lesson 14
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+16. Lesson L15: Keigo full system + business situations · Lesson 01 - Lesson 15
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+17. Lesson L16: Keigo full system + business situations · Lesson 01 - Lesson 16
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+18. Lesson L17: Keigo full system + business situations · Lesson 01 - Lesson 17
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+19. Lesson L18: Keigo full system + business situations · Lesson 01 - Lesson 18
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+20. Lesson L19: Keigo full system + business situations · Lesson 01 - Lesson 19
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+21. Lesson L20: Keigo full system + business situations · Lesson 01 - Lesson 20
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+22. Module Review + Self-assessment checklist
 Appendix A: Module vocabulary
 Appendix B: Module kanji
 Appendix C: Module grammar quick reference
@@ -1410,7 +1604,57 @@ Appendix C: Module grammar quick reference
    - Grammar summary from approved lesson source
    - Exercise sets and answer key when present
    - Writing / self-check prompt when present
-12. Module Review + Self-assessment checklist
+12. Lesson L11: Academic reading - Lesson 11
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+13. Lesson L12: Academic reading - Lesson 12
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+14. Lesson L13: Academic reading - Lesson 13
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+15. Lesson L14: Academic reading - Lesson 14
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+16. Lesson L15: Academic reading - Lesson 15
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+17. Lesson L16: Academic reading - Lesson 16
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+18. Lesson L17: Academic reading - Lesson 17
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+19. Lesson L18: Academic reading - Lesson 18
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+20. Lesson L19: Academic reading - Lesson 19
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+21. Lesson L20: Academic reading - Lesson 20
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+22. Module Review + Self-assessment checklist
 Appendix A: Module vocabulary
 Appendix B: Module kanji
 Appendix C: Module grammar quick reference
@@ -1519,6 +1763,19 @@ Appendix C: Module grammar quick reference
    - Exercise sets and answer key when present
    - Writing / self-check prompt when present
 22. Module Review + Self-assessment checklist
+Appendix A: Module vocabulary
+Appendix B: Module kanji
+Appendix C: Module grammar quick reference
+
+## PDF WORKBOOK: N2_MOCK_Workbook.pdf
+### Contents:
+1. Module Overview
+2. Lesson MOCK-N2: JLPT N2 Mock Examination
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+3. Module Review + Self-assessment checklist
 Appendix A: Module vocabulary
 Appendix B: Module kanji
 Appendix C: Module grammar quick reference
@@ -1684,7 +1941,57 @@ Appendix C: Module grammar quick reference
    - Grammar summary from approved lesson source
    - Exercise sets and answer key when present
    - Writing / self-check prompt when present
-12. Module Review + Self-assessment checklist
+12. Lesson L11: Literary Japanese + classical echoes · Lesson 01 - Lesson 11
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+13. Lesson L12: Literary Japanese + classical echoes · Lesson 01 - Lesson 12
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+14. Lesson L13: Literary Japanese + classical echoes · Lesson 01 - Lesson 13
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+15. Lesson L14: Literary Japanese + classical echoes · Lesson 01 - Lesson 14
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+16. Lesson L15: Literary Japanese + classical echoes · Lesson 01 - Lesson 15
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+17. Lesson L16: Literary Japanese + classical echoes · Lesson 01 - Lesson 16
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+18. Lesson L17: Literary Japanese + classical echoes · Lesson 01 - Lesson 17
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+19. Lesson L18: Literary Japanese + classical echoes · Lesson 01 - Lesson 18
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+20. Lesson L19: Literary Japanese + classical echoes · Lesson 01 - Lesson 19
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+21. Lesson L20: Literary Japanese + classical echoes · Lesson 01 - Lesson 20
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+22. Module Review + Self-assessment checklist
 Appendix A: Module vocabulary
 Appendix B: Module kanji
 Appendix C: Module grammar quick reference
@@ -1697,7 +2004,102 @@ Appendix C: Module grammar quick reference
    - Grammar summary from approved lesson source
    - Exercise sets and answer key when present
    - Writing / self-check prompt when present
-3. Module Review + Self-assessment checklist
+3. Lesson L02: Slang + internet Japanese - Lesson 02
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+4. Lesson L03: Slang + internet Japanese - Lesson 03
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+5. Lesson L04: Slang + internet Japanese - Lesson 04
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+6. Lesson L05: Slang + internet Japanese - Lesson 05
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+7. Lesson L06: Slang + internet Japanese - Lesson 06
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+8. Lesson L07: Slang + internet Japanese - Lesson 07
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+9. Lesson L08: Slang + internet Japanese - Lesson 08
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+10. Lesson L09: Slang + internet Japanese - Lesson 09
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+11. Lesson L10: Slang + internet Japanese - Lesson 10
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+12. Lesson L11: Slang + internet Japanese - Lesson 11
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+13. Lesson L12: Slang + internet Japanese - Lesson 12
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+14. Lesson L13: Slang + internet Japanese - Lesson 13
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+15. Lesson L14: Slang + internet Japanese - Lesson 14
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+16. Lesson L15: Slang + internet Japanese - Lesson 15
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+17. Lesson L16: Slang + internet Japanese - Lesson 16
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+18. Lesson L17: Slang + internet Japanese - Lesson 17
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+19. Lesson L18: Slang + internet Japanese - Lesson 18
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+20. Lesson L19: Slang + internet Japanese - Lesson 19
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+21. Lesson L20: Slang + internet Japanese - Lesson 20
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+22. Module Review + Self-assessment checklist
 Appendix A: Module vocabulary
 Appendix B: Module kanji
 Appendix C: Module grammar quick reference
@@ -1806,6 +2208,2341 @@ Appendix C: Module grammar quick reference
    - Exercise sets and answer key when present
    - Writing / self-check prompt when present
 22. Module Review + Self-assessment checklist
+Appendix A: Module vocabulary
+Appendix B: Module kanji
+Appendix C: Module grammar quick reference
+
+## PDF WORKBOOK: N1_MOCK_Workbook.pdf
+### Contents:
+1. Module Overview
+2. Lesson MOCK-N1: JLPT N1 Mock Examination
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+3. Module Review + Self-assessment checklist
+Appendix A: Module vocabulary
+Appendix B: Module kanji
+Appendix C: Module grammar quick reference
+
+## PDF WORKBOOK: SUPPLEMENTS_SUP-A_Workbook.pdf
+### Contents:
+1. Module Overview
+2. Lesson 01: Supplement A: A RealWorld Slang Culture - Item 01
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+3. Lesson 02: Supplement A: A RealWorld Slang Culture - Item 02
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+4. Lesson 03: Supplement A: A RealWorld Slang Culture - Item 03
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+5. Lesson 04: Supplement A: A RealWorld Slang Culture - Item 04
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+6. Lesson 05: Supplement A: A RealWorld Slang Culture - Item 05
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+7. Lesson 06: Supplement A: A RealWorld Slang Culture - Item 06
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+8. Lesson 07: Supplement A: A RealWorld Slang Culture - Item 07
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+9. Lesson 08: Supplement A: A RealWorld Slang Culture - Item 08
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+10. Lesson 09: Supplement A: A RealWorld Slang Culture - Item 09
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+11. Lesson 10: Supplement A: A RealWorld Slang Culture - Item 10
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+12. Lesson 11: Supplement A: A RealWorld Slang Culture - Item 11
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+13. Lesson 12: Supplement A: A RealWorld Slang Culture - Item 12
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+14. Lesson 13: Supplement A: A RealWorld Slang Culture - Item 13
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+15. Lesson 14: Supplement A: A RealWorld Slang Culture - Item 14
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+16. Lesson 15: Supplement A: A RealWorld Slang Culture - Item 15
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+17. Lesson 16: Supplement A: A RealWorld Slang Culture - Item 16
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+18. Lesson 17: Supplement A: A RealWorld Slang Culture - Item 17
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+19. Lesson 18: Supplement A: A RealWorld Slang Culture - Item 18
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+20. Lesson 19: Supplement A: A RealWorld Slang Culture - Item 19
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+21. Lesson 20: Supplement A: A RealWorld Slang Culture - Item 20
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+22. Lesson 21: Supplement A: A RealWorld Slang Culture - Item 21
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+23. Lesson 22: Supplement A: A RealWorld Slang Culture - Item 22
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+24. Lesson 23: Supplement A: A RealWorld Slang Culture - Item 23
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+25. Lesson 24: Supplement A: A RealWorld Slang Culture - Item 24
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+26. Lesson 25: Supplement A: A RealWorld Slang Culture - Item 25
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+27. Lesson 26: Supplement A: A RealWorld Slang Culture - Item 26
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+28. Lesson 27: Supplement A: A RealWorld Slang Culture - Item 27
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+29. Lesson 28: Supplement A: A RealWorld Slang Culture - Item 28
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+30. Lesson 29: Supplement A: A RealWorld Slang Culture - Item 29
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+31. Lesson 30: Supplement A: A RealWorld Slang Culture - Item 30
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+32. Lesson 31: Supplement A: A RealWorld Slang Culture - Item 31
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+33. Lesson 32: Supplement A: A RealWorld Slang Culture - Item 32
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+34. Lesson 33: Supplement A: A RealWorld Slang Culture - Item 33
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+35. Lesson 34: Supplement A: A RealWorld Slang Culture - Item 34
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+36. Lesson 35: Supplement A: A RealWorld Slang Culture - Item 35
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+37. Lesson 36: Supplement A: A RealWorld Slang Culture - Item 36
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+38. Lesson 37: Supplement A: A RealWorld Slang Culture - Item 37
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+39. Lesson 38: Supplement A: A RealWorld Slang Culture - Item 38
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+40. Lesson 39: Supplement A: A RealWorld Slang Culture - Item 39
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+41. Lesson 40: Supplement A: A RealWorld Slang Culture - Item 40
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+42. Lesson 41: Supplement A: A RealWorld Slang Culture - Item 41
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+43. Lesson 42: Supplement A: A RealWorld Slang Culture - Item 42
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+44. Lesson 43: Supplement A: A RealWorld Slang Culture - Item 43
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+45. Lesson 44: Supplement A: A RealWorld Slang Culture - Item 44
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+46. Lesson 45: Supplement A: A RealWorld Slang Culture - Item 45
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+47. Lesson 46: Supplement A: A RealWorld Slang Culture - Item 46
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+48. Lesson 47: Supplement A: A RealWorld Slang Culture - Item 47
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+49. Lesson 48: Supplement A: A RealWorld Slang Culture - Item 48
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+50. Lesson 49: Supplement A: A RealWorld Slang Culture - Item 49
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+51. Lesson 50: Supplement A: A RealWorld Slang Culture - Item 50
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+52. Module Review + Self-assessment checklist
+Appendix A: Module vocabulary
+Appendix B: Module kanji
+Appendix C: Module grammar quick reference
+
+## PDF WORKBOOK: SUPPLEMENTS_SUP-B_Workbook.pdf
+### Contents:
+1. Module Overview
+2. Lesson 01: Supplement B: B N4 missing lessons - Item 01
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+3. Lesson 02: Supplement B: B N4 missing lessons - Item 02
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+4. Lesson 03: Supplement B: B N4 missing lessons - Item 03
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+5. Lesson 04: Supplement B: B N4 missing lessons - Item 04
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+6. Lesson 05: Supplement B: B N4 missing lessons - Item 05
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+7. Lesson 06: Supplement B: B N4 missing lessons - Item 06
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+8. Lesson 07: Supplement B: B N4 missing lessons - Item 07
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+9. Lesson 08: Supplement B: B N4 missing lessons - Item 08
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+10. Lesson 09: Supplement B: B N4 missing lessons - Item 09
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+11. Lesson 10: Supplement B: B N4 missing lessons - Item 10
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+12. Lesson 11: Supplement B: B N4 missing lessons - Item 11
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+13. Lesson 12: Supplement B: B N4 missing lessons - Item 12
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+14. Lesson 13: Supplement B: B N4 missing lessons - Item 13
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+15. Lesson 14: Supplement B: B N4 missing lessons - Item 14
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+16. Lesson 15: Supplement B: B N4 missing lessons - Item 15
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+17. Lesson 16: Supplement B: B N4 missing lessons - Item 16
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+18. Lesson 17: Supplement B: B N4 missing lessons - Item 17
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+19. Lesson 18: Supplement B: B N4 missing lessons - Item 18
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+20. Lesson 19: Supplement B: B N4 missing lessons - Item 19
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+21. Lesson 20: Supplement B: B N4 missing lessons - Item 20
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+22. Lesson 21: Supplement B: B N4 missing lessons - Item 21
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+23. Lesson 22: Supplement B: B N4 missing lessons - Item 22
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+24. Lesson 23: Supplement B: B N4 missing lessons - Item 23
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+25. Lesson 24: Supplement B: B N4 missing lessons - Item 24
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+26. Lesson 25: Supplement B: B N4 missing lessons - Item 25
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+27. Lesson 26: Supplement B: B N4 missing lessons - Item 26
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+28. Lesson 27: Supplement B: B N4 missing lessons - Item 27
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+29. Lesson 28: Supplement B: B N4 missing lessons - Item 28
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+30. Lesson 29: Supplement B: B N4 missing lessons - Item 29
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+31. Lesson 30: Supplement B: B N4 missing lessons - Item 30
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+32. Lesson 31: Supplement B: B N4 missing lessons - Item 31
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+33. Lesson 32: Supplement B: B N4 missing lessons - Item 32
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+34. Lesson 33: Supplement B: B N4 missing lessons - Item 33
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+35. Lesson 34: Supplement B: B N4 missing lessons - Item 34
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+36. Lesson 35: Supplement B: B N4 missing lessons - Item 35
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+37. Lesson 36: Supplement B: B N4 missing lessons - Item 36
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+38. Lesson 37: Supplement B: B N4 missing lessons - Item 37
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+39. Lesson 38: Supplement B: B N4 missing lessons - Item 38
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+40. Lesson 39: Supplement B: B N4 missing lessons - Item 39
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+41. Lesson 40: Supplement B: B N4 missing lessons - Item 40
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+42. Lesson 41: Supplement B: B N4 missing lessons - Item 41
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+43. Lesson 42: Supplement B: B N4 missing lessons - Item 42
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+44. Lesson 43: Supplement B: B N4 missing lessons - Item 43
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+45. Lesson 44: Supplement B: B N4 missing lessons - Item 44
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+46. Lesson 45: Supplement B: B N4 missing lessons - Item 45
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+47. Lesson 46: Supplement B: B N4 missing lessons - Item 46
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+48. Lesson 47: Supplement B: B N4 missing lessons - Item 47
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+49. Lesson 48: Supplement B: B N4 missing lessons - Item 48
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+50. Lesson 49: Supplement B: B N4 missing lessons - Item 49
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+51. Lesson 50: Supplement B: B N4 missing lessons - Item 50
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+52. Module Review + Self-assessment checklist
+Appendix A: Module vocabulary
+Appendix B: Module kanji
+Appendix C: Module grammar quick reference
+
+## PDF WORKBOOK: SUPPLEMENTS_SUP-C_Workbook.pdf
+### Contents:
+1. Module Overview
+2. Lesson 01: Supplement C: C N3 detailed - Item 01
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+3. Lesson 02: Supplement C: C N3 detailed - Item 02
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+4. Lesson 03: Supplement C: C N3 detailed - Item 03
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+5. Lesson 04: Supplement C: C N3 detailed - Item 04
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+6. Lesson 05: Supplement C: C N3 detailed - Item 05
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+7. Lesson 06: Supplement C: C N3 detailed - Item 06
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+8. Lesson 07: Supplement C: C N3 detailed - Item 07
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+9. Lesson 08: Supplement C: C N3 detailed - Item 08
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+10. Lesson 09: Supplement C: C N3 detailed - Item 09
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+11. Lesson 10: Supplement C: C N3 detailed - Item 10
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+12. Lesson 11: Supplement C: C N3 detailed - Item 11
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+13. Lesson 12: Supplement C: C N3 detailed - Item 12
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+14. Lesson 13: Supplement C: C N3 detailed - Item 13
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+15. Lesson 14: Supplement C: C N3 detailed - Item 14
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+16. Lesson 15: Supplement C: C N3 detailed - Item 15
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+17. Lesson 16: Supplement C: C N3 detailed - Item 16
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+18. Lesson 17: Supplement C: C N3 detailed - Item 17
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+19. Lesson 18: Supplement C: C N3 detailed - Item 18
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+20. Lesson 19: Supplement C: C N3 detailed - Item 19
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+21. Lesson 20: Supplement C: C N3 detailed - Item 20
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+22. Lesson 21: Supplement C: C N3 detailed - Item 21
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+23. Lesson 22: Supplement C: C N3 detailed - Item 22
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+24. Lesson 23: Supplement C: C N3 detailed - Item 23
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+25. Lesson 24: Supplement C: C N3 detailed - Item 24
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+26. Lesson 25: Supplement C: C N3 detailed - Item 25
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+27. Lesson 26: Supplement C: C N3 detailed - Item 26
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+28. Lesson 27: Supplement C: C N3 detailed - Item 27
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+29. Lesson 28: Supplement C: C N3 detailed - Item 28
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+30. Lesson 29: Supplement C: C N3 detailed - Item 29
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+31. Lesson 30: Supplement C: C N3 detailed - Item 30
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+32. Lesson 31: Supplement C: C N3 detailed - Item 31
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+33. Lesson 32: Supplement C: C N3 detailed - Item 32
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+34. Lesson 33: Supplement C: C N3 detailed - Item 33
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+35. Lesson 34: Supplement C: C N3 detailed - Item 34
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+36. Lesson 35: Supplement C: C N3 detailed - Item 35
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+37. Lesson 36: Supplement C: C N3 detailed - Item 36
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+38. Lesson 37: Supplement C: C N3 detailed - Item 37
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+39. Lesson 38: Supplement C: C N3 detailed - Item 38
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+40. Lesson 39: Supplement C: C N3 detailed - Item 39
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+41. Lesson 40: Supplement C: C N3 detailed - Item 40
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+42. Lesson 41: Supplement C: C N3 detailed - Item 41
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+43. Lesson 42: Supplement C: C N3 detailed - Item 42
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+44. Lesson 43: Supplement C: C N3 detailed - Item 43
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+45. Lesson 44: Supplement C: C N3 detailed - Item 44
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+46. Lesson 45: Supplement C: C N3 detailed - Item 45
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+47. Lesson 46: Supplement C: C N3 detailed - Item 46
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+48. Lesson 47: Supplement C: C N3 detailed - Item 47
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+49. Lesson 48: Supplement C: C N3 detailed - Item 48
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+50. Lesson 49: Supplement C: C N3 detailed - Item 49
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+51. Lesson 50: Supplement C: C N3 detailed - Item 50
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+52. Module Review + Self-assessment checklist
+Appendix A: Module vocabulary
+Appendix B: Module kanji
+Appendix C: Module grammar quick reference
+
+## PDF WORKBOOK: SUPPLEMENTS_SUP-D_Workbook.pdf
+### Contents:
+1. Module Overview
+2. Lesson 01: Supplement D: D Business Industry - Item 01
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+3. Lesson 02: Supplement D: D Business Industry - Item 02
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+4. Lesson 03: Supplement D: D Business Industry - Item 03
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+5. Lesson 04: Supplement D: D Business Industry - Item 04
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+6. Lesson 05: Supplement D: D Business Industry - Item 05
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+7. Lesson 06: Supplement D: D Business Industry - Item 06
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+8. Lesson 07: Supplement D: D Business Industry - Item 07
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+9. Lesson 08: Supplement D: D Business Industry - Item 08
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+10. Lesson 09: Supplement D: D Business Industry - Item 09
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+11. Lesson 10: Supplement D: D Business Industry - Item 10
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+12. Lesson 11: Supplement D: D Business Industry - Item 11
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+13. Lesson 12: Supplement D: D Business Industry - Item 12
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+14. Lesson 13: Supplement D: D Business Industry - Item 13
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+15. Lesson 14: Supplement D: D Business Industry - Item 14
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+16. Lesson 15: Supplement D: D Business Industry - Item 15
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+17. Lesson 16: Supplement D: D Business Industry - Item 16
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+18. Lesson 17: Supplement D: D Business Industry - Item 17
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+19. Lesson 18: Supplement D: D Business Industry - Item 18
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+20. Lesson 19: Supplement D: D Business Industry - Item 19
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+21. Lesson 20: Supplement D: D Business Industry - Item 20
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+22. Lesson 21: Supplement D: D Business Industry - Item 21
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+23. Lesson 22: Supplement D: D Business Industry - Item 22
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+24. Lesson 23: Supplement D: D Business Industry - Item 23
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+25. Lesson 24: Supplement D: D Business Industry - Item 24
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+26. Lesson 25: Supplement D: D Business Industry - Item 25
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+27. Lesson 26: Supplement D: D Business Industry - Item 26
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+28. Lesson 27: Supplement D: D Business Industry - Item 27
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+29. Lesson 28: Supplement D: D Business Industry - Item 28
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+30. Lesson 29: Supplement D: D Business Industry - Item 29
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+31. Lesson 30: Supplement D: D Business Industry - Item 30
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+32. Lesson 31: Supplement D: D Business Industry - Item 31
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+33. Lesson 32: Supplement D: D Business Industry - Item 32
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+34. Lesson 33: Supplement D: D Business Industry - Item 33
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+35. Lesson 34: Supplement D: D Business Industry - Item 34
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+36. Lesson 35: Supplement D: D Business Industry - Item 35
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+37. Lesson 36: Supplement D: D Business Industry - Item 36
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+38. Lesson 37: Supplement D: D Business Industry - Item 37
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+39. Lesson 38: Supplement D: D Business Industry - Item 38
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+40. Lesson 39: Supplement D: D Business Industry - Item 39
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+41. Lesson 40: Supplement D: D Business Industry - Item 40
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+42. Lesson 41: Supplement D: D Business Industry - Item 41
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+43. Lesson 42: Supplement D: D Business Industry - Item 42
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+44. Lesson 43: Supplement D: D Business Industry - Item 43
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+45. Lesson 44: Supplement D: D Business Industry - Item 44
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+46. Lesson 45: Supplement D: D Business Industry - Item 45
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+47. Lesson 46: Supplement D: D Business Industry - Item 46
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+48. Lesson 47: Supplement D: D Business Industry - Item 47
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+49. Lesson 48: Supplement D: D Business Industry - Item 48
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+50. Lesson 49: Supplement D: D Business Industry - Item 49
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+51. Lesson 50: Supplement D: D Business Industry - Item 50
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+52. Module Review + Self-assessment checklist
+Appendix A: Module vocabulary
+Appendix B: Module kanji
+Appendix C: Module grammar quick reference
+
+## PDF WORKBOOK: SUPPLEMENTS_SUP-E_Workbook.pdf
+### Contents:
+1. Module Overview
+2. Lesson 01: Supplement E: E Media Academic Culture - Item 01
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+3. Lesson 02: Supplement E: E Media Academic Culture - Item 02
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+4. Lesson 03: Supplement E: E Media Academic Culture - Item 03
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+5. Lesson 04: Supplement E: E Media Academic Culture - Item 04
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+6. Lesson 05: Supplement E: E Media Academic Culture - Item 05
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+7. Lesson 06: Supplement E: E Media Academic Culture - Item 06
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+8. Lesson 07: Supplement E: E Media Academic Culture - Item 07
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+9. Lesson 08: Supplement E: E Media Academic Culture - Item 08
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+10. Lesson 09: Supplement E: E Media Academic Culture - Item 09
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+11. Lesson 10: Supplement E: E Media Academic Culture - Item 10
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+12. Lesson 11: Supplement E: E Media Academic Culture - Item 11
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+13. Lesson 12: Supplement E: E Media Academic Culture - Item 12
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+14. Lesson 13: Supplement E: E Media Academic Culture - Item 13
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+15. Lesson 14: Supplement E: E Media Academic Culture - Item 14
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+16. Lesson 15: Supplement E: E Media Academic Culture - Item 15
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+17. Lesson 16: Supplement E: E Media Academic Culture - Item 16
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+18. Lesson 17: Supplement E: E Media Academic Culture - Item 17
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+19. Lesson 18: Supplement E: E Media Academic Culture - Item 18
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+20. Lesson 19: Supplement E: E Media Academic Culture - Item 19
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+21. Lesson 20: Supplement E: E Media Academic Culture - Item 20
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+22. Lesson 21: Supplement E: E Media Academic Culture - Item 21
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+23. Lesson 22: Supplement E: E Media Academic Culture - Item 22
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+24. Lesson 23: Supplement E: E Media Academic Culture - Item 23
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+25. Lesson 24: Supplement E: E Media Academic Culture - Item 24
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+26. Lesson 25: Supplement E: E Media Academic Culture - Item 25
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+27. Lesson 26: Supplement E: E Media Academic Culture - Item 26
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+28. Lesson 27: Supplement E: E Media Academic Culture - Item 27
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+29. Lesson 28: Supplement E: E Media Academic Culture - Item 28
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+30. Lesson 29: Supplement E: E Media Academic Culture - Item 29
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+31. Lesson 30: Supplement E: E Media Academic Culture - Item 30
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+32. Lesson 31: Supplement E: E Media Academic Culture - Item 31
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+33. Lesson 32: Supplement E: E Media Academic Culture - Item 32
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+34. Lesson 33: Supplement E: E Media Academic Culture - Item 33
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+35. Lesson 34: Supplement E: E Media Academic Culture - Item 34
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+36. Lesson 35: Supplement E: E Media Academic Culture - Item 35
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+37. Lesson 36: Supplement E: E Media Academic Culture - Item 36
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+38. Lesson 37: Supplement E: E Media Academic Culture - Item 37
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+39. Lesson 38: Supplement E: E Media Academic Culture - Item 38
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+40. Lesson 39: Supplement E: E Media Academic Culture - Item 39
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+41. Lesson 40: Supplement E: E Media Academic Culture - Item 40
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+42. Lesson 41: Supplement E: E Media Academic Culture - Item 41
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+43. Lesson 42: Supplement E: E Media Academic Culture - Item 42
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+44. Lesson 43: Supplement E: E Media Academic Culture - Item 43
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+45. Lesson 44: Supplement E: E Media Academic Culture - Item 44
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+46. Lesson 45: Supplement E: E Media Academic Culture - Item 45
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+47. Lesson 46: Supplement E: E Media Academic Culture - Item 46
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+48. Lesson 47: Supplement E: E Media Academic Culture - Item 47
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+49. Lesson 48: Supplement E: E Media Academic Culture - Item 48
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+50. Lesson 49: Supplement E: E Media Academic Culture - Item 49
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+51. Lesson 50: Supplement E: E Media Academic Culture - Item 50
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+52. Module Review + Self-assessment checklist
+Appendix A: Module vocabulary
+Appendix B: Module kanji
+Appendix C: Module grammar quick reference
+
+## PDF WORKBOOK: SUPPLEMENTS_SUP-F_Workbook.pdf
+### Contents:
+1. Module Overview
+2. Lesson 01: Supplement F: F Political Methodology Kanji - Item 01
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+3. Lesson 02: Supplement F: F Political Methodology Kanji - Item 02
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+4. Lesson 03: Supplement F: F Political Methodology Kanji - Item 03
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+5. Lesson 04: Supplement F: F Political Methodology Kanji - Item 04
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+6. Lesson 05: Supplement F: F Political Methodology Kanji - Item 05
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+7. Lesson 06: Supplement F: F Political Methodology Kanji - Item 06
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+8. Lesson 07: Supplement F: F Political Methodology Kanji - Item 07
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+9. Lesson 08: Supplement F: F Political Methodology Kanji - Item 08
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+10. Lesson 09: Supplement F: F Political Methodology Kanji - Item 09
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+11. Lesson 10: Supplement F: F Political Methodology Kanji - Item 10
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+12. Lesson 11: Supplement F: F Political Methodology Kanji - Item 11
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+13. Lesson 12: Supplement F: F Political Methodology Kanji - Item 12
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+14. Lesson 13: Supplement F: F Political Methodology Kanji - Item 13
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+15. Lesson 14: Supplement F: F Political Methodology Kanji - Item 14
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+16. Lesson 15: Supplement F: F Political Methodology Kanji - Item 15
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+17. Lesson 16: Supplement F: F Political Methodology Kanji - Item 16
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+18. Lesson 17: Supplement F: F Political Methodology Kanji - Item 17
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+19. Lesson 18: Supplement F: F Political Methodology Kanji - Item 18
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+20. Lesson 19: Supplement F: F Political Methodology Kanji - Item 19
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+21. Lesson 20: Supplement F: F Political Methodology Kanji - Item 20
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+22. Lesson 21: Supplement F: F Political Methodology Kanji - Item 21
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+23. Lesson 22: Supplement F: F Political Methodology Kanji - Item 22
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+24. Lesson 23: Supplement F: F Political Methodology Kanji - Item 23
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+25. Lesson 24: Supplement F: F Political Methodology Kanji - Item 24
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+26. Lesson 25: Supplement F: F Political Methodology Kanji - Item 25
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+27. Lesson 26: Supplement F: F Political Methodology Kanji - Item 26
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+28. Lesson 27: Supplement F: F Political Methodology Kanji - Item 27
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+29. Lesson 28: Supplement F: F Political Methodology Kanji - Item 28
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+30. Lesson 29: Supplement F: F Political Methodology Kanji - Item 29
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+31. Lesson 30: Supplement F: F Political Methodology Kanji - Item 30
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+32. Lesson 31: Supplement F: F Political Methodology Kanji - Item 31
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+33. Lesson 32: Supplement F: F Political Methodology Kanji - Item 32
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+34. Lesson 33: Supplement F: F Political Methodology Kanji - Item 33
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+35. Lesson 34: Supplement F: F Political Methodology Kanji - Item 34
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+36. Lesson 35: Supplement F: F Political Methodology Kanji - Item 35
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+37. Lesson 36: Supplement F: F Political Methodology Kanji - Item 36
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+38. Lesson 37: Supplement F: F Political Methodology Kanji - Item 37
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+39. Lesson 38: Supplement F: F Political Methodology Kanji - Item 38
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+40. Lesson 39: Supplement F: F Political Methodology Kanji - Item 39
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+41. Lesson 40: Supplement F: F Political Methodology Kanji - Item 40
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+42. Lesson 41: Supplement F: F Political Methodology Kanji - Item 41
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+43. Lesson 42: Supplement F: F Political Methodology Kanji - Item 42
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+44. Lesson 43: Supplement F: F Political Methodology Kanji - Item 43
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+45. Lesson 44: Supplement F: F Political Methodology Kanji - Item 44
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+46. Lesson 45: Supplement F: F Political Methodology Kanji - Item 45
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+47. Lesson 46: Supplement F: F Political Methodology Kanji - Item 46
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+48. Lesson 47: Supplement F: F Political Methodology Kanji - Item 47
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+49. Lesson 48: Supplement F: F Political Methodology Kanji - Item 48
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+50. Lesson 49: Supplement F: F Political Methodology Kanji - Item 49
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+51. Lesson 50: Supplement F: F Political Methodology Kanji - Item 50
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+52. Module Review + Self-assessment checklist
+Appendix A: Module vocabulary
+Appendix B: Module kanji
+Appendix C: Module grammar quick reference
+
+## PDF WORKBOOK: SUPPLEMENTS_SUP-G_Workbook.pdf
+### Contents:
+1. Module Overview
+2. Lesson 01: Supplement G: G N3extended Classical FoodService - Item 01
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+3. Lesson 02: Supplement G: G N3extended Classical FoodService - Item 02
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+4. Lesson 03: Supplement G: G N3extended Classical FoodService - Item 03
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+5. Lesson 04: Supplement G: G N3extended Classical FoodService - Item 04
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+6. Lesson 05: Supplement G: G N3extended Classical FoodService - Item 05
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+7. Lesson 06: Supplement G: G N3extended Classical FoodService - Item 06
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+8. Lesson 07: Supplement G: G N3extended Classical FoodService - Item 07
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+9. Lesson 08: Supplement G: G N3extended Classical FoodService - Item 08
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+10. Lesson 09: Supplement G: G N3extended Classical FoodService - Item 09
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+11. Lesson 10: Supplement G: G N3extended Classical FoodService - Item 10
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+12. Lesson 11: Supplement G: G N3extended Classical FoodService - Item 11
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+13. Lesson 12: Supplement G: G N3extended Classical FoodService - Item 12
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+14. Lesson 13: Supplement G: G N3extended Classical FoodService - Item 13
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+15. Lesson 14: Supplement G: G N3extended Classical FoodService - Item 14
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+16. Lesson 15: Supplement G: G N3extended Classical FoodService - Item 15
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+17. Lesson 16: Supplement G: G N3extended Classical FoodService - Item 16
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+18. Lesson 17: Supplement G: G N3extended Classical FoodService - Item 17
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+19. Lesson 18: Supplement G: G N3extended Classical FoodService - Item 18
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+20. Lesson 19: Supplement G: G N3extended Classical FoodService - Item 19
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+21. Lesson 20: Supplement G: G N3extended Classical FoodService - Item 20
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+22. Lesson 21: Supplement G: G N3extended Classical FoodService - Item 21
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+23. Lesson 22: Supplement G: G N3extended Classical FoodService - Item 22
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+24. Lesson 23: Supplement G: G N3extended Classical FoodService - Item 23
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+25. Lesson 24: Supplement G: G N3extended Classical FoodService - Item 24
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+26. Lesson 25: Supplement G: G N3extended Classical FoodService - Item 25
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+27. Lesson 26: Supplement G: G N3extended Classical FoodService - Item 26
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+28. Lesson 27: Supplement G: G N3extended Classical FoodService - Item 27
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+29. Lesson 28: Supplement G: G N3extended Classical FoodService - Item 28
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+30. Lesson 29: Supplement G: G N3extended Classical FoodService - Item 29
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+31. Lesson 30: Supplement G: G N3extended Classical FoodService - Item 30
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+32. Lesson 31: Supplement G: G N3extended Classical FoodService - Item 31
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+33. Lesson 32: Supplement G: G N3extended Classical FoodService - Item 32
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+34. Lesson 33: Supplement G: G N3extended Classical FoodService - Item 33
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+35. Lesson 34: Supplement G: G N3extended Classical FoodService - Item 34
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+36. Lesson 35: Supplement G: G N3extended Classical FoodService - Item 35
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+37. Lesson 36: Supplement G: G N3extended Classical FoodService - Item 36
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+38. Lesson 37: Supplement G: G N3extended Classical FoodService - Item 37
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+39. Lesson 38: Supplement G: G N3extended Classical FoodService - Item 38
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+40. Lesson 39: Supplement G: G N3extended Classical FoodService - Item 39
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+41. Lesson 40: Supplement G: G N3extended Classical FoodService - Item 40
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+42. Lesson 41: Supplement G: G N3extended Classical FoodService - Item 41
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+43. Lesson 42: Supplement G: G N3extended Classical FoodService - Item 42
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+44. Lesson 43: Supplement G: G N3extended Classical FoodService - Item 43
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+45. Lesson 44: Supplement G: G N3extended Classical FoodService - Item 44
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+46. Lesson 45: Supplement G: G N3extended Classical FoodService - Item 45
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+47. Lesson 46: Supplement G: G N3extended Classical FoodService - Item 46
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+48. Lesson 47: Supplement G: G N3extended Classical FoodService - Item 47
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+49. Lesson 48: Supplement G: G N3extended Classical FoodService - Item 48
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+50. Lesson 49: Supplement G: G N3extended Classical FoodService - Item 49
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+51. Lesson 50: Supplement G: G N3extended Classical FoodService - Item 50
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+52. Module Review + Self-assessment checklist
+Appendix A: Module vocabulary
+Appendix B: Module kanji
+Appendix C: Module grammar quick reference
+
+## PDF WORKBOOK: SUPPLEMENTS_SUP-H_Workbook.pdf
+### Contents:
+1. Module Overview
+2. Lesson 01: Supplement H: H N3 M3 listening - Item 01
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+3. Lesson 02: Supplement H: H N3 M3 listening - Item 02
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+4. Lesson 03: Supplement H: H N3 M3 listening - Item 03
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+5. Lesson 04: Supplement H: H N3 M3 listening - Item 04
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+6. Lesson 05: Supplement H: H N3 M3 listening - Item 05
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+7. Lesson 06: Supplement H: H N3 M3 listening - Item 06
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+8. Lesson 07: Supplement H: H N3 M3 listening - Item 07
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+9. Lesson 08: Supplement H: H N3 M3 listening - Item 08
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+10. Lesson 09: Supplement H: H N3 M3 listening - Item 09
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+11. Lesson 10: Supplement H: H N3 M3 listening - Item 10
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+12. Lesson 11: Supplement H: H N3 M3 listening - Item 11
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+13. Lesson 12: Supplement H: H N3 M3 listening - Item 12
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+14. Lesson 13: Supplement H: H N3 M3 listening - Item 13
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+15. Lesson 14: Supplement H: H N3 M3 listening - Item 14
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+16. Lesson 15: Supplement H: H N3 M3 listening - Item 15
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+17. Lesson 16: Supplement H: H N3 M3 listening - Item 16
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+18. Lesson 17: Supplement H: H N3 M3 listening - Item 17
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+19. Lesson 18: Supplement H: H N3 M3 listening - Item 18
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+20. Lesson 19: Supplement H: H N3 M3 listening - Item 19
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+21. Lesson 20: Supplement H: H N3 M3 listening - Item 20
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+22. Lesson 21: Supplement H: H N3 M3 listening - Item 21
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+23. Lesson 22: Supplement H: H N3 M3 listening - Item 22
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+24. Lesson 23: Supplement H: H N3 M3 listening - Item 23
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+25. Lesson 24: Supplement H: H N3 M3 listening - Item 24
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+26. Lesson 25: Supplement H: H N3 M3 listening - Item 25
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+27. Lesson 26: Supplement H: H N3 M3 listening - Item 26
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+28. Lesson 27: Supplement H: H N3 M3 listening - Item 27
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+29. Lesson 28: Supplement H: H N3 M3 listening - Item 28
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+30. Lesson 29: Supplement H: H N3 M3 listening - Item 29
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+31. Lesson 30: Supplement H: H N3 M3 listening - Item 30
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+32. Lesson 31: Supplement H: H N3 M3 listening - Item 31
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+33. Lesson 32: Supplement H: H N3 M3 listening - Item 32
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+34. Lesson 33: Supplement H: H N3 M3 listening - Item 33
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+35. Lesson 34: Supplement H: H N3 M3 listening - Item 34
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+36. Lesson 35: Supplement H: H N3 M3 listening - Item 35
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+37. Lesson 36: Supplement H: H N3 M3 listening - Item 36
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+38. Lesson 37: Supplement H: H N3 M3 listening - Item 37
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+39. Lesson 38: Supplement H: H N3 M3 listening - Item 38
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+40. Lesson 39: Supplement H: H N3 M3 listening - Item 39
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+41. Lesson 40: Supplement H: H N3 M3 listening - Item 40
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+42. Lesson 41: Supplement H: H N3 M3 listening - Item 41
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+43. Lesson 42: Supplement H: H N3 M3 listening - Item 42
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+44. Lesson 43: Supplement H: H N3 M3 listening - Item 43
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+45. Lesson 44: Supplement H: H N3 M3 listening - Item 44
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+46. Lesson 45: Supplement H: H N3 M3 listening - Item 45
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+47. Lesson 46: Supplement H: H N3 M3 listening - Item 46
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+48. Lesson 47: Supplement H: H N3 M3 listening - Item 47
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+49. Lesson 48: Supplement H: H N3 M3 listening - Item 48
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+50. Lesson 49: Supplement H: H N3 M3 listening - Item 49
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+51. Lesson 50: Supplement H: H N3 M3 listening - Item 50
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+52. Module Review + Self-assessment checklist
+Appendix A: Module vocabulary
+Appendix B: Module kanji
+Appendix C: Module grammar quick reference
+
+## PDF WORKBOOK: SUPPLEMENTS_SUP-I_Workbook.pdf
+### Contents:
+1. Module Overview
+2. Lesson 01: Supplement I: I TestStrategy Roadmap ExtendedVocab - Item 01
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+3. Lesson 02: Supplement I: I TestStrategy Roadmap ExtendedVocab - Item 02
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+4. Lesson 03: Supplement I: I TestStrategy Roadmap ExtendedVocab - Item 03
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+5. Lesson 04: Supplement I: I TestStrategy Roadmap ExtendedVocab - Item 04
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+6. Lesson 05: Supplement I: I TestStrategy Roadmap ExtendedVocab - Item 05
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+7. Lesson 06: Supplement I: I TestStrategy Roadmap ExtendedVocab - Item 06
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+8. Lesson 07: Supplement I: I TestStrategy Roadmap ExtendedVocab - Item 07
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+9. Lesson 08: Supplement I: I TestStrategy Roadmap ExtendedVocab - Item 08
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+10. Lesson 09: Supplement I: I TestStrategy Roadmap ExtendedVocab - Item 09
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+11. Lesson 10: Supplement I: I TestStrategy Roadmap ExtendedVocab - Item 10
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+12. Lesson 11: Supplement I: I TestStrategy Roadmap ExtendedVocab - Item 11
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+13. Lesson 12: Supplement I: I TestStrategy Roadmap ExtendedVocab - Item 12
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+14. Lesson 13: Supplement I: I TestStrategy Roadmap ExtendedVocab - Item 13
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+15. Lesson 14: Supplement I: I TestStrategy Roadmap ExtendedVocab - Item 14
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+16. Lesson 15: Supplement I: I TestStrategy Roadmap ExtendedVocab - Item 15
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+17. Lesson 16: Supplement I: I TestStrategy Roadmap ExtendedVocab - Item 16
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+18. Lesson 17: Supplement I: I TestStrategy Roadmap ExtendedVocab - Item 17
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+19. Lesson 18: Supplement I: I TestStrategy Roadmap ExtendedVocab - Item 18
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+20. Lesson 19: Supplement I: I TestStrategy Roadmap ExtendedVocab - Item 19
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+21. Lesson 20: Supplement I: I TestStrategy Roadmap ExtendedVocab - Item 20
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+22. Lesson 21: Supplement I: I TestStrategy Roadmap ExtendedVocab - Item 21
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+23. Lesson 22: Supplement I: I TestStrategy Roadmap ExtendedVocab - Item 22
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+24. Lesson 23: Supplement I: I TestStrategy Roadmap ExtendedVocab - Item 23
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+25. Lesson 24: Supplement I: I TestStrategy Roadmap ExtendedVocab - Item 24
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+26. Lesson 25: Supplement I: I TestStrategy Roadmap ExtendedVocab - Item 25
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+27. Lesson 26: Supplement I: I TestStrategy Roadmap ExtendedVocab - Item 26
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+28. Lesson 27: Supplement I: I TestStrategy Roadmap ExtendedVocab - Item 27
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+29. Lesson 28: Supplement I: I TestStrategy Roadmap ExtendedVocab - Item 28
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+30. Lesson 29: Supplement I: I TestStrategy Roadmap ExtendedVocab - Item 29
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+31. Lesson 30: Supplement I: I TestStrategy Roadmap ExtendedVocab - Item 30
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+32. Lesson 31: Supplement I: I TestStrategy Roadmap ExtendedVocab - Item 31
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+33. Lesson 32: Supplement I: I TestStrategy Roadmap ExtendedVocab - Item 32
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+34. Lesson 33: Supplement I: I TestStrategy Roadmap ExtendedVocab - Item 33
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+35. Lesson 34: Supplement I: I TestStrategy Roadmap ExtendedVocab - Item 34
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+36. Lesson 35: Supplement I: I TestStrategy Roadmap ExtendedVocab - Item 35
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+37. Lesson 36: Supplement I: I TestStrategy Roadmap ExtendedVocab - Item 36
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+38. Lesson 37: Supplement I: I TestStrategy Roadmap ExtendedVocab - Item 37
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+39. Lesson 38: Supplement I: I TestStrategy Roadmap ExtendedVocab - Item 38
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+40. Lesson 39: Supplement I: I TestStrategy Roadmap ExtendedVocab - Item 39
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+41. Lesson 40: Supplement I: I TestStrategy Roadmap ExtendedVocab - Item 40
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+42. Lesson 41: Supplement I: I TestStrategy Roadmap ExtendedVocab - Item 41
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+43. Lesson 42: Supplement I: I TestStrategy Roadmap ExtendedVocab - Item 42
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+44. Lesson 43: Supplement I: I TestStrategy Roadmap ExtendedVocab - Item 43
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+45. Lesson 44: Supplement I: I TestStrategy Roadmap ExtendedVocab - Item 44
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+46. Lesson 45: Supplement I: I TestStrategy Roadmap ExtendedVocab - Item 45
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+47. Lesson 46: Supplement I: I TestStrategy Roadmap ExtendedVocab - Item 46
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+48. Lesson 47: Supplement I: I TestStrategy Roadmap ExtendedVocab - Item 47
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+49. Lesson 48: Supplement I: I TestStrategy Roadmap ExtendedVocab - Item 48
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+50. Lesson 49: Supplement I: I TestStrategy Roadmap ExtendedVocab - Item 49
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+51. Lesson 50: Supplement I: I TestStrategy Roadmap ExtendedVocab - Item 50
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+52. Module Review + Self-assessment checklist
 Appendix A: Module vocabulary
 Appendix B: Module kanji
 Appendix C: Module grammar quick reference

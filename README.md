@@ -7,29 +7,32 @@
 ![Deploy](https://img.shields.io/badge/deploy-GitHub_Pages-111827)
 ![License](https://img.shields.io/badge/license-MIT-blue)
 
-Static-first LMS for a JLPT 0 to N1 Japanese learning system.
+Static-first LMS package for a JLPT 0 to N1 Japanese learning system.
 
-The long-term plan is zero-budget hosting: the learner-facing LMS runs from static files in `web/`, loads generated JSON from the final handoff, and stores learner progress in the browser. The FastAPI backend remains in the repo as optional tooling for future/admin use.
+The current build is a fresh June 7 rebuild from `handoff/final/FINAL_LMS_HANDOFF_COMPLETE_2026-06-07.md` and `handoff/final/GPT_LMS_BUILD_PROMPT_2026-06-07.txt`. The learner-facing LMS runs from static files in `web/`, loads generated JSON, and stores learner progress in the browser. The FastAPI backend remains optional future/admin tooling.
 
 ## Project Snapshot
 
 | Area | Status |
 | --- | --- |
-| Static LMS | Browser app in `web/` with search, reading view, and local progress |
-| Source | Final handoff file in `handoff/final/` |
-| Generated Data | Learning path, source docs, lesson extracts, and LMS package exports in `web/data/` |
+| Static LMS | Browser app in `web/` with search, reading view, local progress, and package export links |
+| Source | June 7 handoff and prompt in `handoff/final/` |
+| Generated Data | 892 SCO/index nodes, source docs, lesson extracts, and LMS package exports in `web/data/` |
 | Backend | Optional FastAPI beta API retained for future tooling |
 | Database | Not required for learner-facing zero-budget mode |
 | Deployment | GitHub Pages workflow for `web/` |
 
-## Current Lesson Intake
+## Current Generated Scope
 
-| Lesson | Source Status | LMS Work Needed |
-| --- | --- | --- |
-| N5-M01-L01 | Complete source lesson | Import validation |
-| N5-M01-L02 | Complete source lesson | Quiz and flashcard repair |
-| N5-M01-L03 | Provisional complete | Review before import |
-| N5-M01-L04 onward | Placeholder | Await source content |
+| Area | Count |
+| --- | --- |
+| Formal JLPT lesson SCOs | 400 |
+| Foundations | 7 |
+| Level optional lessons | 30 |
+| Mock exam SCOs | 5 |
+| Supplement SCOs | 450 |
+| Source documents | 30 |
+| Extracted lesson/source blocks | 82 |
 
 ## Static Quick Start
 

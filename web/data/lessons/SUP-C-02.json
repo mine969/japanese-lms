@@ -1,0 +1,105 @@
+{
+  "id": "SUP-C-02",
+  "title": "Supplement C: C N3 detailed - Item 02",
+  "source_document": "SUPPLEMENT_C_N3_detailed.md",
+  "markdown": "## Lesson 2 — Reading Social Commentary & Opinion Columns\n\n**Lesson:** N3 · M2 · L2 | **Est. Time:** 95 min\n\n## Learning Objectives\n1. Read and understand 社説 (editorials) and コラム (columns).\n2. Identify the writer's argument structure.\n3. Distinguish factual statements from opinions.\n4. Understand implicit criticism and hedged language.\n\n## Key Vocabulary — Opinion Language\n\n| # | Japanese | Furigana | Meaning |\n|---|----------|----------|---------|\n| 1 | 主張する | しゅちょうする | to claim / to argue |\n| 2 | 指摘する | してきする | to point out |\n| 3 | 批判する | ひはんする | to criticize |\n| 4 | 懸念する | けねんする | to be concerned about |\n| 5 | 提唱する | ていしょうする | to advocate / to propose |\n| 6 | 疑問を呈する | ぎもんをていする | to raise a question about |\n| 7 | 見解 | けんかい | view / opinion (formal) |\n| 8 | 論点 | ろんてん | point of argument |\n| 9 | 一方的な | いっぽうてきな | one-sided |\n| 10 | 公平な | こうへいな | fair / impartial |\n| 11 | 客観的な | きゃっかんてきな | objective |\n| 12 | 主観的な | しゅかんてきな | subjective |\n| 13 | 根拠 | こんきょ | basis / grounds |\n| 14 | 裏付け | うらづけ | supporting evidence |\n| 15 | 反証 | はんしょう | counterevidence |\n\n**Reading Practice — Opinion Column**\n\n> 【コラム】スマートフォンと子育ての両立\n>\n> 現代の親が直面する難題のひとつに、スマートフォンと子育ての折り合いがある。子どもにスマホを与えるべきか否か — この問いに正解はないかもしれないが、少なくとも「使わせればいい」「使わせてはいけない」という単純な二項対立は避けるべきだと筆者は主張したい。\n>\n> 確かに、スマホが子どもに与える悪影響については多くの研究が指摘している。睡眠障害、集中力の低下、そして対面コミュニケーション能力の発達への懸念がその主なものだ。\n>\n> しかし一方で、デジタルリテラシーを早期から身につけることの重要性も無視できない。現代社会において、テクノロジーを正しく使いこなす能力は、もはや生活の必須スキルとなりつつある。\n>\n> 結局のところ、問われているのは「何を使うか」ではなく「どう使うか」ではないだろうか。子どもがスマホを使う際のルールを家庭内でしっかりと話し合い、メディアリテラシーを育てることこそが、真に建設的なアプローチだと考える。\n\n**Analysis Questions**\n1. 筆者が「二項対立は避けるべき」と言う意味は何ですか。\n2. スマホの悪影響として何が挙げられていますか。\n3. 「しかし一方で」の後に述べられている内容は何ですか。\n4. 筆者の最終的な主張は何ですか。\n5. この文章で使われている「soft assertion」パターンを2つ見つけてください。\n\n**Answers**\n1. 「使わせるか・使わせないか」という単純な二択ではなく、使い方の問題として考えるべきだということです。\n2. 睡眠障害、集中力の低下、対面コミュニケーション能力の発達への懸念です。\n3. デジタルリテラシーを早期から身につけることの重要性です。\n4. 家庭内でルールを話し合い、メディアリテラシーを育てることが大切だという主張です。\n5. 「～ではないだろうか」「～と考える」（直接断定を避けている）\n\n---",
+  "objectives": [
+    "Read and understand 社説 (editorials) and コラム (columns).",
+    "Identify the writer's argument structure.",
+    "Distinguish factual statements from opinions.",
+    "Understand implicit criticism and hedged language."
+  ],
+  "vocabulary": [
+    {
+      "#": "1",
+      "Japanese": "主張する",
+      "Furigana": "しゅちょうする",
+      "Meaning": "to claim / to argue"
+    },
+    {
+      "#": "2",
+      "Japanese": "指摘する",
+      "Furigana": "してきする",
+      "Meaning": "to point out"
+    },
+    {
+      "#": "3",
+      "Japanese": "批判する",
+      "Furigana": "ひはんする",
+      "Meaning": "to criticize"
+    },
+    {
+      "#": "4",
+      "Japanese": "懸念する",
+      "Furigana": "けねんする",
+      "Meaning": "to be concerned about"
+    },
+    {
+      "#": "5",
+      "Japanese": "提唱する",
+      "Furigana": "ていしょうする",
+      "Meaning": "to advocate / to propose"
+    },
+    {
+      "#": "6",
+      "Japanese": "疑問を呈する",
+      "Furigana": "ぎもんをていする",
+      "Meaning": "to raise a question about"
+    },
+    {
+      "#": "7",
+      "Japanese": "見解",
+      "Furigana": "けんかい",
+      "Meaning": "view / opinion (formal)"
+    },
+    {
+      "#": "8",
+      "Japanese": "論点",
+      "Furigana": "ろんてん",
+      "Meaning": "point of argument"
+    },
+    {
+      "#": "9",
+      "Japanese": "一方的な",
+      "Furigana": "いっぽうてきな",
+      "Meaning": "one-sided"
+    },
+    {
+      "#": "10",
+      "Japanese": "公平な",
+      "Furigana": "こうへいな",
+      "Meaning": "fair / impartial"
+    },
+    {
+      "#": "11",
+      "Japanese": "客観的な",
+      "Furigana": "きゃっかんてきな",
+      "Meaning": "objective"
+    },
+    {
+      "#": "12",
+      "Japanese": "主観的な",
+      "Furigana": "しゅかんてきな",
+      "Meaning": "subjective"
+    },
+    {
+      "#": "13",
+      "Japanese": "根拠",
+      "Furigana": "こんきょ",
+      "Meaning": "basis / grounds"
+    },
+    {
+      "#": "14",
+      "Japanese": "裏付け",
+      "Furigana": "うらづけ",
+      "Meaning": "supporting evidence"
+    },
+    {
+      "#": "15",
+      "Japanese": "反証",
+      "Furigana": "はんしょう",
+      "Meaning": "counterevidence"
+    }
+  ],
+  "checklist": []
+}

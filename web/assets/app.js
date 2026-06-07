@@ -77,7 +77,7 @@ function renderDashboard() {
   const nextNode = state.path.find((node) => !state.progress.completed[node.id]) || state.path[0];
   const extracted = state.path.filter((node) => node.content_ref).length;
   const sourceBacked = state.path.filter((node) => !node.content_ref && node.source_document).length;
-  const levels = ["FOUNDATIONS", "N5", "N4", "N3", "N2", "N1"].filter((level) => state.summary.levels[level] || level === "FOUNDATIONS");
+  const levels = ["FOUNDATIONS", "N5", "N4", "N3", "N2", "N1", "SUPPLEMENTS"].filter((level) => state.summary.levels[level] || level === "FOUNDATIONS");
   els.dashboardPanel.innerHTML = `
     <div class="dashboard-heading">
       <div>

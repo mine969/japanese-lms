@@ -8,13 +8,15 @@ from __future__ import annotations
 
 import json
 import re
+import shutil
 from dataclasses import asdict, dataclass
 from pathlib import Path
 from typing import Iterable
 
 
 ROOT = Path(__file__).resolve().parents[1]
-HANDOFF = ROOT / "handoff" / "final" / "FINAL_LMS_HANDOFF_COMPLETE.md"
+HANDOFF = ROOT / "handoff" / "final" / "FINAL_LMS_HANDOFF_COMPLETE_2026-06-07.md"
+BUILD_PROMPT = ROOT / "handoff" / "final" / "GPT_LMS_BUILD_PROMPT_2026-06-07.txt"
 WEB_DATA = ROOT / "web" / "data"
 PACKAGE_DATA = WEB_DATA / "lms-package"
 
@@ -131,6 +133,10 @@ def parse_curriculum_map(doc: SourceDocument, source_map: dict[str, str]) -> lis
                     skill="real_world",
                 )
             )
+    nodes = dedupe_nodes(nodes)
+    nodes = ensure_formal_jlpt_skeleton(nodes, source_map)
+    nodes = add_mock_exam_nodes(nodes)
+    nodes = add_supplement_nodes(nodes, source_map)
     return dedupe_nodes(nodes)
 
 
@@ -192,10 +198,143 @@ def dedupe_nodes(nodes: Iterable[LessonNode]) -> list[LessonNode]:
 
 
 def sort_key(node: LessonNode) -> tuple[int, int, int, str]:
-    level_order = {"FOUNDATIONS": 0, "N5": 1, "N4": 2, "N3": 3, "N2": 4, "N1": 5}
-    module_number = int(re.sub(r"\D", "", node.module) or 0)
+    level_order = {"FOUNDATIONS": 0, "N5": 1, "N4": 2, "N3": 3, "N2": 4, "N1": 5, "SUPPLEMENTS": 6}
+    if node.module == "OPTIONAL":
+        module_number = 0
+    elif node.module == "MOCK":
+        module_number = 99
+    elif node.module.startswith("SUP-"):
+        module_number = 100 + (ord(node.module[-1]) - ord("A"))
+    else:
+        module_number = int(re.sub(r"\D", "", node.module) or 0)
     lesson_number = int(re.sub(r"\D", "", node.lesson or "") or 0)
     return (level_order.get(node.level, 99), module_number, lesson_number, node.id)
+
+
+def ensure_formal_jlpt_skeleton(nodes: list[LessonNode], source_map: dict[str, str]) -> list[LessonNode]:
+    by_id = {node.id: node for node in nodes}
+    for level in ["N5", "N4", "N3", "N2", "N1"]:
+        for module_number in range(1, 5):
+            module = f"M{module_number:02d}"
+            siblings = [node for node in nodes if node.level == level and node.module == module]
+            source_document = most_common([node.source_document for node in siblings if node.source_document]) or default_level_source(level, source_map)
+            source_file = most_common([node.source_file for node in siblings if node.source_file]) or source_document or ""
+            base_title = infer_module_title(level, module, siblings)
+            for lesson_number in range(1, 21):
+                lesson = f"L{lesson_number:02d}"
+                lesson_id = f"{level}-{module}-{lesson}"
+                if lesson_id in by_id:
+                    continue
+                by_id[lesson_id] = LessonNode(
+                    id=lesson_id,
+                    title=f"{base_title} - Lesson {lesson_number:02d}",
+                    level=level,
+                    module=module,
+                    lesson=lesson,
+                    track="MAIN",
+                    source_file=source_file,
+                    source_document=source_document,
+                    skill="mixed",
+                    estimated_minutes=90,
+                )
+    return list(by_id.values())
+
+
+def add_mock_exam_nodes(nodes: list[LessonNode]) -> list[LessonNode]:
+    output = list(nodes)
+    for level in ["N5", "N4", "N3", "N2", "N1"]:
+        output.append(
+            LessonNode(
+                id=f"MOCK-{level}",
+                title=f"JLPT {level} Mock Examination",
+                level=level,
+                module="MOCK",
+                lesson=f"MOCK-{level}",
+                track="MAIN",
+                source_file=mock_source_for_level(level),
+                source_document=mock_source_for_level(level),
+                skill="timed_assessment",
+                estimated_minutes=mock_minutes(level),
+            )
+        )
+    return output
+
+
+def add_supplement_nodes(nodes: list[LessonNode], source_map: dict[str, str]) -> list[LessonNode]:
+    output = list(nodes)
+    for letter in "ABCDEFGHI":
+        filename = supplement_source_for_letter(letter, source_map)
+        title = supplement_title(letter, filename)
+        for number in range(1, 51):
+            output.append(
+                LessonNode(
+                    id=f"SUP-{letter}-{number:02d}",
+                    title=f"{title} - Item {number:02d}",
+                    level="SUPPLEMENTS",
+                    module=f"SUP-{letter}",
+                    lesson=f"{number:02d}",
+                    track="OPTIONAL",
+                    source_file=filename or f"SUPPLEMENT_{letter}",
+                    source_document=filename,
+                    skill="enrichment",
+                    estimated_minutes=30,
+                )
+            )
+    return output
+
+
+def most_common(values: list[str]) -> str | None:
+    if not values:
+        return None
+    return max(set(values), key=values.count)
+
+
+def default_level_source(level: str, source_map: dict[str, str]) -> str | None:
+    for key in [f"{level}_complete", f"{level}_expanded_lessons", f"{level}_M3_M4_complete"]:
+        if key in source_map:
+            return source_map[key]
+    return None
+
+
+def infer_module_title(level: str, module: str, siblings: list[LessonNode]) -> str:
+    if siblings:
+        compact = siblings[0].title.split(":", 1)[0].split("(", 1)[0].strip()
+        if compact:
+            return compact
+    titles = {
+        "M01": "Core grammar and vocabulary",
+        "M02": "Applied reading/listening",
+        "M03": "Skill expansion",
+        "M04": "Review and assessment",
+    }
+    return f"{level} {titles.get(module, module)}"
+
+
+def mock_source_for_level(level: str) -> str:
+    if level in {"N5", "N4"}:
+        return "MOCK_EXAM_N5_N4.md"
+    if level in {"N3", "N2"}:
+        return "MOCK_EXAM_N3_N2.md"
+    return "MOCK_EXAM_N1.md"
+
+
+def mock_minutes(level: str) -> int:
+    return {"N5": 110, "N4": 125, "N3": 140, "N2": 155, "N1": 170}[level]
+
+
+def supplement_source_for_letter(letter: str, source_map: dict[str, str]) -> str | None:
+    needle = f"SUPPLEMENT_{letter}"
+    for key, filename in source_map.items():
+        if needle in key or needle in filename:
+            return filename
+    return None
+
+
+def supplement_title(letter: str, filename: str | None) -> str:
+    if not filename:
+        return f"Supplement {letter}"
+    stem = Path(filename).stem.replace("_", " ")
+    return stem.replace("SUPPLEMENT", f"Supplement {letter}:").strip()
 
 
 def extract_content_blocks(docs: list[SourceDocument], nodes: list[LessonNode]) -> dict[str, dict[str, object]]:
@@ -295,6 +434,7 @@ def build_summary(nodes: list[LessonNode], docs: list[SourceDocument], blocks: d
     return {
         "title": "日本語大学 — JLPT 0→N1 Static LMS",
         "source": str(HANDOFF.relative_to(ROOT)),
+        "build_prompt": str(BUILD_PROMPT.relative_to(ROOT)),
         "source_documents": len(docs),
         "indexed_nodes": len(nodes),
         "content_blocks": len(blocks),
@@ -305,22 +445,30 @@ def build_summary(nodes: list[LessonNode], docs: list[SourceDocument], blocks: d
 
 
 def build_course_structure_markdown(nodes: list[LessonNode]) -> str:
-    lines = ["# TASK 1 - COURSE STRUCTURE", ""]
+    lines = ["## TASK 1 — COURSE STRUCTURE", ""]
     current_course = ""
     current_unit = ""
     for node in nodes:
         if node.level != current_course:
             current_course = node.level
             current_unit = ""
-            lines.extend(["", f"## COURSE: {node.level}"])
+            lines.extend(["", f"COURSE: {course_label(node.level)}"])
         unit = f"{node.module} - {module_title(node)}"
         if unit != current_unit:
             current_unit = unit
-            lines.append(f"### UNIT: {unit}")
+            lines.append(f"  UNIT: {unit}")
         minutes = node.estimated_minutes or 90
-        lines.append(f"- SCO: {node.id} | {node.title} | {minutes} min | Track: {node.track}")
-    lines.extend(["", "## TASK 1 COMPLETE", "Generated from CURRICULUM_STRUCTURE_MAP.md."])
+        lines.append(f"    SCO: {node.id} | {node.title} | {minutes} min | Track: {node.track}")
+    lines.extend(["", "## TASK 1 COMPLETE ✅", "Ready for TASK 2. Type \"continue\" to proceed."])
     return "\n".join(lines).strip() + "\n"
+
+
+def course_label(level: str) -> str:
+    if level == "FOUNDATIONS":
+        return "Foundations"
+    if level == "SUPPLEMENTS":
+        return "Supplements"
+    return level
 
 
 def module_title(node: LessonNode) -> str:
@@ -328,6 +476,10 @@ def module_title(node: LessonNode) -> str:
         return "Before N5 Begins"
     if node.module == "OPTIONAL":
         return "Optional / Real-World Japanese"
+    if node.module == "MOCK":
+        return "Mock Examination Gate"
+    if node.level == "SUPPLEMENTS":
+        return "Enrichment / Beyond JLPT"
     return f"{node.level} {node.module}"
 
 
@@ -546,12 +698,21 @@ def xml_escape(value: str) -> str:
 
 
 def build_package_index(nodes: list[LessonNode], docs: list[SourceDocument], blocks: dict[str, dict[str, object]]) -> dict[str, object]:
+    formal_count = len([node for node in nodes if re.match(r"^N[1-5]-M0[1-4]-L\d{2}$", node.id)])
+    optional_count = len([node for node in nodes if "-OPT-" in node.id])
+    mock_count = len([node for node in nodes if node.id.startswith("MOCK-")])
+    supplement_count = len([node for node in nodes if node.id.startswith("SUP-")])
     return {
         "schema": "nihongo-daigaku.lms-package-index.v1",
         "source": str(HANDOFF.relative_to(ROOT)),
+        "build_prompt": str(BUILD_PROMPT.relative_to(ROOT)),
         "status": "static_package_generated",
         "counts": {
             "sco_nodes": len(nodes),
+            "formal_jlpt_lessons": formal_count,
+            "level_optional_lessons": optional_count,
+            "mock_exam_scos": mock_count,
+            "supplement_scos": supplement_count,
             "source_documents": len(docs),
             "lesson_extracts": len(blocks),
         },
@@ -578,7 +739,15 @@ def write_text(path: Path, payload: str) -> None:
     path.write_text(payload, encoding="utf-8")
 
 
+def reset_generated_outputs() -> None:
+    for path in [WEB_DATA / "source-docs", WEB_DATA / "lessons", PACKAGE_DATA]:
+        if path.exists():
+            shutil.rmtree(path)
+    WEB_DATA.mkdir(parents=True, exist_ok=True)
+
+
 def main() -> None:
+    reset_generated_outputs()
     text = read_handoff()
     docs = split_documents(text)
     source_map = map_source_documents(docs)

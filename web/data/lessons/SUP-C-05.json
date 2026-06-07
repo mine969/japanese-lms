@@ -1,0 +1,76 @@
+{
+  "id": "SUP-C-05",
+  "title": "Supplement C: C N3 detailed - Item 05",
+  "source_document": "SUPPLEMENT_C_N3_detailed.md",
+  "markdown": "## Lesson 5 — Contrast & Qualification: 一方で・それに対して\n\n**Lesson:** N3 · M1 · L5 | **Est. Time:** 85 min\n\n## Learning Objectives\n1. Use ～一方で/一方では for \"on the other hand.\"\n2. Use ～それに対して for \"in contrast to that.\"\n3. Use ～とはいうものの for \"even though / that said.\"\n4. Use ～とはいえ (review from L1) in discourse context.\n5. Construct balanced arguments using contrast patterns.\n\n## Grammar\n\n### ～一方で / ～一方では (On the Other Hand / While)\n\n- **Structure:** [Sentence/clause] + 一方で + [contrasting clause]\n- Has two uses:\n  1. **Contrast:** Presents two opposing facts.\n  2. **Simultaneous:** While doing X, also Y (same subject).\n\n**Contrast (two different things):**\n- 都市部では人口が増加している一方で、地方では人口減少が続いている。\n  — While urban areas see population increases, rural areas continue to see population decline.\n\n**Simultaneous (same subject):**\n- 彼女は仕事をしている一方で、大学院でも勉強している。\n  — While she works, she is also studying in graduate school.\n\n### ～それに対して (In Contrast / On the Other Hand)\n\n- **Usage:** Used to introduce a contrasting statement to the previous one. More explicit than 一方で.\n- A社の売上は増加した。それに対して、B社の売上は減少した。\n  — Company A's sales increased. In contrast, Company B's sales decreased.\n\n### ～とはいうものの (Even Though / That Said)\n\n- **Register:** Written/semi-formal\n- **Meaning:** Acknowledges the previous statement but presents a contrasting reality. More elaborate than が or けど.\n- 努力は大切だとはいうものの、方向性が間違っていては意味がない。\n  — Even though effort is important, it's meaningless if the direction is wrong.\n- 便利になったとはいうものの、人との繋がりは薄れているように感じる。\n  — Even though things have become convenient, I feel that human connections are becoming thinner.\n\n**Vocabulary**\n\n| # | Japanese | Furigana | Meaning |\n|---|----------|----------|---------|\n| 1 | 一方 | いっぽう | one side / meanwhile |\n| 2 | 反面 | はんめん | on the other hand / the flip side |\n| 3 | 逆に | ぎゃくに | conversely / on the contrary |\n| 4 | 対照的に | たいしょうてきに | in contrast |\n| 5 | 比較的 | ひかくてき | comparatively |\n| 6 | 前者 | ぜんしゃ | the former |\n| 7 | 後者 | こうしゃ | the latter |\n| 8 | 格差 | かくさ | disparity / gap |\n| 9 | 均衡 | きんこう | balance / equilibrium |\n| 10 | 相反する | あいはんする | to conflict / to be contrary |\n\n**Reading Practice**\n\n**Passage**\n\n> テクノロジーの発展は、私たちの生活に多くの恩恵をもたらしている。一方で、プライバシーの侵害や情報格差といった問題も生じている。\n>\n> 先進国では情報へのアクセスが容易になった。それに対して、インフラが整っていない地域では、デジタルデバイドが深刻な問題となっている。\n>\n> 便利になったとはいうものの、その恩恵を平等に受けられているわけではない。技術の発展と社会的公平性をどう両立させるかが、現代社会の大きな課題と言えるだろう。\n\n**Comprehension Questions**\n1. テクノロジー発展のメリットとデメリットは何ですか。\n2. 先進国と途上国の違いは何ですか。\n3. 筆者の主な問題意識は何ですか。\n\n**Answers**\n1. メリット：生活への恩恵。デメリット：プライバシー侵害、情報格差。\n2. 先進国は情報アクセスが容易だが、途上国ではデジタルデバイドが問題。\n3. 技術の発展と社会的公平性の両立が課題だという問題意識です。\n\n---\n\n## Lessons 6–12 — Key Grammar Full Reference",
+  "objectives": [
+    "Use ～一方で/一方では for \"on the other hand.\"",
+    "Use ～それに対して for \"in contrast to that.\"",
+    "Use ～とはいうものの for \"even though / that said.\"",
+    "Use ～とはいえ (review from L1) in discourse context.",
+    "Construct balanced arguments using contrast patterns."
+  ],
+  "vocabulary": [
+    {
+      "#": "1",
+      "Japanese": "一方",
+      "Furigana": "いっぽう",
+      "Meaning": "one side / meanwhile"
+    },
+    {
+      "#": "2",
+      "Japanese": "反面",
+      "Furigana": "はんめん",
+      "Meaning": "on the other hand / the flip side"
+    },
+    {
+      "#": "3",
+      "Japanese": "逆に",
+      "Furigana": "ぎゃくに",
+      "Meaning": "conversely / on the contrary"
+    },
+    {
+      "#": "4",
+      "Japanese": "対照的に",
+      "Furigana": "たいしょうてきに",
+      "Meaning": "in contrast"
+    },
+    {
+      "#": "5",
+      "Japanese": "比較的",
+      "Furigana": "ひかくてき",
+      "Meaning": "comparatively"
+    },
+    {
+      "#": "6",
+      "Japanese": "前者",
+      "Furigana": "ぜんしゃ",
+      "Meaning": "the former"
+    },
+    {
+      "#": "7",
+      "Japanese": "後者",
+      "Furigana": "こうしゃ",
+      "Meaning": "the latter"
+    },
+    {
+      "#": "8",
+      "Japanese": "格差",
+      "Furigana": "かくさ",
+      "Meaning": "disparity / gap"
+    },
+    {
+      "#": "9",
+      "Japanese": "均衡",
+      "Furigana": "きんこう",
+      "Meaning": "balance / equilibrium"
+    },
+    {
+      "#": "10",
+      "Japanese": "相反する",
+      "Furigana": "あいはんする",
+      "Meaning": "to conflict / to be contrary"
+    }
+  ],
+  "checklist": []
+}

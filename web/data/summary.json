@@ -1,9 +1,10 @@
 {
   "title": "日本語大学 — JLPT 0→N1 Static LMS",
-  "source": "handoff\\final\\FINAL_LMS_HANDOFF_COMPLETE.md",
+  "source": "handoff\\final\\FINAL_LMS_HANDOFF_COMPLETE_2026-06-07.md",
+  "build_prompt": "handoff\\final\\GPT_LMS_BUILD_PROMPT_2026-06-07.txt",
   "source_documents": 30,
-  "indexed_nodes": 367,
-  "content_blocks": 56,
+  "indexed_nodes": 892,
+  "content_blocks": 82,
   "levels": {
     "FOUNDATIONS": {
       "lesson_count": 7,
@@ -14,63 +15,84 @@
       }
     },
     "N5": {
-      "lesson_count": 85,
-      "main": 80,
+      "lesson_count": 86,
+      "main": 81,
       "optional": 5,
       "modules": {
         "OPTIONAL": 5,
         "M01": 20,
         "M02": 20,
         "M03": 20,
-        "M04": 20
+        "M04": 20,
+        "MOCK": 1
       }
     },
     "N4": {
-      "lesson_count": 82,
-      "main": 76,
+      "lesson_count": 87,
+      "main": 81,
       "optional": 6,
       "modules": {
         "OPTIONAL": 6,
-        "M01": 16,
+        "M01": 20,
         "M02": 20,
         "M03": 20,
-        "M04": 20
+        "M04": 20,
+        "MOCK": 1
       }
     },
     "N3": {
-      "lesson_count": 70,
-      "main": 63,
+      "lesson_count": 88,
+      "main": 81,
       "optional": 7,
       "modules": {
         "OPTIONAL": 7,
         "M01": 20,
-        "M02": 3,
+        "M02": 20,
         "M03": 20,
-        "M04": 20
+        "M04": 20,
+        "MOCK": 1
       }
     },
     "N2": {
-      "lesson_count": 67,
-      "main": 60,
+      "lesson_count": 88,
+      "main": 81,
       "optional": 7,
       "modules": {
         "OPTIONAL": 7,
         "M01": 20,
-        "M02": 10,
-        "M03": 10,
-        "M04": 20
+        "M02": 20,
+        "M03": 20,
+        "M04": 20,
+        "MOCK": 1
       }
     },
     "N1": {
-      "lesson_count": 56,
-      "main": 51,
+      "lesson_count": 86,
+      "main": 81,
       "optional": 5,
       "modules": {
         "OPTIONAL": 5,
         "M01": 20,
-        "M02": 10,
-        "M03": 1,
-        "M04": 20
+        "M02": 20,
+        "M03": 20,
+        "M04": 20,
+        "MOCK": 1
+      }
+    },
+    "SUPPLEMENTS": {
+      "lesson_count": 450,
+      "main": 0,
+      "optional": 450,
+      "modules": {
+        "SUP-A": 50,
+        "SUP-B": 50,
+        "SUP-C": 50,
+        "SUP-D": 50,
+        "SUP-E": 50,
+        "SUP-F": 50,
+        "SUP-G": 50,
+        "SUP-H": 50,
+        "SUP-I": 50
       }
     }
   },
