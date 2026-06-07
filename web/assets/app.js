@@ -11,6 +11,11 @@ const state = {
 const els = {
   statusGrid: document.querySelector("#statusGrid"),
   dashboardPanel: document.querySelector("#dashboardPanel"),
+  coursesPanel: document.querySelector("#coursesPanel"),
+  packagePanel: document.querySelector("#packagePanel"),
+  sourcesPanel: document.querySelector("#sourcesPanel"),
+  progressPanel: document.querySelector("#progressPanel"),
+  lessonPanel: document.querySelector("#lessonPanel"),
   levelFilters: document.querySelector("#levelFilters"),
   lessonList: document.querySelector("#lessonList"),
   searchInput: document.querySelector("#searchInput"),
@@ -48,13 +53,17 @@ async function fetchJson(url) {
 function renderShell() {
   renderStats();
   renderDashboard();
+  renderCourses();
+  renderPackage();
+  renderSources();
+  renderProgress();
   renderFilters();
   renderList();
   els.searchInput.addEventListener("input", renderList);
   els.toggleComplete.addEventListener("click", toggleCurrentComplete);
   els.resetProgress.addEventListener("click", resetProgress);
-  document.querySelectorAll("[data-jump]").forEach((button) => {
-    button.addEventListener("click", () => jumpToArea(button.dataset.jump));
+  document.querySelectorAll("[data-route]").forEach((button) => {
+    button.addEventListener("click", () => navigateToPage(button.dataset.route));
   });
 }
 
@@ -129,6 +138,134 @@ function renderDashboard() {
   });
 }
 
+function renderCourses() {
+  const levels = Object.keys(state.summary.levels);
+  els.coursesPanel.innerHTML = `
+    <div class="page-heading">
+      <p class="eyebrow">Structured learning paths</p>
+      <h2>Courses, modules, and gates</h2>
+      <p>Use MAIN for JLPT pass study. OPTIONAL and SUPPLEMENTS are enrichment for real-world fluency.</p>
+    </div>
+    <div class="course-grid">
+      ${levels.map((level) => courseCard(level)).join("")}
+    </div>
+  `;
+  els.coursesPanel.querySelectorAll("[data-level]").forEach((button) => {
+    button.addEventListener("click", () => {
+      state.currentLevel = button.dataset.level;
+      els.searchInput.value = "";
+      renderFilters();
+      renderList();
+      navigateToPage("courses");
+      document.querySelector(".sidebar").scrollIntoView({ behavior: "smooth", block: "start" });
+    });
+  });
+}
+
+function courseCard(level) {
+  const info = state.summary.levels[level];
+  const modules = Object.entries(info.modules || {})
+    .map(([module, count]) => `<span>${escapeHtml(module)} <strong>${escapeHtml(String(count))}</strong></span>`)
+    .join("");
+  return `
+    <article class="course-card">
+      <div>
+        <p class="eyebrow">${escapeHtml(level)}</p>
+        <h3>${escapeHtml(courseName(level))}</h3>
+      </div>
+      <div class="course-metrics">
+        <span>${escapeHtml(String(info.lesson_count))} SCOs</span>
+        <span>${escapeHtml(String(info.main))} MAIN</span>
+        <span>${escapeHtml(String(info.optional))} OPTIONAL</span>
+      </div>
+      <div class="module-strip">${modules}</div>
+      <button class="ghost-button" type="button" data-level="${escapeHtml(level)}">Browse ${escapeHtml(level)}</button>
+    </article>
+  `;
+}
+
+function courseName(level) {
+  if (level === "FOUNDATIONS") return "Before N5";
+  if (level === "SUPPLEMENTS") return "Supplement Library";
+  return `JLPT ${level}`;
+}
+
+function renderPackage() {
+  els.packagePanel.innerHTML = `
+    <div class="page-heading">
+      <p class="eyebrow">Build prompt outputs</p>
+      <h2>LMS package exports</h2>
+      <p>${escapeHtml(state.packageIndex.rule)}</p>
+    </div>
+    <div class="artifact-grid">
+      ${state.packageIndex.artifacts.map((artifact) => packageLink(artifact)).join("")}
+    </div>
+    <div class="scope-grid">
+      ${Object.entries(state.packageIndex.counts).map(([key, value]) => stat(key.replaceAll("_", " "), value)).join("")}
+    </div>
+  `;
+}
+
+function renderSources() {
+  els.sourcesPanel.innerHTML = `
+    <div class="page-heading">
+      <p class="eyebrow">Source library</p>
+      <h2>Original handoff documents</h2>
+      <p>These files remain the preserved source text for source-backed lesson nodes.</p>
+    </div>
+    <div class="source-grid">
+      ${state.docs.map((doc) => sourceCard(doc)).join("")}
+    </div>
+  `;
+  els.sourcesPanel.querySelectorAll("[data-source]").forEach((button) => {
+    button.addEventListener("click", () => {
+      els.searchInput.value = button.dataset.source;
+      state.currentLevel = "ALL";
+      renderFilters();
+      renderList();
+      document.querySelector(".sidebar").scrollIntoView({ behavior: "smooth", block: "start" });
+    });
+  });
+}
+
+function sourceCard(doc) {
+  return `
+    <article class="source-card">
+      <strong>${escapeHtml(doc.filename)}</strong>
+      <span>${escapeHtml(doc.title)}</span>
+      <small>${escapeHtml(String(doc.char_count))} chars</small>
+      <button class="ghost-button" type="button" data-source="${escapeHtml(doc.filename)}">Find lessons</button>
+    </article>
+  `;
+}
+
+function renderProgress() {
+  const completed = Object.keys(state.progress.completed);
+  const percent = state.path.length ? Math.round((completed.length / state.path.length) * 100) : 0;
+  const recent = completed.slice(-8).reverse();
+  els.progressPanel.innerHTML = `
+    <div class="page-heading">
+      <p class="eyebrow">Local browser progress</p>
+      <h2>${percent}% complete on this device</h2>
+      <p>No account or server is required. Progress is saved locally in this browser.</p>
+    </div>
+    <div class="progress-meter"><span style="width: ${percent}%"></span></div>
+    <div class="scope-grid">
+      ${stat("completed", completed.length)}
+      ${stat("remaining", Math.max(state.path.length - completed.length, 0))}
+      ${stat("total nodes", state.path.length)}
+      ${stat("storage", "localStorage")}
+    </div>
+    <div class="recent-list">
+      <h3>Recently completed</h3>
+      ${recent.length ? recent.map((id) => `<button type="button" data-lesson="${escapeHtml(id)}">${escapeHtml(id)}</button>`).join("") : "<p>No completed lessons yet.</p>"}
+    </div>
+  `;
+  els.progressPanel.querySelectorAll("[data-lesson]").forEach((button) => {
+    button.addEventListener("click", () => navigateToNode(button.dataset.lesson));
+  });
+}
+
 function featureCard(title, metric, body, action) {
   return `
     <button class="feature-card" type="button" data-action="${escapeHtml(action)}">
@@ -169,57 +306,34 @@ function handleDashboardAction(action, nodeId) {
     return;
   }
   if (action === "path") {
-    jumpToArea("sidebar");
+    navigateToPage("courses");
     return;
   }
   if (action === "current") {
-    jumpToArea("current");
+    if (state.currentNode) navigateToNode(state.currentNode.id);
     return;
   }
   if (action === "sources") {
-    els.searchInput.value = ".md";
-    state.currentLevel = "ALL";
-    renderFilters();
-    renderList();
-    jumpToArea("sidebar");
+    navigateToPage("sources");
     return;
   }
   if (action === "package") {
-    jumpToArea("package");
+    navigateToPage("package");
     return;
   }
   if (action === "progress") {
-    renderStats();
-    document.querySelector(".status-grid").scrollIntoView({ behavior: "smooth", block: "center" });
+    navigateToPage("progress");
     return;
   }
   if (action === "showExtracted") {
     els.searchInput.value = "lesson extract";
     renderList();
-    jumpToArea("sidebar");
+    document.querySelector(".sidebar").scrollIntoView({ behavior: "smooth", block: "start" });
     return;
   }
   if (action === "showSourceBacked") {
     els.searchInput.value = "source doc";
     renderList();
-    jumpToArea("sidebar");
-  }
-}
-
-function jumpToArea(area) {
-  if (area === "dashboard") {
-    els.dashboardPanel.scrollIntoView({ behavior: "smooth", block: "start" });
-  } else if (area === "package") {
-    document.querySelector("#packageMap").scrollIntoView({ behavior: "smooth", block: "center" });
-  } else if (area === "current") {
-    document.querySelector(".topbar").scrollIntoView({ behavior: "smooth", block: "start" });
-  } else if (area === "sources") {
-    els.searchInput.value = ".md";
-    state.currentLevel = "ALL";
-    renderFilters();
-    renderList();
-    document.querySelector(".sidebar").scrollIntoView({ behavior: "smooth", block: "start" });
-  } else {
     document.querySelector(".sidebar").scrollIntoView({ behavior: "smooth", block: "start" });
   }
 }
@@ -266,23 +380,79 @@ function renderList() {
 
 function handleRouteChange(options = {}) {
   const route = parseRoute();
-  const node = state.path.find((item) => item.id === route.nodeId) || state.path.find((item) => item.id === "F01") || state.path[0];
-  selectNode(node, { ...options, sectionId: route.sectionId });
+  if (route.redirect) {
+    history.replaceState(null, "", route.redirect);
+    handleRouteChange(options);
+    return;
+  }
+  showView(route.page);
+  if (route.page === "lesson") {
+    const node = state.path.find((item) => item.id === route.nodeId) || state.path.find((item) => item.id === "F01") || state.path[0];
+    selectNode(node, { ...options, sectionId: route.sectionId });
+  } else {
+    updatePageTitle(route.page);
+  }
 }
 
 function parseRoute() {
   const raw = decodeURIComponent(window.location.hash.replace(/^#\/?/, ""));
-  const [nodeId, sectionId] = raw.split("/");
-  return { nodeId, sectionId };
+  if (!raw) return { page: "dashboard" };
+  const parts = raw.split("/");
+  const knownPages = new Set(["dashboard", "courses", "package", "sources", "progress"]);
+  if (knownPages.has(parts[0])) return { page: parts[0] };
+  if (parts[0] === "lesson") return { page: "lesson", nodeId: parts[1], sectionId: parts[2] };
+  if (state.path.some((node) => node.id === parts[0])) {
+    const section = parts[1] ? `/${encodeURIComponent(parts[1])}` : "";
+    return { redirect: `#/lesson/${encodeURIComponent(parts[0])}${section}` };
+  }
+  return { redirect: "#/dashboard" };
 }
 
 function navigateToNode(nodeId, sectionId = "") {
-  const hash = sectionId ? `#/${encodeURIComponent(nodeId)}/${encodeURIComponent(sectionId)}` : `#/${encodeURIComponent(nodeId)}`;
+  const hash = sectionId ? `#/lesson/${encodeURIComponent(nodeId)}/${encodeURIComponent(sectionId)}` : `#/lesson/${encodeURIComponent(nodeId)}`;
   if (window.location.hash === hash) {
     selectNode(state.path.find((node) => node.id === nodeId), { sectionId });
     return;
   }
   window.location.hash = hash;
+}
+
+function navigateToPage(page) {
+  const hash = `#/${page}`;
+  if (window.location.hash === hash) {
+    handleRouteChange();
+    return;
+  }
+  window.location.hash = hash;
+}
+
+function showView(page) {
+  const visible = {
+    dashboard: els.dashboardPanel,
+    courses: els.coursesPanel,
+    package: els.packagePanel,
+    sources: els.sourcesPanel,
+    progress: els.progressPanel,
+    lesson: els.lessonPanel,
+  };
+  Object.values(visible).forEach((panel) => {
+    panel.hidden = true;
+  });
+  (visible[page] || els.dashboardPanel).hidden = false;
+  document.querySelectorAll("[data-route]").forEach((button) => {
+    button.classList.toggle("active", button.dataset.route === page);
+  });
+}
+
+function updatePageTitle(page) {
+  const titles = {
+    dashboard: "Dashboard | Nihongo LMS",
+    courses: "Courses | Nihongo LMS",
+    package: "LMS Package | Nihongo LMS",
+    sources: "Source Library | Nihongo LMS",
+    progress: "Progress | Nihongo LMS",
+  };
+  document.title = titles[page] || "Nihongo LMS";
 }
 
 async function selectNode(node, options = {}) {
@@ -485,6 +655,7 @@ function toggleCurrentComplete() {
   saveProgress();
   renderStats();
   renderDashboard();
+  renderProgress();
   renderList();
   els.toggleComplete.textContent = state.progress.completed[state.currentNode.id] ? "Mark Incomplete" : "Mark Complete";
 }
@@ -495,6 +666,7 @@ function resetProgress() {
   saveProgress();
   renderStats();
   renderDashboard();
+  renderProgress();
   renderList();
   if (state.currentNode) els.toggleComplete.textContent = "Mark Complete";
 }

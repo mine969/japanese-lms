@@ -20,9 +20,12 @@
         <div class="status-grid" id="statusGrid"></div>
 
         <nav class="quick-nav" aria-label="Primary LMS areas">
-          <button type="button" data-jump="dashboard">Sitemap</button>
-          <button type="button" data-jump="current">Current Lesson</button>
-          <button type="button" data-jump="package">Package</button>
+          <button type="button" data-route="dashboard">Home</button>
+          <button type="button" data-route="lesson">Lesson</button>
+          <button type="button" data-route="courses">Courses</button>
+          <button type="button" data-route="package">Package</button>
+          <button type="button" data-route="sources">Sources</button>
+          <button type="button" data-route="progress">Progress</button>
         </nav>
 
         <label class="search-box">
@@ -35,29 +38,44 @@
       </aside>
 
       <main class="main-panel">
-        <section class="dashboard-panel" id="dashboardPanel" aria-label="LMS sitemap"></section>
+        <nav class="page-tabs" aria-label="Page navigation">
+          <button type="button" data-route="dashboard">Dashboard</button>
+          <button type="button" data-route="lesson">Lesson</button>
+          <button type="button" data-route="courses">Courses</button>
+          <button type="button" data-route="package">LMS Package</button>
+          <button type="button" data-route="sources">Source Library</button>
+          <button type="button" data-route="progress">Progress</button>
+        </nav>
 
-        <header class="topbar">
-          <div>
-            <p class="eyebrow" id="activeMeta">Static, zero-budget, no backend required</p>
-            <h2 id="activeTitle">Loading LMS...</h2>
-          </div>
-          <div class="actions">
-            <button id="toggleComplete" class="primary-button" type="button">Mark Complete</button>
-            <button id="resetProgress" class="ghost-button" type="button">Reset Progress</button>
-          </div>
-        </header>
+        <section class="dashboard-panel view-panel" id="dashboardPanel" aria-label="LMS dashboard"></section>
+        <section class="view-panel" id="coursesPanel" aria-label="Course structure"></section>
+        <section class="view-panel" id="packagePanel" aria-label="LMS package exports"></section>
+        <section class="view-panel" id="sourcesPanel" aria-label="Source library"></section>
+        <section class="view-panel" id="progressPanel" aria-label="Progress overview"></section>
 
-        <section class="overview-band" id="overviewBand"></section>
+        <section class="view-panel" id="lessonPanel" aria-label="Lesson reader">
+          <header class="topbar">
+            <div>
+              <p class="eyebrow" id="activeMeta">Static, zero-budget, no backend required</p>
+              <h2 id="activeTitle">Loading LMS...</h2>
+            </div>
+            <div class="actions">
+              <button id="toggleComplete" class="primary-button" type="button">Mark Complete</button>
+              <button id="resetProgress" class="ghost-button" type="button">Reset Progress</button>
+            </div>
+          </header>
 
-        <nav class="section-tabs" id="sectionTabs" aria-label="Lesson sections"></nav>
+          <section class="overview-band" id="overviewBand"></section>
 
-        <article class="content-view" id="contentView">
-          <p>Loading curriculum data...</p>
-        </article>
+          <nav class="section-tabs" id="sectionTabs" aria-label="Lesson sections"></nav>
+
+          <article class="content-view" id="contentView">
+            <p>Loading curriculum data...</p>
+          </article>
+        </section>
       </main>
     </div>
 
-    <script src="assets/app.js?v=20260607"></script>
+    <script src="assets/app.js?v=20260607-routes"></script>
   </body>
 </html>
