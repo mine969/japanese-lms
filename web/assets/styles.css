@@ -294,6 +294,59 @@ input {
   font-size: 24px;
 }
 
+.package-map {
+  display: grid;
+  gap: 10px;
+  border: 1px solid var(--line);
+  background: #f7faf8;
+  border-radius: 8px;
+  padding: 14px;
+  margin-bottom: 12px;
+}
+
+.package-map strong,
+.package-map span {
+  display: block;
+}
+
+.package-map span {
+  color: var(--muted);
+  margin-top: 4px;
+}
+
+.package-links {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.package-link {
+  display: grid;
+  gap: 3px;
+  min-height: 82px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: white;
+  color: var(--ink);
+  padding: 10px;
+  text-decoration: none;
+}
+
+.package-link:hover {
+  border-color: var(--accent-2);
+  color: var(--accent-2);
+}
+
+.package-link span {
+  color: inherit;
+  margin: 0;
+}
+
+.package-link small {
+  color: var(--muted);
+  text-transform: uppercase;
+}
+
 .dashboard-foot {
   display: flex;
   gap: 8px;
@@ -493,6 +546,10 @@ input {
     grid-template-columns: 1fr 1fr 1fr;
   }
 
+  .package-links {
+    grid-template-columns: 1fr 1fr;
+  }
+
   .overview-band {
     grid-template-columns: 1fr 1fr;
   }
@@ -512,7 +569,8 @@ input {
   }
 
   .feature-grid,
-  .level-map {
+  .level-map,
+  .package-links {
     grid-template-columns: 1fr;
   }
 }

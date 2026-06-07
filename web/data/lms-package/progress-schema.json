@@ -1,0 +1,44 @@
+{
+  "learner_id": "local-browser-user",
+  "current_level": "N5|N4|N3|N2|N1",
+  "lessons_completed": [
+    "N5-M01-L01"
+  ],
+  "quiz_scores": {
+    "N5-M01-L01": {
+      "score": 85,
+      "attempts": 1,
+      "last_attempt": "YYYY-MM-DD"
+    }
+  },
+  "mock_exam_scores": {
+    "MOCK-N5": {
+      "total": 142,
+      "vocab_section": 38,
+      "grammar_reading_section": 65,
+      "listening_section": 39,
+      "passed": true,
+      "date": "YYYY-MM-DD"
+    }
+  },
+  "anki_stats": {
+    "N5_Vocabulary": {
+      "cards_due": 12,
+      "retention_rate": 0.87
+    }
+  },
+  "level_unlock_status": {
+    "N5": "in_progress",
+    "N4": "locked",
+    "N3": "locked",
+    "N2": "locked",
+    "N1": "locked"
+  },
+  "unlock_conditions": {
+    "N4": "Complete N5 and pass MOCK-N5",
+    "N3": "Complete N4 and pass MOCK-N4",
+    "N2": "Complete N3 and pass MOCK-N3",
+    "N1": "Complete N2 and pass MOCK-N2"
+  },
+  "storage": "localStorage for static LMS; server-side schema can mirror this object later."
+}

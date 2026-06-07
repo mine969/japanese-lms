@@ -23,6 +23,17 @@ Generated files:
 - `web/data/source-documents.json`
 - `web/data/source-docs/*.json`
 - `web/data/lessons/*.json`
+- `web/data/lms-package/course-structure.md`
+- `web/data/lms-package/quiz-bank-skeleton.json`
+- `web/data/lms-package/anki-vocabulary.tsv`
+- `web/data/lms-package/mock-exams.json`
+- `web/data/lms-package/workbook-specs.md`
+- `web/data/lms-package/progress-schema.json`
+- `web/data/lms-package/imsmanifest.xml`
+
+## LMS Package Exports
+
+The static build also creates LMS-compatible package artifacts from the handoff prompt. These exports preserve the approved source content and avoid inventing quiz answers or lesson text. Items that still need instructional extraction are marked as pending in the generated JSON.
 
 ## Run Locally
 

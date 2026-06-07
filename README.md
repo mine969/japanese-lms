@@ -17,7 +17,7 @@ The long-term plan is zero-budget hosting: the learner-facing LMS runs from stat
 | --- | --- |
 | Static LMS | Browser app in `web/` with search, reading view, and local progress |
 | Source | Final handoff file in `handoff/final/` |
-| Generated Data | Learning path, source docs, and lesson extracts in `web/data/` |
+| Generated Data | Learning path, source docs, lesson extracts, and LMS package exports in `web/data/` |
 | Backend | Optional FastAPI beta API retained for future tooling |
 | Database | Not required for learner-facing zero-budget mode |
 | Deployment | GitHub Pages workflow for `web/` |
@@ -72,6 +72,19 @@ scripts/      Import and validation utilities
 - `web/data/source-documents.json`
 - `web/data/source-docs/*.json`
 - `web/data/lessons/*.json`
+- `web/data/lms-package/*`
+
+## LMS Package Exports
+
+The static builder also generates export artifacts for the updated LMS build prompt:
+
+- Course structure Markdown
+- Quiz bank skeleton JSON
+- Anki vocabulary TSV
+- Mock exam spec JSON
+- PDF workbook spec Markdown
+- Progress schema JSON
+- IMS manifest XML
 
 ## Documentation
 

@@ -1,0 +1,55 @@
+{
+  "schema": "nihongo-daigaku.lms-package-index.v1",
+  "source": "handoff\\final\\FINAL_LMS_HANDOFF_COMPLETE.md",
+  "status": "static_package_generated",
+  "counts": {
+    "sco_nodes": 367,
+    "source_documents": 30,
+    "lesson_extracts": 56
+  },
+  "artifacts": [
+    {
+      "task": 1,
+      "name": "Course structure",
+      "path": "data/lms-package/course-structure.md",
+      "format": "markdown"
+    },
+    {
+      "task": 2,
+      "name": "Quiz bank skeleton",
+      "path": "data/lms-package/quiz-bank-skeleton.json",
+      "format": "json"
+    },
+    {
+      "task": 3,
+      "name": "Anki vocabulary TSV",
+      "path": "data/lms-package/anki-vocabulary.tsv",
+      "format": "tsv"
+    },
+    {
+      "task": 4,
+      "name": "Mock exam specs",
+      "path": "data/lms-package/mock-exams.json",
+      "format": "json"
+    },
+    {
+      "task": 5,
+      "name": "Workbook specs",
+      "path": "data/lms-package/workbook-specs.md",
+      "format": "markdown"
+    },
+    {
+      "task": 6,
+      "name": "Progress schema",
+      "path": "data/lms-package/progress-schema.json",
+      "format": "json"
+    },
+    {
+      "task": 7,
+      "name": "IMS manifest",
+      "path": "data/lms-package/imsmanifest.xml",
+      "format": "xml"
+    }
+  ],
+  "rule": "Preserve source Japanese. Do not invent lesson, quiz, or answer content."
+}

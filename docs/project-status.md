@@ -27,9 +27,14 @@ The previous FastAPI backend remains available as optional tooling, but it is no
 - Final handoff copied into `handoff/final/`
 - Static data builder generated 367 indexed nodes from 30 source documents
 - 56 direct lesson content extracts generated
+- LMS package exports generated for course structure, quiz skeleton, Anki TSV, mock specs, workbook specs, progress schema, and IMS manifest
 - All generated JSON files parse successfully
 - Static site serves locally on `http://127.0.0.1:4180`
 - Static app JavaScript syntax check passes
+
+## Updated Build Prompt
+
+The updated LMS build prompt is stored at `handoff/final/GPT_LMS_BUILD_PROMPT.md`. The repo now generates LMS-compatible export scaffolds from that prompt while preserving source Japanese and avoiding invented quiz or answer content.
 
 ## Architecture Lock
 

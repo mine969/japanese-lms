@@ -16,6 +16,7 @@ from typing import Iterable
 ROOT = Path(__file__).resolve().parents[1]
 HANDOFF = ROOT / "handoff" / "final" / "FINAL_LMS_HANDOFF_COMPLETE.md"
 WEB_DATA = ROOT / "web" / "data"
+PACKAGE_DATA = WEB_DATA / "lms-package"
 
 
 @dataclass
@@ -303,9 +304,278 @@ def build_summary(nodes: list[LessonNode], docs: list[SourceDocument], blocks: d
     }
 
 
+def build_course_structure_markdown(nodes: list[LessonNode]) -> str:
+    lines = ["# TASK 1 - COURSE STRUCTURE", ""]
+    current_course = ""
+    current_unit = ""
+    for node in nodes:
+        if node.level != current_course:
+            current_course = node.level
+            current_unit = ""
+            lines.extend(["", f"## COURSE: {node.level}"])
+        unit = f"{node.module} - {module_title(node)}"
+        if unit != current_unit:
+            current_unit = unit
+            lines.append(f"### UNIT: {unit}")
+        minutes = node.estimated_minutes or 90
+        lines.append(f"- SCO: {node.id} | {node.title} | {minutes} min | Track: {node.track}")
+    lines.extend(["", "## TASK 1 COMPLETE", "Generated from CURRICULUM_STRUCTURE_MAP.md."])
+    return "\n".join(lines).strip() + "\n"
+
+
+def module_title(node: LessonNode) -> str:
+    if node.module == "FOUNDATIONS":
+        return "Before N5 Begins"
+    if node.module == "OPTIONAL":
+        return "Optional / Real-World Japanese"
+    return f"{node.level} {node.module}"
+
+
+def build_quiz_bank_skeleton(nodes: list[LessonNode], blocks: dict[str, dict[str, object]]) -> dict[str, object]:
+    quizzes = []
+    for node in nodes:
+        has_content = node.id in blocks
+        quizzes.append(
+            {
+                "quiz_id": f"QUIZ-{node.id}",
+                "lesson": node.id,
+                "title": f"{node.title} Quiz",
+                "level": node.level,
+                "module": node.module,
+                "track": node.track,
+                "skill": node.skill or "mixed",
+                "difficulty": node.level,
+                "status": "needs_question_extraction" if has_content else "awaiting_lesson_content",
+                "question_count": 0,
+                "questions": [],
+            }
+        )
+    return {
+        "schema": "nihongo-daigaku.quiz-bank.v1",
+        "note": "Question objects are intentionally not invented. Extract from Exercise Sets, Review Questions, Reading Practice, Listening Practice, and mock exams.",
+        "quizzes": quizzes,
+    }
+
+
+def build_anki_vocab_tsv(blocks: dict[str, dict[str, object]]) -> str:
+    rows = ["Front\tBack\tTags"]
+    for lesson_id, payload in sorted(blocks.items()):
+        level = lesson_id.split("-", 1)[0] if lesson_id.startswith("N") else "FOUNDATIONS"
+        for item in payload.get("vocabulary", []):
+            japanese = item.get("Japanese", "").strip()
+            furigana = item.get("Furigana", "").strip()
+            meaning = item.get("Meaning", "").strip()
+            if not japanese or not meaning:
+                continue
+            front = f"{japanese} ({furigana})" if furigana else japanese
+            tags = f"{level} vocabulary {lesson_id}"
+            rows.append(f"{tsv_cell(front)}\t{tsv_cell(meaning)}\t{tsv_cell(tags)}")
+    return "\n".join(rows) + "\n"
+
+
+def tsv_cell(value: str) -> str:
+    return re.sub(r"[\t\r\n]+", " ", value).strip()
+
+
+def build_mock_exam_specs(docs: list[SourceDocument]) -> dict[str, dict[str, object]]:
+    exam_sources = {
+        "MOCK-N5": ("N5", "MOCK_EXAM_N5_N4.md", 110),
+        "MOCK-N4": ("N4", "MOCK_EXAM_N5_N4.md", 125),
+        "MOCK-N3": ("N3", "MOCK_EXAM_N3_N2.md", 140),
+        "MOCK-N2": ("N2", "MOCK_EXAM_N3_N2.md", 155),
+        "MOCK-N1": ("N1", "MOCK_EXAM_N1.md", 170),
+    }
+    by_filename = {doc.filename: doc for doc in docs}
+    specs: dict[str, dict[str, object]] = {}
+    for exam_id, (level, filename, minutes) in exam_sources.items():
+        doc = by_filename.get(filename)
+        specs[exam_id] = {
+            "exam_id": exam_id,
+            "title": f"JLPT {level} Mock Examination",
+            "level": level,
+            "source_document": filename,
+            "total_time_minutes": minutes,
+            "pass_score": 80,
+            "max_score": 180,
+            "sections": default_exam_sections(level),
+            "status": "source_preserved_needs_question_extraction",
+            "source_excerpt": extract_exam_excerpt(doc.content, level) if doc else "",
+            "feedback": {
+                "pass": f"Passed {level}. Review weak sections before moving forward.",
+                "fail_total": "Not yet passing overall. Review all sections and retake later.",
+                "fail_section": "Overall score may pass, but a section minimum was missed. Review that section.",
+            },
+        }
+    return specs
+
+
+def default_exam_sections(level: str) -> list[dict[str, object]]:
+    return [
+        {
+            "section_id": f"{level}-VOCAB",
+            "title": "Language Knowledge: Vocabulary",
+            "time_minutes": 25,
+            "min_pass_score": 19,
+            "questions": [],
+        },
+        {
+            "section_id": f"{level}-GRAMMAR-READING",
+            "title": "Language Knowledge: Grammar / Reading",
+            "time_minutes": 55,
+            "min_pass_score": 19,
+            "questions": [],
+        },
+        {
+            "section_id": f"{level}-LISTENING",
+            "title": "Listening",
+            "time_minutes": 40,
+            "min_pass_score": 19,
+            "questions": [],
+        },
+    ]
+
+
+def extract_exam_excerpt(content: str, level: str) -> str:
+    match = re.search(rf"^#\s+JLPT\s+{level}\s+.+$", content, flags=re.MULTILINE)
+    if not match:
+        return content[:4000]
+    next_match = re.search(r"^#\s+JLPT\s+N[1-5]\s+.+$", content[match.end():], flags=re.MULTILINE)
+    end = match.end() + next_match.start() if next_match else min(len(content), match.start() + 8000)
+    return content[match.start():end].strip()
+
+
+def build_workbook_specs(nodes: list[LessonNode]) -> str:
+    lines = ["# PDF WORKBOOK SPECS", ""]
+    grouped: dict[tuple[str, str], list[LessonNode]] = {}
+    for node in nodes:
+        if node.module not in {"FOUNDATIONS", "OPTIONAL"}:
+            grouped.setdefault((node.level, node.module), []).append(node)
+    for (level, module), module_nodes in sorted(grouped.items(), key=lambda item: sort_key(item[1][0])):
+        lines.extend([f"## PDF WORKBOOK: {level}_{module}_Workbook.pdf", "### Contents:"])
+        lines.append("1. Module Overview")
+        for index, node in enumerate(module_nodes, start=2):
+            lines.append(f"{index}. Lesson {node.lesson}: {node.title}")
+            lines.append("   - Vocabulary table when present in source")
+            lines.append("   - Grammar summary from approved lesson source")
+            lines.append("   - Exercise sets and answer key when present")
+            lines.append("   - Writing / self-check prompt when present")
+        lines.append(f"{len(module_nodes) + 2}. Module Review + Self-assessment checklist")
+        lines.append("Appendix A: Module vocabulary")
+        lines.append("Appendix B: Module kanji")
+        lines.append("Appendix C: Module grammar quick reference")
+        lines.append("")
+    lines.append("Formatting: A4 or US Letter, readable sans-serif body, Japanese-capable font fallback, answer keys at back.")
+    return "\n".join(lines).strip() + "\n"
+
+
+def build_progress_schema() -> dict[str, object]:
+    return {
+        "learner_id": "local-browser-user",
+        "current_level": "N5|N4|N3|N2|N1",
+        "lessons_completed": ["N5-M01-L01"],
+        "quiz_scores": {
+            "N5-M01-L01": {"score": 85, "attempts": 1, "last_attempt": "YYYY-MM-DD"}
+        },
+        "mock_exam_scores": {
+            "MOCK-N5": {
+                "total": 142,
+                "vocab_section": 38,
+                "grammar_reading_section": 65,
+                "listening_section": 39,
+                "passed": True,
+                "date": "YYYY-MM-DD",
+            }
+        },
+        "anki_stats": {
+            "N5_Vocabulary": {"cards_due": 12, "retention_rate": 0.87}
+        },
+        "level_unlock_status": {"N5": "in_progress", "N4": "locked", "N3": "locked", "N2": "locked", "N1": "locked"},
+        "unlock_conditions": {
+            "N4": "Complete N5 and pass MOCK-N5",
+            "N3": "Complete N4 and pass MOCK-N4",
+            "N2": "Complete N3 and pass MOCK-N3",
+            "N1": "Complete N2 and pass MOCK-N2",
+        },
+        "storage": "localStorage for static LMS; server-side schema can mirror this object later.",
+    }
+
+
+def build_manifest(nodes: list[LessonNode]) -> str:
+    lines = [
+        '<?xml version="1.0" encoding="UTF-8"?>',
+        '<manifest identifier="nihongo-daigaku-static" version="1.0" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2">',
+        '  <organizations default="nihongo-daigaku-org">',
+        '    <organization identifier="nihongo-daigaku-org">',
+        "      <title>Nihongo Daigaku</title>",
+    ]
+    current_level = ""
+    for node in nodes:
+        if node.level != current_level:
+            if current_level:
+                lines.append("      </item>")
+            current_level = node.level
+            lines.append(f'      <item identifier="{xml_escape(node.level)}">')
+            lines.append(f"        <title>{xml_escape(node.level)}</title>")
+        lines.append(f'        <item identifier="ITEM-{xml_escape(node.id)}" identifierref="{xml_escape(node.id)}">')
+        lines.append(f"          <title>{xml_escape(node.id)} - {xml_escape(node.title)}</title>")
+        lines.append("        </item>")
+    if current_level:
+        lines.append("      </item>")
+    lines.extend(["    </organization>", "  </organizations>", "  <resources>"])
+    for node in nodes:
+        href = f"index.html#/{node.id}"
+        lines.append(f'    <resource identifier="{xml_escape(node.id)}" type="webcontent" adlcp:scormtype="sco" href="{href}">')
+        lines.append("      <metadata>")
+        lines.append(f"        <title>{xml_escape(node.id)} - {xml_escape(node.title)}</title>")
+        lines.append(f"        <difficulty>{xml_escape(node.level)}</difficulty>")
+        lines.append(f"        <typicallearningtime>PT{node.estimated_minutes or 90}M</typicallearningtime>")
+        lines.append("      </metadata>")
+        lines.append("    </resource>")
+    lines.extend(["  </resources>", "</manifest>", ""])
+    return "\n".join(lines)
+
+
+def xml_escape(value: str) -> str:
+    return (
+        value.replace("&", "&amp;")
+        .replace("<", "&lt;")
+        .replace(">", "&gt;")
+        .replace('"', "&quot;")
+        .replace("'", "&apos;")
+    )
+
+
+def build_package_index(nodes: list[LessonNode], docs: list[SourceDocument], blocks: dict[str, dict[str, object]]) -> dict[str, object]:
+    return {
+        "schema": "nihongo-daigaku.lms-package-index.v1",
+        "source": str(HANDOFF.relative_to(ROOT)),
+        "status": "static_package_generated",
+        "counts": {
+            "sco_nodes": len(nodes),
+            "source_documents": len(docs),
+            "lesson_extracts": len(blocks),
+        },
+        "artifacts": [
+            {"task": 1, "name": "Course structure", "path": "data/lms-package/course-structure.md", "format": "markdown"},
+            {"task": 2, "name": "Quiz bank skeleton", "path": "data/lms-package/quiz-bank-skeleton.json", "format": "json"},
+            {"task": 3, "name": "Anki vocabulary TSV", "path": "data/lms-package/anki-vocabulary.tsv", "format": "tsv"},
+            {"task": 4, "name": "Mock exam specs", "path": "data/lms-package/mock-exams.json", "format": "json"},
+            {"task": 5, "name": "Workbook specs", "path": "data/lms-package/workbook-specs.md", "format": "markdown"},
+            {"task": 6, "name": "Progress schema", "path": "data/lms-package/progress-schema.json", "format": "json"},
+            {"task": 7, "name": "IMS manifest", "path": "data/lms-package/imsmanifest.xml", "format": "xml"},
+        ],
+        "rule": "Preserve source Japanese. Do not invent lesson, quiz, or answer content.",
+    }
+
+
 def write_json(path: Path, payload: object) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
+
+
+def write_text(path: Path, payload: str) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(payload, encoding="utf-8")
 
 
 def main() -> None:
@@ -335,6 +605,15 @@ def main() -> None:
     lesson_dir.mkdir(parents=True, exist_ok=True)
     for payload in blocks.values():
         write_json(lesson_dir / f"{payload['id']}.json", payload)
+    mock_specs = build_mock_exam_specs(docs)
+    write_text(PACKAGE_DATA / "course-structure.md", build_course_structure_markdown(nodes))
+    write_json(PACKAGE_DATA / "quiz-bank-skeleton.json", build_quiz_bank_skeleton(nodes, blocks))
+    write_text(PACKAGE_DATA / "anki-vocabulary.tsv", build_anki_vocab_tsv(blocks))
+    write_json(PACKAGE_DATA / "mock-exams.json", mock_specs)
+    write_text(PACKAGE_DATA / "workbook-specs.md", build_workbook_specs(nodes))
+    write_json(PACKAGE_DATA / "progress-schema.json", build_progress_schema())
+    write_text(PACKAGE_DATA / "imsmanifest.xml", build_manifest(nodes))
+    write_json(PACKAGE_DATA / "package-index.json", build_package_index(nodes, docs, blocks))
 
 
 def safe_filename(filename: str) -> str:

@@ -1,5 +1,6 @@
 const state = {
   summary: null,
+  packageIndex: null,
   path: [],
   docs: [],
   currentLevel: "ALL",
@@ -23,12 +24,14 @@ const els = {
 };
 
 async function boot() {
-  const [summary, path, docs] = await Promise.all([
+  const [summary, path, docs, packageIndex] = await Promise.all([
     fetchJson("data/summary.json"),
     fetchJson("data/learning-path.json"),
     fetchJson("data/source-documents.json"),
+    fetchJson("data/lms-package/package-index.json"),
   ]);
   state.summary = summary;
+  state.packageIndex = packageIndex;
   state.path = path;
   state.docs = docs;
   renderShell();
@@ -87,7 +90,7 @@ function renderDashboard() {
     <div class="feature-grid" id="featureMap">
       ${featureCard("Learning Path", `${state.summary.indexed_nodes} indexed items`, "Browse Foundations through N1 in order.", "path")}
       ${featureCard("Lesson Reader", `${extracted} extracted lessons`, "Open lessons with objectives, vocabulary, and source content.", "current")}
-      ${featureCard("Source Library", `${state.summary.source_documents} handoff documents`, "Review bundled original source files when a lesson is not split yet.", "sources")}
+      ${featureCard("LMS Package", `${state.packageIndex.artifacts.length} export files`, "Open course structure, Anki TSV, mock specs, workbook specs, and manifest.", "package")}
       ${featureCard("Progress", `${completed} completed locally`, "Completion is saved in this browser with no account required.", "progress")}
     </div>
 
@@ -95,9 +98,20 @@ function renderDashboard() {
       ${levels.map((level) => levelButton(level)).join("")}
     </div>
 
+    <div class="package-map" id="packageMap">
+      <div>
+        <strong>LMS package exports</strong>
+        <span>${state.packageIndex.rule}</span>
+      </div>
+      <div class="package-links">
+        ${state.packageIndex.artifacts.map((artifact) => packageLink(artifact)).join("")}
+      </div>
+    </div>
+
     <div class="dashboard-foot">
       <button class="ghost-button" type="button" data-action="showExtracted">Show extracted lessons</button>
       <button class="ghost-button" type="button" data-action="showSourceBacked">Show source-backed nodes</button>
+      <button class="ghost-button" type="button" data-action="sources">Show source library</button>
       <span>${sourceBacked} nodes currently open their source document directly.</span>
     </div>
   `;
@@ -139,6 +153,16 @@ function levelButton(level) {
   `;
 }
 
+function packageLink(artifact) {
+  return `
+    <a class="package-link" href="${escapeHtml(artifact.path)}" target="_blank" rel="noopener">
+      <strong>Task ${escapeHtml(String(artifact.task))}</strong>
+      <span>${escapeHtml(artifact.name)}</span>
+      <small>${escapeHtml(artifact.format)}</small>
+    </a>
+  `;
+}
+
 function handleDashboardAction(action, nodeId) {
   if (action === "continue" && nodeId) {
     navigateToNode(nodeId);
@@ -158,6 +182,10 @@ function handleDashboardAction(action, nodeId) {
     renderFilters();
     renderList();
     jumpToArea("sidebar");
+    return;
+  }
+  if (action === "package") {
+    jumpToArea("package");
     return;
   }
   if (action === "progress") {
@@ -181,6 +209,8 @@ function handleDashboardAction(action, nodeId) {
 function jumpToArea(area) {
   if (area === "dashboard") {
     els.dashboardPanel.scrollIntoView({ behavior: "smooth", block: "start" });
+  } else if (area === "package") {
+    document.querySelector("#packageMap").scrollIntoView({ behavior: "smooth", block: "center" });
   } else if (area === "current") {
     document.querySelector(".topbar").scrollIntoView({ behavior: "smooth", block: "start" });
   } else if (area === "sources") {
