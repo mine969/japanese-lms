@@ -9,6 +9,9 @@ const state = {
 };
 
 const els = {
+  sidebar: document.querySelector("#sidebar"),
+  mobileMenuButton: document.querySelector("#mobileMenuButton"),
+  mobileBackdrop: document.querySelector("#mobileBackdrop"),
   statusGrid: document.querySelector("#statusGrid"),
   dashboardPanel: document.querySelector("#dashboardPanel"),
   coursesPanel: document.querySelector("#coursesPanel"),
@@ -62,8 +65,13 @@ function renderShell() {
   els.searchInput.addEventListener("input", renderList);
   els.toggleComplete.addEventListener("click", toggleCurrentComplete);
   els.resetProgress.addEventListener("click", resetProgress);
+  els.mobileMenuButton.addEventListener("click", toggleMobileMenu);
+  els.mobileBackdrop.addEventListener("click", closeMobileMenu);
   document.querySelectorAll("[data-route]").forEach((button) => {
-    button.addEventListener("click", () => navigateToPage(button.dataset.route));
+    button.addEventListener("click", () => {
+      navigateToPage(button.dataset.route);
+      closeMobileMenu();
+    });
   });
 }
 
@@ -133,7 +141,7 @@ function renderDashboard() {
       els.searchInput.value = "";
       renderFilters();
       renderList();
-      document.querySelector(".sidebar").scrollIntoView({ behavior: "smooth", block: "start" });
+      revealCatalog();
     });
   });
 }
@@ -157,7 +165,7 @@ function renderCourses() {
       renderFilters();
       renderList();
       navigateToPage("courses");
-      document.querySelector(".sidebar").scrollIntoView({ behavior: "smooth", block: "start" });
+      revealCatalog();
     });
   });
 }
@@ -223,7 +231,7 @@ function renderSources() {
       state.currentLevel = "ALL";
       renderFilters();
       renderList();
-      document.querySelector(".sidebar").scrollIntoView({ behavior: "smooth", block: "start" });
+      revealCatalog();
     });
   });
 }
@@ -328,13 +336,13 @@ function handleDashboardAction(action, nodeId) {
   if (action === "showExtracted") {
     els.searchInput.value = "lesson extract";
     renderList();
-    document.querySelector(".sidebar").scrollIntoView({ behavior: "smooth", block: "start" });
+    revealCatalog();
     return;
   }
   if (action === "showSourceBacked") {
     els.searchInput.value = "source doc";
     renderList();
-    document.querySelector(".sidebar").scrollIntoView({ behavior: "smooth", block: "start" });
+    revealCatalog();
   }
 }
 
@@ -378,6 +386,26 @@ function renderList() {
   });
 }
 
+function toggleMobileMenu() {
+  const isOpen = document.body.classList.toggle("mobile-menu-open");
+  els.mobileBackdrop.hidden = !isOpen;
+  els.mobileMenuButton.setAttribute("aria-expanded", String(isOpen));
+}
+
+function closeMobileMenu() {
+  document.body.classList.remove("mobile-menu-open");
+  els.mobileBackdrop.hidden = true;
+  els.mobileMenuButton.setAttribute("aria-expanded", "false");
+}
+
+function revealCatalog() {
+  if (window.matchMedia("(max-width: 920px)").matches) {
+    closeMobileMenu();
+    return;
+  }
+  els.sidebar.scrollIntoView({ behavior: "smooth", block: "start" });
+}
+
 function handleRouteChange(options = {}) {
   const route = parseRoute();
   if (route.redirect) {
@@ -412,9 +440,11 @@ function navigateToNode(nodeId, sectionId = "") {
   const hash = sectionId ? `#/lesson/${encodeURIComponent(nodeId)}/${encodeURIComponent(sectionId)}` : `#/lesson/${encodeURIComponent(nodeId)}`;
   if (window.location.hash === hash) {
     selectNode(state.path.find((node) => node.id === nodeId), { sectionId });
+    closeMobileMenu();
     return;
   }
   window.location.hash = hash;
+  closeMobileMenu();
 }
 
 function navigateToPage(page) {

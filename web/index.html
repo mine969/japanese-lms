@@ -4,11 +4,22 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>日本語大学 | Static JLPT LMS</title>
-    <link rel="stylesheet" href="assets/styles.css" />
+    <link rel="stylesheet" href="assets/styles.css?v=20260611-mobile2" />
   </head>
   <body>
+    <header class="mobile-header">
+      <div class="mobile-title">
+        <span class="brand-mark">æ—¥</span>
+        <div>
+          <strong>æ—¥æœ¬èªžå¤§å­¦</strong>
+          <span>Static JLPT LMS</span>
+        </div>
+      </div>
+      <button class="mobile-menu-button" id="mobileMenuButton" type="button" aria-expanded="false" aria-controls="sidebar">Lessons</button>
+    </header>
+    <div class="mobile-backdrop" id="mobileBackdrop" hidden></div>
     <div class="app-shell">
-      <aside class="sidebar">
+      <aside class="sidebar" id="sidebar">
         <div class="brand">
           <div class="brand-mark">日</div>
           <div>
@@ -76,6 +87,6 @@
       </main>
     </div>
 
-    <script src="assets/app.js?v=20260607-routes"></script>
+    <script src="assets/app.js?v=20260611-mobile2"></script>
   </body>
 </html>
