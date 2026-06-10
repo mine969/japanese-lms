@@ -38,13 +38,13 @@ The current build is a fresh June 7 rebuild from `handoff/final/FINAL_LMS_HANDOF
 
 ```bash
 python scripts/build_static_lms.py
-python -m http.server 4173 -d web
+python -m http.server 4180 -d web
 ```
 
 Open:
 
 ```text
-http://127.0.0.1:4173
+http://127.0.0.1:4180/#/dashboard
 ```
 
 ## Optional Backend
@@ -91,12 +91,17 @@ The static builder also generates export artifacts for the updated LMS build pro
 
 ## Documentation
 
+- [Full Documentation](docs/full-documentation.md)
 - [Architecture](docs/architecture.md)
 - [API Design](docs/api-design.md)
 - [Database Design](docs/database-design.md)
 - [Import Pipeline](docs/import-pipeline.md)
 - [Project Status](docs/project-status.md)
 - [Static Zero-Budget LMS](docs/static-lms.md)
+
+## Handoff
+
+- [June 11 Static LMS Handoff](handoff/HANDOFF_2026-06-11_STATIC_LMS.md)
 
 ## Development Rules
 

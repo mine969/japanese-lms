@@ -5,6 +5,7 @@ This directory documents the LMS architecture and implementation contracts.
 ## Index
 
 - [Architecture](architecture.md)
+- [Full Documentation](full-documentation.md)
 - [API Design](api-design.md)
 - [Database Design](database-design.md)
 - [Import Pipeline](import-pipeline.md)
