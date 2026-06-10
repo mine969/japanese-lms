@@ -946,6 +946,57 @@ COURSE: Supplements
     SCO: SUP-I-48 | Supplement I: I TestStrategy Roadmap ExtendedVocab - Item 48 | 30 min | Track: OPTIONAL
     SCO: SUP-I-49 | Supplement I: I TestStrategy Roadmap ExtendedVocab - Item 49 | 30 min | Track: OPTIONAL
     SCO: SUP-I-50 | Supplement I: I TestStrategy Roadmap ExtendedVocab - Item 50 | 30 min | Track: OPTIONAL
+  UNIT: SUP-J - Enrichment / Beyond JLPT
+    SCO: SUP-J-01 | Supplement J: J IT Japanese Complete - Item 01 | 30 min | Track: OPTIONAL
+    SCO: SUP-J-02 | Supplement J: J IT Japanese Complete - Item 02 | 30 min | Track: OPTIONAL
+    SCO: SUP-J-03 | Supplement J: J IT Japanese Complete - Item 03 | 30 min | Track: OPTIONAL
+    SCO: SUP-J-04 | Supplement J: J IT Japanese Complete - Item 04 | 30 min | Track: OPTIONAL
+    SCO: SUP-J-05 | Supplement J: J IT Japanese Complete - Item 05 | 30 min | Track: OPTIONAL
+    SCO: SUP-J-06 | Supplement J: J IT Japanese Complete - Item 06 | 30 min | Track: OPTIONAL
+    SCO: SUP-J-07 | Supplement J: J IT Japanese Complete - Item 07 | 30 min | Track: OPTIONAL
+    SCO: SUP-J-08 | Supplement J: J IT Japanese Complete - Item 08 | 30 min | Track: OPTIONAL
+    SCO: SUP-J-09 | Supplement J: J IT Japanese Complete - Item 09 | 30 min | Track: OPTIONAL
+    SCO: SUP-J-10 | Supplement J: J IT Japanese Complete - Item 10 | 30 min | Track: OPTIONAL
+    SCO: SUP-J-11 | Supplement J: J IT Japanese Complete - Item 11 | 30 min | Track: OPTIONAL
+    SCO: SUP-J-12 | Supplement J: J IT Japanese Complete - Item 12 | 30 min | Track: OPTIONAL
+    SCO: SUP-J-13 | Supplement J: J IT Japanese Complete - Item 13 | 30 min | Track: OPTIONAL
+    SCO: SUP-J-14 | Supplement J: J IT Japanese Complete - Item 14 | 30 min | Track: OPTIONAL
+    SCO: SUP-J-15 | Supplement J: J IT Japanese Complete - Item 15 | 30 min | Track: OPTIONAL
+    SCO: SUP-J-16 | Supplement J: J IT Japanese Complete - Item 16 | 30 min | Track: OPTIONAL
+    SCO: SUP-J-17 | Supplement J: J IT Japanese Complete - Item 17 | 30 min | Track: OPTIONAL
+    SCO: SUP-J-18 | Supplement J: J IT Japanese Complete - Item 18 | 30 min | Track: OPTIONAL
+    SCO: SUP-J-19 | Supplement J: J IT Japanese Complete - Item 19 | 30 min | Track: OPTIONAL
+    SCO: SUP-J-20 | Supplement J: J IT Japanese Complete - Item 20 | 30 min | Track: OPTIONAL
+    SCO: SUP-J-21 | Supplement J: J IT Japanese Complete - Item 21 | 30 min | Track: OPTIONAL
+    SCO: SUP-J-22 | Supplement J: J IT Japanese Complete - Item 22 | 30 min | Track: OPTIONAL
+    SCO: SUP-J-23 | Supplement J: J IT Japanese Complete - Item 23 | 30 min | Track: OPTIONAL
+    SCO: SUP-J-24 | Supplement J: J IT Japanese Complete - Item 24 | 30 min | Track: OPTIONAL
+    SCO: SUP-J-25 | Supplement J: J IT Japanese Complete - Item 25 | 30 min | Track: OPTIONAL
+    SCO: SUP-J-26 | Supplement J: J IT Japanese Complete - Item 26 | 30 min | Track: OPTIONAL
+    SCO: SUP-J-27 | Supplement J: J IT Japanese Complete - Item 27 | 30 min | Track: OPTIONAL
+    SCO: SUP-J-28 | Supplement J: J IT Japanese Complete - Item 28 | 30 min | Track: OPTIONAL
+    SCO: SUP-J-29 | Supplement J: J IT Japanese Complete - Item 29 | 30 min | Track: OPTIONAL
+    SCO: SUP-J-30 | Supplement J: J IT Japanese Complete - Item 30 | 30 min | Track: OPTIONAL
+    SCO: SUP-J-31 | Supplement J: J IT Japanese Complete - Item 31 | 30 min | Track: OPTIONAL
+    SCO: SUP-J-32 | Supplement J: J IT Japanese Complete - Item 32 | 30 min | Track: OPTIONAL
+    SCO: SUP-J-33 | Supplement J: J IT Japanese Complete - Item 33 | 30 min | Track: OPTIONAL
+    SCO: SUP-J-34 | Supplement J: J IT Japanese Complete - Item 34 | 30 min | Track: OPTIONAL
+    SCO: SUP-J-35 | Supplement J: J IT Japanese Complete - Item 35 | 30 min | Track: OPTIONAL
+    SCO: SUP-J-36 | Supplement J: J IT Japanese Complete - Item 36 | 30 min | Track: OPTIONAL
+    SCO: SUP-J-37 | Supplement J: J IT Japanese Complete - Item 37 | 30 min | Track: OPTIONAL
+    SCO: SUP-J-38 | Supplement J: J IT Japanese Complete - Item 38 | 30 min | Track: OPTIONAL
+    SCO: SUP-J-39 | Supplement J: J IT Japanese Complete - Item 39 | 30 min | Track: OPTIONAL
+    SCO: SUP-J-40 | Supplement J: J IT Japanese Complete - Item 40 | 30 min | Track: OPTIONAL
+    SCO: SUP-J-41 | Supplement J: J IT Japanese Complete - Item 41 | 30 min | Track: OPTIONAL
+    SCO: SUP-J-42 | Supplement J: J IT Japanese Complete - Item 42 | 30 min | Track: OPTIONAL
+    SCO: SUP-J-43 | Supplement J: J IT Japanese Complete - Item 43 | 30 min | Track: OPTIONAL
+    SCO: SUP-J-44 | Supplement J: J IT Japanese Complete - Item 44 | 30 min | Track: OPTIONAL
+    SCO: SUP-J-45 | Supplement J: J IT Japanese Complete - Item 45 | 30 min | Track: OPTIONAL
+    SCO: SUP-J-46 | Supplement J: J IT Japanese Complete - Item 46 | 30 min | Track: OPTIONAL
+    SCO: SUP-J-47 | Supplement J: J IT Japanese Complete - Item 47 | 30 min | Track: OPTIONAL
+    SCO: SUP-J-48 | Supplement J: J IT Japanese Complete - Item 48 | 30 min | Track: OPTIONAL
+    SCO: SUP-J-49 | Supplement J: J IT Japanese Complete - Item 49 | 30 min | Track: OPTIONAL
+    SCO: SUP-J-50 | Supplement J: J IT Japanese Complete - Item 50 | 30 min | Track: OPTIONAL
 
 ## TASK 1 COMPLETE ✅
 Ready for TASK 2. Type "continue" to proceed.

@@ -17,6 +17,9 @@ from typing import Iterable
 ROOT = Path(__file__).resolve().parents[1]
 HANDOFF = ROOT / "handoff" / "final" / "FINAL_LMS_HANDOFF_COMPLETE_2026-06-07.md"
 BUILD_PROMPT = ROOT / "handoff" / "final" / "GPT_LMS_BUILD_PROMPT_2026-06-07.txt"
+EXTRA_SOURCE_FILES = [
+    ROOT / "handoff" / "final" / "SUPPLEMENT_J_IT_Japanese_Complete.md",
+]
 WEB_DATA = ROOT / "web" / "data"
 PACKAGE_DATA = WEB_DATA / "lms-package"
 
@@ -60,6 +63,18 @@ def split_documents(text: str) -> list[SourceDocument]:
         content = text[start:end].strip()
         title = next((line.lstrip("# ").strip() for line in content.splitlines() if line.startswith("# ")), filename)
         docs.append(SourceDocument(match.group(1), filename, title, content, len(content)))
+    docs.extend(load_extra_source_documents(len(docs)))
+    return docs
+
+
+def load_extra_source_documents(start_index: int) -> list[SourceDocument]:
+    docs: list[SourceDocument] = []
+    for offset, path in enumerate(EXTRA_SOURCE_FILES, start=1):
+        if not path.exists():
+            continue
+        content = path.read_text(encoding="utf-8").strip()
+        title = next((line.lstrip("# ").strip() for line in content.splitlines() if line.startswith("# ")), path.name)
+        docs.append(SourceDocument(f"X{start_index + offset:02d}", path.name, title, content, len(content)))
     return docs
 
 
@@ -262,7 +277,7 @@ def add_mock_exam_nodes(nodes: list[LessonNode]) -> list[LessonNode]:
 
 def add_supplement_nodes(nodes: list[LessonNode], source_map: dict[str, str]) -> list[LessonNode]:
     output = list(nodes)
-    for letter in "ABCDEFGHI":
+    for letter in "ABCDEFGHIJ":
         filename = supplement_source_for_letter(letter, source_map)
         title = supplement_title(letter, filename)
         for number in range(1, 51):
@@ -347,6 +362,8 @@ def extract_content_blocks(docs: list[SourceDocument], nodes: list[LessonNode]) 
         block = find_lesson_block(doc.content, node)
         if not block and node.id.startswith("F"):
             block = find_foundation_block(doc.content, node.id)
+        if not block and node.id.startswith("SUP-"):
+            block = find_supplement_block(doc.content, node)
         if block:
             blocks[node.id] = {
                 "id": node.id,
@@ -387,6 +404,20 @@ def find_foundation_block(content: str, lesson_id: str) -> str:
     return content[match.start():end]
 
 
+def find_supplement_block(content: str, node: LessonNode) -> str:
+    match = re.match(r"^SUP-([A-Z])-(\d{2})$", node.id)
+    if not match:
+        return ""
+    letter, number = match.groups()
+    heading = re.compile(rf"^##\s+{letter}{int(number)}\s+[—-].*$", re.MULTILINE)
+    found = heading.search(content)
+    if not found:
+        return ""
+    next_heading = re.search(rf"^##\s+{letter}\d+\s+[—-].*$", content[found.end():], flags=re.MULTILINE)
+    end = found.end() + next_heading.start() if next_heading else len(content)
+    return content[found.start():end]
+
+
 def extract_numbered_section(text: str, heading: str) -> list[str]:
     block = section(text, heading)
     return [re.sub(r"^\d+\.\s*", "", line).strip() for line in block.splitlines() if re.match(r"^\d+\.\s+", line)]
@@ -410,6 +441,18 @@ def extract_vocab_rows(text: str) -> list[dict[str, str]]:
                     cells = [cell.strip() for cell in row.strip("|").split("|")]
                     if len(cells) == len(headers):
                         rows.append(dict(zip(headers, cells)))
+            elif {"Japanese", "Reading", "English"}.issubset(headers):
+                for row in current[2:]:
+                    cells = [cell.strip() for cell in row.strip("|").split("|")]
+                    if len(cells) == len(headers):
+                        item = dict(zip(headers, cells))
+                        rows.append(
+                            {
+                                "Japanese": item.get("Japanese", ""),
+                                "Furigana": item.get("Reading", ""),
+                                "Meaning": item.get("English", ""),
+                            }
+                        )
         current = []
     return rows
 

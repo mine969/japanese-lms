@@ -14,16 +14,16 @@ The learner-facing app runs as a zero-budget static LMS in `web/`, with local pr
 | Foundations | 7 |
 | Level optional lessons | 30 |
 | Mock exam SCOs | 5 |
-| Supplement SCOs | 450 |
-| Total indexed nodes | 892 |
-| Source documents | 30 |
-| Lesson/source extracts | 82 |
+| Supplement SCOs | 500 |
+| Total indexed nodes | 942 |
+| Source documents | 31 |
+| Lesson/source extracts | 181 |
 
 ## Static LMS Verification
 
 - June 7 handoff and prompt copied into `handoff/final/`
-- Static data builder generated 892 indexed nodes from 30 source documents
-- 82 direct lesson/source extracts generated
+- Static data builder generated 942 indexed nodes from 31 source documents
+- 181 direct lesson/source extracts generated
 - LMS package exports generated for course structure, quiz skeleton, Anki TSV, mock specs, workbook specs, progress schema, and IMS manifest
 - All generated JSON files parse successfully
 - Static site serves locally on `http://127.0.0.1:4180`

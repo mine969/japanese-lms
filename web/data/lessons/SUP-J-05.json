@@ -1,0 +1,115 @@
+{
+  "id": "SUP-J-05",
+  "title": "Supplement J: J IT Japanese Complete - Item 05",
+  "source_document": "SUPPLEMENT_J_IT_Japanese_Complete.md",
+  "markdown": "## J5 — Backend Development\n\n| Japanese | Reading | English |\n|----------|---------|---------|\n| サーバーサイド | サーバーサイド | server-side |\n| RESTful API | レストフルエーピーアイ | RESTful API |\n| エンドポイント | エンドポイント | endpoint |\n| リクエスト | リクエスト | request |\n| レスポンス | レスポンス | response |\n| HTTPメソッド | HTTPメソッド | HTTP method |\n| ステータスコード | ステータスコード | status code |\n| 認証 | にんしょう | authentication |\n| 認可 | にんか | authorization |\n| セッション | セッション | session |\n| トークン | トークン | token |\n| JWT | ジェーダブリュティー | JWT |\n| ミドルウェア | ミドルウェア | middleware |\n| マイクロサービス | マイクロサービス | microservices |\n| モノリシック | モノリシック | monolithic |\n| スケールアップ | スケールアップ | scale up (vertical) |\n| スケールアウト | スケールアウト | scale out (horizontal) |\n| ロードバランシング | ロードバランシング | load balancing |\n| キャッシュ | キャッシュ | cache |\n| キャッシュを吐く | キャッシュをはく | to flush the cache |\n| コネクションプーリング | コネクションプーリング | connection pooling |\n\n---\n\n# ══════════════════════════════════════════════════════\n# PART 3 — DATABASE (データベース)\n# ══════════════════════════════════════════════════════",
+  "objectives": [],
+  "vocabulary": [
+    {
+      "Japanese": "サーバーサイド",
+      "Furigana": "サーバーサイド",
+      "Meaning": "server-side"
+    },
+    {
+      "Japanese": "RESTful API",
+      "Furigana": "レストフルエーピーアイ",
+      "Meaning": "RESTful API"
+    },
+    {
+      "Japanese": "エンドポイント",
+      "Furigana": "エンドポイント",
+      "Meaning": "endpoint"
+    },
+    {
+      "Japanese": "リクエスト",
+      "Furigana": "リクエスト",
+      "Meaning": "request"
+    },
+    {
+      "Japanese": "レスポンス",
+      "Furigana": "レスポンス",
+      "Meaning": "response"
+    },
+    {
+      "Japanese": "HTTPメソッド",
+      "Furigana": "HTTPメソッド",
+      "Meaning": "HTTP method"
+    },
+    {
+      "Japanese": "ステータスコード",
+      "Furigana": "ステータスコード",
+      "Meaning": "status code"
+    },
+    {
+      "Japanese": "認証",
+      "Furigana": "にんしょう",
+      "Meaning": "authentication"
+    },
+    {
+      "Japanese": "認可",
+      "Furigana": "にんか",
+      "Meaning": "authorization"
+    },
+    {
+      "Japanese": "セッション",
+      "Furigana": "セッション",
+      "Meaning": "session"
+    },
+    {
+      "Japanese": "トークン",
+      "Furigana": "トークン",
+      "Meaning": "token"
+    },
+    {
+      "Japanese": "JWT",
+      "Furigana": "ジェーダブリュティー",
+      "Meaning": "JWT"
+    },
+    {
+      "Japanese": "ミドルウェア",
+      "Furigana": "ミドルウェア",
+      "Meaning": "middleware"
+    },
+    {
+      "Japanese": "マイクロサービス",
+      "Furigana": "マイクロサービス",
+      "Meaning": "microservices"
+    },
+    {
+      "Japanese": "モノリシック",
+      "Furigana": "モノリシック",
+      "Meaning": "monolithic"
+    },
+    {
+      "Japanese": "スケールアップ",
+      "Furigana": "スケールアップ",
+      "Meaning": "scale up (vertical)"
+    },
+    {
+      "Japanese": "スケールアウト",
+      "Furigana": "スケールアウト",
+      "Meaning": "scale out (horizontal)"
+    },
+    {
+      "Japanese": "ロードバランシング",
+      "Furigana": "ロードバランシング",
+      "Meaning": "load balancing"
+    },
+    {
+      "Japanese": "キャッシュ",
+      "Furigana": "キャッシュ",
+      "Meaning": "cache"
+    },
+    {
+      "Japanese": "キャッシュを吐く",
+      "Furigana": "キャッシュをはく",
+      "Meaning": "to flush the cache"
+    },
+    {
+      "Japanese": "コネクションプーリング",
+      "Furigana": "コネクションプーリング",
+      "Meaning": "connection pooling"
+    }
+  ],
+  "checklist": []
+}

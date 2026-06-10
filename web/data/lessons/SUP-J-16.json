@@ -1,0 +1,135 @@
+{
+  "id": "SUP-J-16",
+  "title": "Supplement J: J IT Japanese Complete - Item 16",
+  "source_document": "SUPPLEMENT_J_IT_Japanese_Complete.md",
+  "markdown": "## J16 — Data Science & Analytics\n\n| Japanese | Reading | English |\n|----------|---------|---------|\n| データサイエンス | データサイエンス | data science |\n| データ分析 | データぶんせき | data analysis |\n| データエンジニアリング | データエンジニアリング | data engineering |\n| データパイプライン | データパイプライン | data pipeline |\n| ETL | イーティーエル | extract, transform, load |\n| データウェアハウス | データウェアハウス | data warehouse |\n| データレイク | データレイク | data lake |\n| BIツール | ビーアイツール | BI tool |\n| ダッシュボード | ダッシュボード | dashboard |\n| 可視化 | かしか | visualization |\n| KPI | ケーピーアイ | KPI |\n| メトリクス | メトリクス | metrics |\n| A/Bテスト | エービーテスト | A/B testing |\n| 仮説検定 | かせつけんてい | hypothesis testing |\n| 統計的有意性 | とうけいてきゆういせい | statistical significance |\n| 相関関係 | そうかんかんけい | correlation |\n| 因果関係 | いんがかんけい | causation |\n| 外れ値 | はずれち | outlier |\n| 欠損値 | けっそんち | missing value |\n| データクレンジング | データクレンジング | data cleansing |\n| データガバナンス | データガバナンス | data governance |\n| GDPR | ジーディーピーアール | GDPR |\n| 個人情報 | こじんじょうほう | personal information |\n| 匿名化 | とくめいか | anonymization |\n| 仮名加工情報 | かめいかこうじょうほう | pseudonymized information (JP law) |\n\n---\n\n# ══════════════════════════════════════════════════════\n# PART 9 — CLOUD PLATFORMS (クラウドプラットフォーム)\n# ══════════════════════════════════════════════════════",
+  "objectives": [],
+  "vocabulary": [
+    {
+      "Japanese": "データサイエンス",
+      "Furigana": "データサイエンス",
+      "Meaning": "data science"
+    },
+    {
+      "Japanese": "データ分析",
+      "Furigana": "データぶんせき",
+      "Meaning": "data analysis"
+    },
+    {
+      "Japanese": "データエンジニアリング",
+      "Furigana": "データエンジニアリング",
+      "Meaning": "data engineering"
+    },
+    {
+      "Japanese": "データパイプライン",
+      "Furigana": "データパイプライン",
+      "Meaning": "data pipeline"
+    },
+    {
+      "Japanese": "ETL",
+      "Furigana": "イーティーエル",
+      "Meaning": "extract, transform, load"
+    },
+    {
+      "Japanese": "データウェアハウス",
+      "Furigana": "データウェアハウス",
+      "Meaning": "data warehouse"
+    },
+    {
+      "Japanese": "データレイク",
+      "Furigana": "データレイク",
+      "Meaning": "data lake"
+    },
+    {
+      "Japanese": "BIツール",
+      "Furigana": "ビーアイツール",
+      "Meaning": "BI tool"
+    },
+    {
+      "Japanese": "ダッシュボード",
+      "Furigana": "ダッシュボード",
+      "Meaning": "dashboard"
+    },
+    {
+      "Japanese": "可視化",
+      "Furigana": "かしか",
+      "Meaning": "visualization"
+    },
+    {
+      "Japanese": "KPI",
+      "Furigana": "ケーピーアイ",
+      "Meaning": "KPI"
+    },
+    {
+      "Japanese": "メトリクス",
+      "Furigana": "メトリクス",
+      "Meaning": "metrics"
+    },
+    {
+      "Japanese": "A/Bテスト",
+      "Furigana": "エービーテスト",
+      "Meaning": "A/B testing"
+    },
+    {
+      "Japanese": "仮説検定",
+      "Furigana": "かせつけんてい",
+      "Meaning": "hypothesis testing"
+    },
+    {
+      "Japanese": "統計的有意性",
+      "Furigana": "とうけいてきゆういせい",
+      "Meaning": "statistical significance"
+    },
+    {
+      "Japanese": "相関関係",
+      "Furigana": "そうかんかんけい",
+      "Meaning": "correlation"
+    },
+    {
+      "Japanese": "因果関係",
+      "Furigana": "いんがかんけい",
+      "Meaning": "causation"
+    },
+    {
+      "Japanese": "外れ値",
+      "Furigana": "はずれち",
+      "Meaning": "outlier"
+    },
+    {
+      "Japanese": "欠損値",
+      "Furigana": "けっそんち",
+      "Meaning": "missing value"
+    },
+    {
+      "Japanese": "データクレンジング",
+      "Furigana": "データクレンジング",
+      "Meaning": "data cleansing"
+    },
+    {
+      "Japanese": "データガバナンス",
+      "Furigana": "データガバナンス",
+      "Meaning": "data governance"
+    },
+    {
+      "Japanese": "GDPR",
+      "Furigana": "ジーディーピーアール",
+      "Meaning": "GDPR"
+    },
+    {
+      "Japanese": "個人情報",
+      "Furigana": "こじんじょうほう",
+      "Meaning": "personal information"
+    },
+    {
+      "Japanese": "匿名化",
+      "Furigana": "とくめいか",
+      "Meaning": "anonymization"
+    },
+    {
+      "Japanese": "仮名加工情報",
+      "Furigana": "かめいかこうじょうほう",
+      "Meaning": "pseudonymized information (JP law)"
+    }
+  ],
+  "checklist": []
+}

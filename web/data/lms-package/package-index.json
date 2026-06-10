@@ -4,13 +4,13 @@
   "build_prompt": "handoff\\final\\GPT_LMS_BUILD_PROMPT_2026-06-07.txt",
   "status": "static_package_generated",
   "counts": {
-    "sco_nodes": 892,
+    "sco_nodes": 942,
     "formal_jlpt_lessons": 400,
     "level_optional_lessons": 30,
     "mock_exam_scos": 5,
-    "supplement_scos": 450,
-    "source_documents": 30,
-    "lesson_extracts": 82
+    "supplement_scos": 500,
+    "source_documents": 31,
+    "lesson_extracts": 181
   },
   "artifacts": [
     {

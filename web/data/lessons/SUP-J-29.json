@@ -1,0 +1,9 @@
+{
+  "id": "SUP-J-29",
+  "title": "Supplement J: J IT Japanese Complete - Item 29",
+  "source_document": "SUPPLEMENT_J_IT_Japanese_Complete.md",
+  "markdown": "## J29 — Scenario 1: First Day at a Japanese Tech Company\n\n**あなた（新入り）とチームリーダーの会話:**\n\n> リーダー：ようこそ。今日からよろしくお願いします。まず開発環境のセットアップから始めましょうか。\n> あなた：よろしくお願いします。セットアップに必要なものはありますか？\n> リーダー：READMEに手順が書いてあるので、まずそれを見てください。詰まったら気軽に聞いてください。\n> あなた：わかりました。開発環境はDockerを使いますか？\n> リーダー：そうです。Docker ComposeでローカルでDBも立ち上げられます。あと、Slackでチャンネルに入ってもらえますか？#general と #dev-team が主なチャンネルです。\n> あなた：はい。GitHubのアクセス権限も必要ですか？\n> リーダー：あ、そうですね。アカウント名を教えてください。招待します。ブランチ戦略はGit Flowを使っていて、PRは必ず1名以上のレビューが必要です。\n> あなた：わかりました。コーディング規約はどこかにまとまっていますか？\n> リーダー：Confluenceにあります。リンクをSlackで送ります。",
+  "objectives": [],
+  "vocabulary": [],
+  "checklist": []
+}

@@ -1,0 +1,110 @@
+{
+  "id": "SUP-J-28",
+  "title": "Supplement J: J IT Japanese Complete - Item 28",
+  "source_document": "SUPPLEMENT_J_IT_Japanese_Complete.md",
+  "markdown": "## J28 — IT Law & Compliance in Japan\n\n| Japanese | Reading | English |\n|----------|---------|---------|\n| 個人情報保護法 | こじんじょうほうほごほう | Personal Information Protection Act |\n| 不正競争防止法 | ふせいきょうそうぼうしほう | Unfair Competition Prevention Act |\n| 不正アクセス禁止法 | ふせいアクセスきんしほう | Unauthorized Computer Access Law |\n| 電子署名法 | でんししょめいほう | Electronic Signature Act |\n| 電子帳簿保存法 | でんしちょうぼほぞんほう | Electronic Books Act |\n| サイバーセキュリティ基本法 | サイバーセキュリティきほんほう | Cybersecurity Basic Act |\n| デジタル庁 | デジタルちょう | Digital Agency |\n| 政府情報システム | せいふじょうほうシステム | Government IT System |\n| マイナンバーシステム | マイナンバーシステム | My Number System |\n| インシデント報告義務 | インシデントほうこくぎむ | incident reporting obligation |\n| データ侵害通知 | データしんがいつうち | data breach notification |\n| プライバシーポリシー | プライバシーポリシー | privacy policy |\n| 利用規約 | りようきやく | terms of service |\n| ライセンス | ライセンス | license |\n| オープンソースライセンス | オープンソースライセンス | open source license |\n| GPL | ジーピーエル | GPL license |\n| MIT License | MITライセンス | MIT license |\n| Apache License | アパッチライセンス | Apache license |\n| 著作権 | ちょさくけん | copyright |\n| 特許 | とっきょ | patent |\n\n---\n\n# ══════════════════════════════════════════════════════\n# PART 20 — COMPLETE IT CONVERSATION SCENARIOS\n# ══════════════════════════════════════════════════════",
+  "objectives": [],
+  "vocabulary": [
+    {
+      "Japanese": "個人情報保護法",
+      "Furigana": "こじんじょうほうほごほう",
+      "Meaning": "Personal Information Protection Act"
+    },
+    {
+      "Japanese": "不正競争防止法",
+      "Furigana": "ふせいきょうそうぼうしほう",
+      "Meaning": "Unfair Competition Prevention Act"
+    },
+    {
+      "Japanese": "不正アクセス禁止法",
+      "Furigana": "ふせいアクセスきんしほう",
+      "Meaning": "Unauthorized Computer Access Law"
+    },
+    {
+      "Japanese": "電子署名法",
+      "Furigana": "でんししょめいほう",
+      "Meaning": "Electronic Signature Act"
+    },
+    {
+      "Japanese": "電子帳簿保存法",
+      "Furigana": "でんしちょうぼほぞんほう",
+      "Meaning": "Electronic Books Act"
+    },
+    {
+      "Japanese": "サイバーセキュリティ基本法",
+      "Furigana": "サイバーセキュリティきほんほう",
+      "Meaning": "Cybersecurity Basic Act"
+    },
+    {
+      "Japanese": "デジタル庁",
+      "Furigana": "デジタルちょう",
+      "Meaning": "Digital Agency"
+    },
+    {
+      "Japanese": "政府情報システム",
+      "Furigana": "せいふじょうほうシステム",
+      "Meaning": "Government IT System"
+    },
+    {
+      "Japanese": "マイナンバーシステム",
+      "Furigana": "マイナンバーシステム",
+      "Meaning": "My Number System"
+    },
+    {
+      "Japanese": "インシデント報告義務",
+      "Furigana": "インシデントほうこくぎむ",
+      "Meaning": "incident reporting obligation"
+    },
+    {
+      "Japanese": "データ侵害通知",
+      "Furigana": "データしんがいつうち",
+      "Meaning": "data breach notification"
+    },
+    {
+      "Japanese": "プライバシーポリシー",
+      "Furigana": "プライバシーポリシー",
+      "Meaning": "privacy policy"
+    },
+    {
+      "Japanese": "利用規約",
+      "Furigana": "りようきやく",
+      "Meaning": "terms of service"
+    },
+    {
+      "Japanese": "ライセンス",
+      "Furigana": "ライセンス",
+      "Meaning": "license"
+    },
+    {
+      "Japanese": "オープンソースライセンス",
+      "Furigana": "オープンソースライセンス",
+      "Meaning": "open source license"
+    },
+    {
+      "Japanese": "GPL",
+      "Furigana": "ジーピーエル",
+      "Meaning": "GPL license"
+    },
+    {
+      "Japanese": "MIT License",
+      "Furigana": "MITライセンス",
+      "Meaning": "MIT license"
+    },
+    {
+      "Japanese": "Apache License",
+      "Furigana": "アパッチライセンス",
+      "Meaning": "Apache license"
+    },
+    {
+      "Japanese": "著作権",
+      "Furigana": "ちょさくけん",
+      "Meaning": "copyright"
+    },
+    {
+      "Japanese": "特許",
+      "Furigana": "とっきょ",
+      "Meaning": "patent"
+    }
+  ],
+  "checklist": []
+}

@@ -1,0 +1,125 @@
+{
+  "id": "SUP-J-27",
+  "title": "Supplement J: J IT Japanese Complete - Item 27",
+  "source_document": "SUPPLEMENT_J_IT_Japanese_Complete.md",
+  "markdown": "## J27 — iOS & Android Terms\n\n| Japanese | Reading | English |\n|----------|---------|---------|\n| モバイルアプリ | モバイルアプリ | mobile app |\n| ネイティブアプリ | ネイティブアプリ | native app |\n| クロスプラットフォーム | クロスプラットフォーム | cross-platform |\n| ハイブリッドアプリ | ハイブリッドアプリ | hybrid app |\n| App Store | アップストア | App Store |\n| Google Play | グーグルプレイ | Google Play |\n| 審査 | しんさ | review (app store) |\n| リジェクト | リジェクト | rejection |\n| プッシュ通知 | プッシュつうち | push notification |\n| ライフサイクル | ライフサイクル | lifecycle |\n| バックグラウンド処理 | バックグラウンドしょり | background processing |\n| 位置情報 | いちじょうほう | location information |\n| カメラ | カメラ | camera |\n| マイク | マイク | microphone |\n| パーミッション | パーミッション | permission |\n| クラッシュ | クラッシュ | crash |\n| クラッシュレポート | クラッシュレポート | crash report |\n| ANR | エーエヌアール | Application Not Responding |\n| メモリリーク | メモリリーク | memory leak |\n| バッテリー消費 | バッテリーしょうひ | battery consumption |\n| オフライン対応 | オフラインたいおう | offline support |\n| ディープリンク | ディープリンク | deep link |\n| ユニバーサルリンク | ユニバーサルリンク | universal link |\n\n---\n\n# ══════════════════════════════════════════════════════\n# PART 19 — JAPANESE IT CERTIFICATIONS AND LEGAL\n# ══════════════════════════════════════════════════════",
+  "objectives": [],
+  "vocabulary": [
+    {
+      "Japanese": "モバイルアプリ",
+      "Furigana": "モバイルアプリ",
+      "Meaning": "mobile app"
+    },
+    {
+      "Japanese": "ネイティブアプリ",
+      "Furigana": "ネイティブアプリ",
+      "Meaning": "native app"
+    },
+    {
+      "Japanese": "クロスプラットフォーム",
+      "Furigana": "クロスプラットフォーム",
+      "Meaning": "cross-platform"
+    },
+    {
+      "Japanese": "ハイブリッドアプリ",
+      "Furigana": "ハイブリッドアプリ",
+      "Meaning": "hybrid app"
+    },
+    {
+      "Japanese": "App Store",
+      "Furigana": "アップストア",
+      "Meaning": "App Store"
+    },
+    {
+      "Japanese": "Google Play",
+      "Furigana": "グーグルプレイ",
+      "Meaning": "Google Play"
+    },
+    {
+      "Japanese": "審査",
+      "Furigana": "しんさ",
+      "Meaning": "review (app store)"
+    },
+    {
+      "Japanese": "リジェクト",
+      "Furigana": "リジェクト",
+      "Meaning": "rejection"
+    },
+    {
+      "Japanese": "プッシュ通知",
+      "Furigana": "プッシュつうち",
+      "Meaning": "push notification"
+    },
+    {
+      "Japanese": "ライフサイクル",
+      "Furigana": "ライフサイクル",
+      "Meaning": "lifecycle"
+    },
+    {
+      "Japanese": "バックグラウンド処理",
+      "Furigana": "バックグラウンドしょり",
+      "Meaning": "background processing"
+    },
+    {
+      "Japanese": "位置情報",
+      "Furigana": "いちじょうほう",
+      "Meaning": "location information"
+    },
+    {
+      "Japanese": "カメラ",
+      "Furigana": "カメラ",
+      "Meaning": "camera"
+    },
+    {
+      "Japanese": "マイク",
+      "Furigana": "マイク",
+      "Meaning": "microphone"
+    },
+    {
+      "Japanese": "パーミッション",
+      "Furigana": "パーミッション",
+      "Meaning": "permission"
+    },
+    {
+      "Japanese": "クラッシュ",
+      "Furigana": "クラッシュ",
+      "Meaning": "crash"
+    },
+    {
+      "Japanese": "クラッシュレポート",
+      "Furigana": "クラッシュレポート",
+      "Meaning": "crash report"
+    },
+    {
+      "Japanese": "ANR",
+      "Furigana": "エーエヌアール",
+      "Meaning": "Application Not Responding"
+    },
+    {
+      "Japanese": "メモリリーク",
+      "Furigana": "メモリリーク",
+      "Meaning": "memory leak"
+    },
+    {
+      "Japanese": "バッテリー消費",
+      "Furigana": "バッテリーしょうひ",
+      "Meaning": "battery consumption"
+    },
+    {
+      "Japanese": "オフライン対応",
+      "Furigana": "オフラインたいおう",
+      "Meaning": "offline support"
+    },
+    {
+      "Japanese": "ディープリンク",
+      "Furigana": "ディープリンク",
+      "Meaning": "deep link"
+    },
+    {
+      "Japanese": "ユニバーサルリンク",
+      "Furigana": "ユニバーサルリンク",
+      "Meaning": "universal link"
+    }
+  ],
+  "checklist": []
+}

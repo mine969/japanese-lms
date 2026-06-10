@@ -1,0 +1,9 @@
+{
+  "id": "SUP-D-03",
+  "title": "Supplement D: D Business Industry - Item 03",
+  "source_document": "SUPPLEMENT_D_Business_Industry.md",
+  "markdown": "## D3 — Business Email Templates\n\n### Template 1 — Requesting a Meeting\n\n```\n件名：打ち合わせのお願い\n\n○○株式会社 ○○部\n○○様\n\nお世話になっております。\n△△株式会社の山田でございます。\n\n先日はお時間をいただきまして、誠にありがとうございました。\n\nつきましては、〇〇の件につきまして、改めてお打ち合わせの機会を\nいただきたくご連絡申し上げました。\n\n以下のいずれかの日時でご都合はいかがでしょうか。\n\n・〇月〇日（〇）○時〜○時\n・〇月〇日（〇）○時〜○時\n・〇月〇日（〇）○時〜○時\n\nご不都合の場合は、ご都合のよい日時をお知らせいただけますでしょうか。\n\nお忙しいところ大変恐れ入りますが、どうぞよろしくお願いいたします。\n\n△△株式会社\n山田 太郎\nTel: 03-XXXX-XXXX\nEmail: yamada@example.com\n```\n\n### Template 2 — Declining (Politely)\n\n```\n件名：Re: ご提案について\n\n○○様\n\nお世話になっております。○○の件、ご連絡いただきありがとうございました。\n\n誠に申し訳ございませんが、今回は弊社の方針と合致しない部分がございまして、\n残念ながら今回のご提案についてはお受けすることが難しい状況でございます。\n\nせっかくのお申し出にもかかわらず、このような回答となりましたことを\n深くお詫び申し上げます。\n\nまたの機会に、どうぞよろしくお願いいたします。\n\n○○株式会社\n```\n\n### Template 3 — Thank You After Meeting\n\n```\n件名：本日はありがとうございました\n\n○○様\n\n本日は貴重なお時間をいただき、誠にありがとうございました。\n\nおかげさまで、〇〇について理解を深めることができました。\nご提案いただきました〇〇の件につきましては、社内で検討の上、\n改めてご連絡させていただきます。\n\n引き続き、どうぞよろしくお願いいたします。\n```\n\n---\n\n# PART 2 — PRESENTATION LANGUAGE (プレゼンの日本語)",
+  "objectives": [],
+  "vocabulary": [],
+  "checklist": []
+}

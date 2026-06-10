@@ -1,0 +1,9 @@
+{
+  "id": "SUP-J-22",
+  "title": "Supplement J: J IT Japanese Complete - Item 22",
+  "source_document": "SUPPLEMENT_J_IT_Japanese_Complete.md",
+  "markdown": "## J22 — Japanese IT Certification System (IPA資格)\n\nJapan has its own national IT certification system administered by IPA (情報処理推進機構):\n\n| Certification | Japanese | Level | Notes |\n|--------------|---------|-------|-------|\n| ITパスポート | ITパスポート | Entry | Basic IT literacy for all workers |\n| 基本情報技術者試験 | きほんじょうほうぎじゅつしゃしけん | Foundation | FE exam — key for IT beginners |\n| 応用情報技術者試験 | おうようじょうほうぎじゅつしゃしけん | Applied | AP exam — intermediate |\n| データベーススペシャリスト | データベーススペシャリスト | High | DB specialist |\n| ネットワークスペシャリスト | ネットワークスペシャリスト | High | Network specialist |\n| セキュリティスペシャリスト | セキュリティスペシャリスト | High | Security |\n| システムアーキテクト | システムアーキテクト | High | Systems architect |\n| プロジェクトマネージャ | プロジェクトマネージャ | High | PM exam |\n| ITストラテジスト | ITストラテジスト | Highest | IT strategist |\n| システム監査技術者 | システムかんさぎじゅつしゃ | High | IT audit |\n\n**International certifications in Japan:**\n\n| Certification | Common name in Japan | Domain |\n|--------------|---------------------|--------|\n| AWS認定 | AWS認定 | Cloud |\n| Google Cloud認定 | Googleクラウド認定 | Cloud |\n| Azure認定 | Azure認定 | Cloud |\n| Oracle認定Java | Oracle認定Javaプログラマ | Programming |\n| LPIC | エルピーアイシー | Linux |\n| CCNA/CCNP | シーシーエヌエー/シーシーエヌピー | Network |\n| CompTIA Security+ | コンプティアセキュリティプラス | Security |\n| PMP | ピーエムピー | Project management |\n| Scrum Master認定 | スクラムマスター認定 | Agile |\n\n---\n\n# ══════════════════════════════════════════════════════\n# PART 15 — BUSINESS COMMUNICATION IN JAPANESE IT\n# ══════════════════════════════════════════════════════",
+  "objectives": [],
+  "vocabulary": [],
+  "checklist": []
+}

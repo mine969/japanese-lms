@@ -1,0 +1,510 @@
+{
+  "id": "SUP-J-32",
+  "title": "Supplement J: J IT Japanese Complete - Item 32",
+  "source_document": "SUPPLEMENT_J_IT_Japanese_Complete.md",
+  "markdown": "## J32 — Top 100 Must-Know IT Japanese Terms\n\nThese are the terms you will hear EVERY SINGLE DAY in a Japanese IT company:\n\n| # | Japanese | Reading | English |\n|---|----------|---------|---------|\n| 1 | 実装する | じっそうする | to implement |\n| 2 | デプロイ | デプロイ | deploy |\n| 3 | マージする | マージする | to merge |\n| 4 | レビュー | レビュー | review |\n| 5 | バグ | バグ | bug |\n| 6 | 修正する | しゅうせいする | to fix |\n| 7 | 確認する | かくにんする | to confirm/check |\n| 8 | テスト | テスト | test |\n| 9 | 要件 | ようけん | requirement |\n| 10 | 仕様 | しよう | specification |\n| 11 | 設計 | せっけい | design |\n| 12 | リリース | リリース | release |\n| 13 | スケジュール | スケジュール | schedule |\n| 14 | 工数 | こうすう | man-hours |\n| 15 | 見積もり | みつもり | estimate |\n| 16 | 進捗 | しんちょく | progress |\n| 17 | 対応する | たいおうする | to handle/respond |\n| 18 | 改善 | かいぜん | improvement |\n| 19 | 課題 | かだい | issue/challenge |\n| 20 | 原因 | げんいん | cause/root cause |\n| 21 | 影響 | えいきょう | impact |\n| 22 | 環境 | かんきょう | environment |\n| 23 | ログ | ログ | log |\n| 24 | エラー | エラー | error |\n| 25 | 障害 | しょうがい | incident/failure |\n| 26 | 監視 | かんし | monitoring |\n| 27 | 自動化 | じどうか | automation |\n| 28 | 品質 | ひんしつ | quality |\n| 29 | セキュリティ | セキュリティ | security |\n| 30 | パフォーマンス | パフォーマンス | performance |\n| 31 | スケーラビリティ | スケーラビリティ | scalability |\n| 32 | 可用性 | かようせい | availability |\n| 33 | 保守性 | ほしゅせい | maintainability |\n| 34 | 再利用性 | さいりようせい | reusability |\n| 35 | 拡張性 | かくちょうせい | extensibility |\n| 36 | 互換性 | ごかんせい | compatibility |\n| 37 | バージョン | バージョン | version |\n| 38 | 更新する | こうしんする | to update |\n| 39 | ビルドする | ビルドする | to build |\n| 40 | コミット | コミット | commit |\n| 41 | プッシュ | プッシュ | push |\n| 42 | プルリク | プルリク | pull request (PR) |\n| 43 | ブランチ | ブランチ | branch |\n| 44 | 差分 | さぶん | diff |\n| 45 | コンフリクト | コンフリクト | conflict |\n| 46 | ドキュメント | ドキュメント | document |\n| 47 | リファクタリング | リファクタリング | refactoring |\n| 48 | 技術的負債 | ぎじゅつてきふさい | technical debt |\n| 49 | レガシー | レガシー | legacy |\n| 50 | アーキテクチャ | アーキテクチャ | architecture |\n| 51 | API | エーピーアイ | API |\n| 52 | データベース | データベース | database |\n| 53 | クラウド | クラウド | cloud |\n| 54 | サーバー | サーバー | server |\n| 55 | コンテナ | コンテナ | container |\n| 56 | CI/CD | シーアイシーディー | CI/CD |\n| 57 | スクラム | スクラム | scrum |\n| 58 | スプリント | スプリント | sprint |\n| 59 | バックログ | バックログ | backlog |\n| 60 | タスク | タスク | task |\n| 61 | チケット | チケット | ticket |\n| 62 | 優先度 | ゆうせんど | priority |\n| 63 | 期限 | きげん | deadline |\n| 64 | 完了 | かんりょう | done/completed |\n| 65 | 未着手 | みちゃくしゅ | not started |\n| 66 | 対応中 | たいおうちゅう | in progress |\n| 67 | 認証 | にんしょう | authentication |\n| 68 | 暗号化 | あんごうか | encryption |\n| 69 | 脆弱性 | ぜいじゃくせい | vulnerability |\n| 70 | 不具合 | ふぐあい | defect/bug (formal) |\n| 71 | 再現性 | さいげんせい | reproducibility |\n| 72 | ロールバック | ロールバック | rollback |\n| 73 | キャッシュ | キャッシュ | cache |\n| 74 | 非同期 | ひどうき | asynchronous |\n| 75 | インフラ | インフラ | infrastructure |\n| 76 | 負荷 | ふか | load |\n| 77 | レスポンス | レスポンス | response |\n| 78 | スループット | スループット | throughput |\n| 79 | レイテンシ | レイテンシ | latency |\n| 80 | メモリ | メモリ | memory |\n| 81 | CPU | シーピーユー | CPU |\n| 82 | ストレージ | ストレージ | storage |\n| 83 | ネットワーク | ネットワーク | network |\n| 84 | 本番 | ほんばん | production |\n| 85 | テスト環境 | テストかんきょう | test environment |\n| 86 | ステージング | ステージング | staging |\n| 87 | ホウレンソウ | ホウレンソウ | report-inform-consult |\n| 88 | 共有する | きょうゆうする | to share (information) |\n| 89 | 認識合わせ | にんしきあわせ | alignment check |\n| 90 | 叩き台 | たたきだい | rough draft |\n| 91 | ブレスト | ブレスト | brainstorm |\n| 92 | 工数を積む | こうすうをつむ | to stack up hours |\n| 93 | 巻く | まく | to absorb tasks |\n| 94 | 詰まる | つまる | to be stuck |\n| 95 | ハマる | ハマる | to be stuck deep |\n| 96 | 解決する | かいけつする | to resolve |\n| 97 | 根本対応 | こんぽんたいおう | root cause fix |\n| 98 | 暫定対応 | ざんていたいおう | temporary fix |\n| 99 | 再発防止 | さいはつぼうし | preventing recurrence |\n| 100 | デスマーチ | デスマーチ | death march |\n\n---\n\n> **Supplement J Complete.**\n> **Coverage: 800+ IT terms across 20 categories:**\n> Programming basics, data structures, OOP, web dev (frontend/backend), database, infrastructure, DevOps/CI-CD, Git/code review, Agile/Scrum, project management, security, AI/ML/data science, cloud platforms, software testing, IT company culture, documentation, job titles, certifications, mobile development, business communication scenarios.\n> **LMS: Build as SUP-J-01 through SUP-J-20, accessible from N3 level onward. Recommend as a standalone track for IT learners.**",
+  "objectives": [],
+  "vocabulary": [
+    {
+      "Japanese": "実装する",
+      "Furigana": "じっそうする",
+      "Meaning": "to implement"
+    },
+    {
+      "Japanese": "デプロイ",
+      "Furigana": "デプロイ",
+      "Meaning": "deploy"
+    },
+    {
+      "Japanese": "マージする",
+      "Furigana": "マージする",
+      "Meaning": "to merge"
+    },
+    {
+      "Japanese": "レビュー",
+      "Furigana": "レビュー",
+      "Meaning": "review"
+    },
+    {
+      "Japanese": "バグ",
+      "Furigana": "バグ",
+      "Meaning": "bug"
+    },
+    {
+      "Japanese": "修正する",
+      "Furigana": "しゅうせいする",
+      "Meaning": "to fix"
+    },
+    {
+      "Japanese": "確認する",
+      "Furigana": "かくにんする",
+      "Meaning": "to confirm/check"
+    },
+    {
+      "Japanese": "テスト",
+      "Furigana": "テスト",
+      "Meaning": "test"
+    },
+    {
+      "Japanese": "要件",
+      "Furigana": "ようけん",
+      "Meaning": "requirement"
+    },
+    {
+      "Japanese": "仕様",
+      "Furigana": "しよう",
+      "Meaning": "specification"
+    },
+    {
+      "Japanese": "設計",
+      "Furigana": "せっけい",
+      "Meaning": "design"
+    },
+    {
+      "Japanese": "リリース",
+      "Furigana": "リリース",
+      "Meaning": "release"
+    },
+    {
+      "Japanese": "スケジュール",
+      "Furigana": "スケジュール",
+      "Meaning": "schedule"
+    },
+    {
+      "Japanese": "工数",
+      "Furigana": "こうすう",
+      "Meaning": "man-hours"
+    },
+    {
+      "Japanese": "見積もり",
+      "Furigana": "みつもり",
+      "Meaning": "estimate"
+    },
+    {
+      "Japanese": "進捗",
+      "Furigana": "しんちょく",
+      "Meaning": "progress"
+    },
+    {
+      "Japanese": "対応する",
+      "Furigana": "たいおうする",
+      "Meaning": "to handle/respond"
+    },
+    {
+      "Japanese": "改善",
+      "Furigana": "かいぜん",
+      "Meaning": "improvement"
+    },
+    {
+      "Japanese": "課題",
+      "Furigana": "かだい",
+      "Meaning": "issue/challenge"
+    },
+    {
+      "Japanese": "原因",
+      "Furigana": "げんいん",
+      "Meaning": "cause/root cause"
+    },
+    {
+      "Japanese": "影響",
+      "Furigana": "えいきょう",
+      "Meaning": "impact"
+    },
+    {
+      "Japanese": "環境",
+      "Furigana": "かんきょう",
+      "Meaning": "environment"
+    },
+    {
+      "Japanese": "ログ",
+      "Furigana": "ログ",
+      "Meaning": "log"
+    },
+    {
+      "Japanese": "エラー",
+      "Furigana": "エラー",
+      "Meaning": "error"
+    },
+    {
+      "Japanese": "障害",
+      "Furigana": "しょうがい",
+      "Meaning": "incident/failure"
+    },
+    {
+      "Japanese": "監視",
+      "Furigana": "かんし",
+      "Meaning": "monitoring"
+    },
+    {
+      "Japanese": "自動化",
+      "Furigana": "じどうか",
+      "Meaning": "automation"
+    },
+    {
+      "Japanese": "品質",
+      "Furigana": "ひんしつ",
+      "Meaning": "quality"
+    },
+    {
+      "Japanese": "セキュリティ",
+      "Furigana": "セキュリティ",
+      "Meaning": "security"
+    },
+    {
+      "Japanese": "パフォーマンス",
+      "Furigana": "パフォーマンス",
+      "Meaning": "performance"
+    },
+    {
+      "Japanese": "スケーラビリティ",
+      "Furigana": "スケーラビリティ",
+      "Meaning": "scalability"
+    },
+    {
+      "Japanese": "可用性",
+      "Furigana": "かようせい",
+      "Meaning": "availability"
+    },
+    {
+      "Japanese": "保守性",
+      "Furigana": "ほしゅせい",
+      "Meaning": "maintainability"
+    },
+    {
+      "Japanese": "再利用性",
+      "Furigana": "さいりようせい",
+      "Meaning": "reusability"
+    },
+    {
+      "Japanese": "拡張性",
+      "Furigana": "かくちょうせい",
+      "Meaning": "extensibility"
+    },
+    {
+      "Japanese": "互換性",
+      "Furigana": "ごかんせい",
+      "Meaning": "compatibility"
+    },
+    {
+      "Japanese": "バージョン",
+      "Furigana": "バージョン",
+      "Meaning": "version"
+    },
+    {
+      "Japanese": "更新する",
+      "Furigana": "こうしんする",
+      "Meaning": "to update"
+    },
+    {
+      "Japanese": "ビルドする",
+      "Furigana": "ビルドする",
+      "Meaning": "to build"
+    },
+    {
+      "Japanese": "コミット",
+      "Furigana": "コミット",
+      "Meaning": "commit"
+    },
+    {
+      "Japanese": "プッシュ",
+      "Furigana": "プッシュ",
+      "Meaning": "push"
+    },
+    {
+      "Japanese": "プルリク",
+      "Furigana": "プルリク",
+      "Meaning": "pull request (PR)"
+    },
+    {
+      "Japanese": "ブランチ",
+      "Furigana": "ブランチ",
+      "Meaning": "branch"
+    },
+    {
+      "Japanese": "差分",
+      "Furigana": "さぶん",
+      "Meaning": "diff"
+    },
+    {
+      "Japanese": "コンフリクト",
+      "Furigana": "コンフリクト",
+      "Meaning": "conflict"
+    },
+    {
+      "Japanese": "ドキュメント",
+      "Furigana": "ドキュメント",
+      "Meaning": "document"
+    },
+    {
+      "Japanese": "リファクタリング",
+      "Furigana": "リファクタリング",
+      "Meaning": "refactoring"
+    },
+    {
+      "Japanese": "技術的負債",
+      "Furigana": "ぎじゅつてきふさい",
+      "Meaning": "technical debt"
+    },
+    {
+      "Japanese": "レガシー",
+      "Furigana": "レガシー",
+      "Meaning": "legacy"
+    },
+    {
+      "Japanese": "アーキテクチャ",
+      "Furigana": "アーキテクチャ",
+      "Meaning": "architecture"
+    },
+    {
+      "Japanese": "API",
+      "Furigana": "エーピーアイ",
+      "Meaning": "API"
+    },
+    {
+      "Japanese": "データベース",
+      "Furigana": "データベース",
+      "Meaning": "database"
+    },
+    {
+      "Japanese": "クラウド",
+      "Furigana": "クラウド",
+      "Meaning": "cloud"
+    },
+    {
+      "Japanese": "サーバー",
+      "Furigana": "サーバー",
+      "Meaning": "server"
+    },
+    {
+      "Japanese": "コンテナ",
+      "Furigana": "コンテナ",
+      "Meaning": "container"
+    },
+    {
+      "Japanese": "CI/CD",
+      "Furigana": "シーアイシーディー",
+      "Meaning": "CI/CD"
+    },
+    {
+      "Japanese": "スクラム",
+      "Furigana": "スクラム",
+      "Meaning": "scrum"
+    },
+    {
+      "Japanese": "スプリント",
+      "Furigana": "スプリント",
+      "Meaning": "sprint"
+    },
+    {
+      "Japanese": "バックログ",
+      "Furigana": "バックログ",
+      "Meaning": "backlog"
+    },
+    {
+      "Japanese": "タスク",
+      "Furigana": "タスク",
+      "Meaning": "task"
+    },
+    {
+      "Japanese": "チケット",
+      "Furigana": "チケット",
+      "Meaning": "ticket"
+    },
+    {
+      "Japanese": "優先度",
+      "Furigana": "ゆうせんど",
+      "Meaning": "priority"
+    },
+    {
+      "Japanese": "期限",
+      "Furigana": "きげん",
+      "Meaning": "deadline"
+    },
+    {
+      "Japanese": "完了",
+      "Furigana": "かんりょう",
+      "Meaning": "done/completed"
+    },
+    {
+      "Japanese": "未着手",
+      "Furigana": "みちゃくしゅ",
+      "Meaning": "not started"
+    },
+    {
+      "Japanese": "対応中",
+      "Furigana": "たいおうちゅう",
+      "Meaning": "in progress"
+    },
+    {
+      "Japanese": "認証",
+      "Furigana": "にんしょう",
+      "Meaning": "authentication"
+    },
+    {
+      "Japanese": "暗号化",
+      "Furigana": "あんごうか",
+      "Meaning": "encryption"
+    },
+    {
+      "Japanese": "脆弱性",
+      "Furigana": "ぜいじゃくせい",
+      "Meaning": "vulnerability"
+    },
+    {
+      "Japanese": "不具合",
+      "Furigana": "ふぐあい",
+      "Meaning": "defect/bug (formal)"
+    },
+    {
+      "Japanese": "再現性",
+      "Furigana": "さいげんせい",
+      "Meaning": "reproducibility"
+    },
+    {
+      "Japanese": "ロールバック",
+      "Furigana": "ロールバック",
+      "Meaning": "rollback"
+    },
+    {
+      "Japanese": "キャッシュ",
+      "Furigana": "キャッシュ",
+      "Meaning": "cache"
+    },
+    {
+      "Japanese": "非同期",
+      "Furigana": "ひどうき",
+      "Meaning": "asynchronous"
+    },
+    {
+      "Japanese": "インフラ",
+      "Furigana": "インフラ",
+      "Meaning": "infrastructure"
+    },
+    {
+      "Japanese": "負荷",
+      "Furigana": "ふか",
+      "Meaning": "load"
+    },
+    {
+      "Japanese": "レスポンス",
+      "Furigana": "レスポンス",
+      "Meaning": "response"
+    },
+    {
+      "Japanese": "スループット",
+      "Furigana": "スループット",
+      "Meaning": "throughput"
+    },
+    {
+      "Japanese": "レイテンシ",
+      "Furigana": "レイテンシ",
+      "Meaning": "latency"
+    },
+    {
+      "Japanese": "メモリ",
+      "Furigana": "メモリ",
+      "Meaning": "memory"
+    },
+    {
+      "Japanese": "CPU",
+      "Furigana": "シーピーユー",
+      "Meaning": "CPU"
+    },
+    {
+      "Japanese": "ストレージ",
+      "Furigana": "ストレージ",
+      "Meaning": "storage"
+    },
+    {
+      "Japanese": "ネットワーク",
+      "Furigana": "ネットワーク",
+      "Meaning": "network"
+    },
+    {
+      "Japanese": "本番",
+      "Furigana": "ほんばん",
+      "Meaning": "production"
+    },
+    {
+      "Japanese": "テスト環境",
+      "Furigana": "テストかんきょう",
+      "Meaning": "test environment"
+    },
+    {
+      "Japanese": "ステージング",
+      "Furigana": "ステージング",
+      "Meaning": "staging"
+    },
+    {
+      "Japanese": "ホウレンソウ",
+      "Furigana": "ホウレンソウ",
+      "Meaning": "report-inform-consult"
+    },
+    {
+      "Japanese": "共有する",
+      "Furigana": "きょうゆうする",
+      "Meaning": "to share (information)"
+    },
+    {
+      "Japanese": "認識合わせ",
+      "Furigana": "にんしきあわせ",
+      "Meaning": "alignment check"
+    },
+    {
+      "Japanese": "叩き台",
+      "Furigana": "たたきだい",
+      "Meaning": "rough draft"
+    },
+    {
+      "Japanese": "ブレスト",
+      "Furigana": "ブレスト",
+      "Meaning": "brainstorm"
+    },
+    {
+      "Japanese": "工数を積む",
+      "Furigana": "こうすうをつむ",
+      "Meaning": "to stack up hours"
+    },
+    {
+      "Japanese": "巻く",
+      "Furigana": "まく",
+      "Meaning": "to absorb tasks"
+    },
+    {
+      "Japanese": "詰まる",
+      "Furigana": "つまる",
+      "Meaning": "to be stuck"
+    },
+    {
+      "Japanese": "ハマる",
+      "Furigana": "ハマる",
+      "Meaning": "to be stuck deep"
+    },
+    {
+      "Japanese": "解決する",
+      "Furigana": "かいけつする",
+      "Meaning": "to resolve"
+    },
+    {
+      "Japanese": "根本対応",
+      "Furigana": "こんぽんたいおう",
+      "Meaning": "root cause fix"
+    },
+    {
+      "Japanese": "暫定対応",
+      "Furigana": "ざんていたいおう",
+      "Meaning": "temporary fix"
+    },
+    {
+      "Japanese": "再発防止",
+      "Furigana": "さいはつぼうし",
+      "Meaning": "preventing recurrence"
+    },
+    {
+      "Japanese": "デスマーチ",
+      "Furigana": "デスマーチ",
+      "Meaning": "death march"
+    }
+  ],
+  "checklist": []
+}

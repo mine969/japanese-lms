@@ -12,6 +12,7 @@ Use only these active June 7 source files for the current build:
 
 - `handoff/final/FINAL_LMS_HANDOFF_COMPLETE_2026-06-07.md`
 - `handoff/final/GPT_LMS_BUILD_PROMPT_2026-06-07.txt`
+- `handoff/final/SUPPLEMENT_J_IT_Japanese_Complete.md`
 
 Older curriculum handoffs are historical only. Do not use them as active curriculum input.
 
@@ -19,14 +20,14 @@ Older curriculum handoffs are historical only. Do not use them as active curricu
 
 | Area | Count |
 | --- | ---: |
-| Total indexed SCO/nodes | 892 |
+| Total indexed SCO/nodes | 942 |
 | Formal JLPT lessons | 400 |
 | Foundations | 7 |
 | Level optional lessons | 30 |
 | Mock exam SCOs | 5 |
-| Supplement SCOs | 450 |
-| Source documents | 30 |
-| Direct lesson/source extracts | 82 |
+| Supplement SCOs | 500 |
+| Source documents | 31 |
+| Direct lesson/source extracts | 181 |
 
 ## Architecture
 
@@ -128,7 +129,7 @@ Important: quiz and answer content is not invented. Empty or skeleton question b
 
 `scripts/build_static_lms.py`:
 
-- reads the active June 7 source handoff
+- reads the active June 7 source handoff and Supplement J add-on
 - splits embedded source documents
 - parses `CURRICULUM_STRUCTURE_MAP.md`
 - preserves Japanese source text
@@ -222,6 +223,6 @@ Confirm:
 
 1. Improve safe quiz extraction from source exercise sections.
 2. Add a source-aware Anki extraction report showing skipped tables.
-3. Add a static search index for faster filtering across 892 nodes.
+3. Add a static search index for faster filtering across 942 nodes.
 4. Add downloadable package bundle generation.
 5. Add GitHub Pages deployment status documentation once Pages is enabled.

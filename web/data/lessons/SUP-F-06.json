@@ -1,0 +1,9 @@
+{
+  "id": "SUP-F-06",
+  "title": "Supplement F: F Political Methodology Kanji - Item 06",
+  "source_document": "SUPPLEMENT_F_Political_Methodology_Kanji.md",
+  "markdown": "## F6 — Pitch Accent Practice System\n\n### Pitch Accent Improvement Path\n\n**Stage 1: Awareness (N5-N4)**\n- Learn the 4 accent types for Tokyo Japanese: 平板, 頭高, 中高, 尾高\n- Practice distinguishing minimal pairs: 箸/橋/端 (hashi)\n- Tool: NHK Accent Dictionary (NHK日本語発音アクセント辞典)\n\n**Stage 2: Notation Reading (N4-N3)**\n- Learn to read pitch accent notation: LHL, HL, etc.\n- Yomichan/Yomitan shows pitch for every word\n- Add pitch notation to Anki cards\n\n**Stage 3: Active Practice (N3-N2)**\n- Shadow with pitch-marked audio\n- Listen critically to how native speakers stress words\n- Minimal pair drills with recording\n\n**Stage 4: Automatic Production (N2-N1)**\n- Pitch becomes internalized through massive input\n- Correction by native speakers\n- Accent coaching if needed for professional contexts\n\n### Tokyo Pitch Accent — Detailed Rules\n\n**Rule 1: The drop rule**\nOnce pitch drops, it cannot rise again within a word.\n- あさ (asa = morning): L-H-H (no drop after rise)\n- あさ (asa = hemp): H-L (drop after first mora)\n\n**Rule 2: Compound words**\nWhen words combine, accent can shift or reset:\n- 東 (higashi, H-L-L-L) + 京 = 東京 (Tōkyō, L-H-H-L)\n- Some compounds follow predictable patterns, others don't\n\n**Rule 3: Verb conjugation and pitch**\nVerb accent follows systematic patterns based on accent type:\n- Plain → て-form: 食べる (LHL) → 食べて (LHL)\n- Accent type is preserved across most conjugations\n\n**Practice exercises:**\n1. Listen to NHK news anchor, focus only on pitch patterns\n2. Pick 5 new vocab words from Anki daily, look up their pitch, and speak them 10 times with correct pitch\n3. Shadow news broadcasts focusing on sentence-level intonation\n4. Record and compare every 2 weeks\n\n---",
+  "objectives": [],
+  "vocabulary": [],
+  "checklist": []
+}

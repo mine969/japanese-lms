@@ -1,0 +1,140 @@
+{
+  "id": "SUP-J-11",
+  "title": "Supplement J: J IT Japanese Complete - Item 11",
+  "source_document": "SUPPLEMENT_J_IT_Japanese_Complete.md",
+  "markdown": "## J11 — Agile & Scrum Vocabulary\n\n| Japanese | Reading | English |\n|----------|---------|---------|\n| アジャイル | アジャイル | agile |\n| スクラム | スクラム | scrum |\n| スプリント | スプリント | sprint |\n| バックログ | バックログ | backlog |\n| プロダクトバックログ | プロダクトバックログ | product backlog |\n| スプリントバックログ | スプリントバックログ | sprint backlog |\n| ユーザーストーリー | ユーザーストーリー | user story |\n| ストーリーポイント | ストーリーポイント | story points |\n| ベロシティ | ベロシティ | velocity |\n| プランニングポーカー | プランニングポーカー | planning poker |\n| スタンドアップ | スタンドアップ | standup meeting |\n| デイリースクラム | デイリースクラム | daily scrum |\n| スプリントレビュー | スプリントレビュー | sprint review |\n| レトロスペクティブ | レトロスペクティブ | retrospective (レトロ) |\n| KPT | ケーピーティー | Keep / Problem / Try |\n| スクラムマスター | スクラムマスター | scrum master |\n| プロダクトオーナー | プロダクトオーナー | product owner |\n| 開発チーム | かいはつチーム | development team |\n| インクリメント | インクリメント | increment |\n| 完成の定義 | かんせいのていぎ | definition of done |\n| エピック | エピック | epic |\n| チケット | チケット | ticket |\n| タスク | タスク | task |\n| ブロッカー | ブロッカー | blocker |\n| バーンダウンチャート | バーンダウンチャート | burndown chart |\n| ロードマップ | ロードマップ | roadmap |",
+  "objectives": [],
+  "vocabulary": [
+    {
+      "Japanese": "アジャイル",
+      "Furigana": "アジャイル",
+      "Meaning": "agile"
+    },
+    {
+      "Japanese": "スクラム",
+      "Furigana": "スクラム",
+      "Meaning": "scrum"
+    },
+    {
+      "Japanese": "スプリント",
+      "Furigana": "スプリント",
+      "Meaning": "sprint"
+    },
+    {
+      "Japanese": "バックログ",
+      "Furigana": "バックログ",
+      "Meaning": "backlog"
+    },
+    {
+      "Japanese": "プロダクトバックログ",
+      "Furigana": "プロダクトバックログ",
+      "Meaning": "product backlog"
+    },
+    {
+      "Japanese": "スプリントバックログ",
+      "Furigana": "スプリントバックログ",
+      "Meaning": "sprint backlog"
+    },
+    {
+      "Japanese": "ユーザーストーリー",
+      "Furigana": "ユーザーストーリー",
+      "Meaning": "user story"
+    },
+    {
+      "Japanese": "ストーリーポイント",
+      "Furigana": "ストーリーポイント",
+      "Meaning": "story points"
+    },
+    {
+      "Japanese": "ベロシティ",
+      "Furigana": "ベロシティ",
+      "Meaning": "velocity"
+    },
+    {
+      "Japanese": "プランニングポーカー",
+      "Furigana": "プランニングポーカー",
+      "Meaning": "planning poker"
+    },
+    {
+      "Japanese": "スタンドアップ",
+      "Furigana": "スタンドアップ",
+      "Meaning": "standup meeting"
+    },
+    {
+      "Japanese": "デイリースクラム",
+      "Furigana": "デイリースクラム",
+      "Meaning": "daily scrum"
+    },
+    {
+      "Japanese": "スプリントレビュー",
+      "Furigana": "スプリントレビュー",
+      "Meaning": "sprint review"
+    },
+    {
+      "Japanese": "レトロスペクティブ",
+      "Furigana": "レトロスペクティブ",
+      "Meaning": "retrospective (レトロ)"
+    },
+    {
+      "Japanese": "KPT",
+      "Furigana": "ケーピーティー",
+      "Meaning": "Keep / Problem / Try"
+    },
+    {
+      "Japanese": "スクラムマスター",
+      "Furigana": "スクラムマスター",
+      "Meaning": "scrum master"
+    },
+    {
+      "Japanese": "プロダクトオーナー",
+      "Furigana": "プロダクトオーナー",
+      "Meaning": "product owner"
+    },
+    {
+      "Japanese": "開発チーム",
+      "Furigana": "かいはつチーム",
+      "Meaning": "development team"
+    },
+    {
+      "Japanese": "インクリメント",
+      "Furigana": "インクリメント",
+      "Meaning": "increment"
+    },
+    {
+      "Japanese": "完成の定義",
+      "Furigana": "かんせいのていぎ",
+      "Meaning": "definition of done"
+    },
+    {
+      "Japanese": "エピック",
+      "Furigana": "エピック",
+      "Meaning": "epic"
+    },
+    {
+      "Japanese": "チケット",
+      "Furigana": "チケット",
+      "Meaning": "ticket"
+    },
+    {
+      "Japanese": "タスク",
+      "Furigana": "タスク",
+      "Meaning": "task"
+    },
+    {
+      "Japanese": "ブロッカー",
+      "Furigana": "ブロッカー",
+      "Meaning": "blocker"
+    },
+    {
+      "Japanese": "バーンダウンチャート",
+      "Furigana": "バーンダウンチャート",
+      "Meaning": "burndown chart"
+    },
+    {
+      "Japanese": "ロードマップ",
+      "Furigana": "ロードマップ",
+      "Meaning": "roadmap"
+    }
+  ],
+  "checklist": []
+}

@@ -1,0 +1,175 @@
+{
+  "id": "SUP-J-18",
+  "title": "Supplement J: J IT Japanese Complete - Item 18",
+  "source_document": "SUPPLEMENT_J_IT_Japanese_Complete.md",
+  "markdown": "## J18 — Testing Vocabulary\n\n| Japanese | Reading | English |\n|----------|---------|---------|\n| テスト | テスト | test |\n| 品質保証 | ひんしつほしょう | quality assurance (QA) |\n| 品質管理 | ひんしつかんり | quality control (QC) |\n| テスト設計 | テストせっけい | test design |\n| テストケース | テストケース | test case |\n| テスト仕様書 | テストしようしょ | test specification |\n| テスト計画書 | テストけいかくしょ | test plan |\n| 単体テスト | たんたいテスト | unit test |\n| 結合テスト | けつごうテスト | integration test |\n| システムテスト | システムテスト | system test |\n| 受け入れテスト | うけいれテスト | acceptance test (UAT) |\n| 回帰テスト | かいきテスト | regression test |\n| 負荷テスト | ふかテスト | load test |\n| ストレステスト | ストレステスト | stress test |\n| セキュリティテスト | セキュリティテスト | security test |\n| テスト自動化 | テストじどうか | test automation |\n| テストカバレッジ | テストカバレッジ | test coverage |\n| TDD | ティーディーディー | test-driven development |\n| BDD | ビーディーディー | behavior-driven development |\n| モック | モック | mock |\n| スタブ | スタブ | stub |\n| フィクスチャ | フィクスチャ | fixture |\n| テストデータ | テストデータ | test data |\n| バグ報告 | バグほうこく | bug report |\n| 再現手順 | さいげんてじゅん | reproduction steps |\n| 期待値 | きたいち | expected value |\n| 実際の値 | じっさいのち | actual value |\n| PASS/FAIL | パス/フェイル | pass/fail |\n| テストスイート | テストスイート | test suite |\n| CI上のテスト | シーアイじょうのテスト | tests on CI |\n| テストが落ちる | テストがおちる | test fails (casual) |\n| グリーンになる | グリーンになる | tests turn green (pass) |\n| レッドになる | レッドになる | tests turn red (fail) |\n\n---\n\n# ══════════════════════════════════════════════════════\n# PART 11 — IT COMPANY CULTURE (IT企業文化)\n# ══════════════════════════════════════════════════════",
+  "objectives": [],
+  "vocabulary": [
+    {
+      "Japanese": "テスト",
+      "Furigana": "テスト",
+      "Meaning": "test"
+    },
+    {
+      "Japanese": "品質保証",
+      "Furigana": "ひんしつほしょう",
+      "Meaning": "quality assurance (QA)"
+    },
+    {
+      "Japanese": "品質管理",
+      "Furigana": "ひんしつかんり",
+      "Meaning": "quality control (QC)"
+    },
+    {
+      "Japanese": "テスト設計",
+      "Furigana": "テストせっけい",
+      "Meaning": "test design"
+    },
+    {
+      "Japanese": "テストケース",
+      "Furigana": "テストケース",
+      "Meaning": "test case"
+    },
+    {
+      "Japanese": "テスト仕様書",
+      "Furigana": "テストしようしょ",
+      "Meaning": "test specification"
+    },
+    {
+      "Japanese": "テスト計画書",
+      "Furigana": "テストけいかくしょ",
+      "Meaning": "test plan"
+    },
+    {
+      "Japanese": "単体テスト",
+      "Furigana": "たんたいテスト",
+      "Meaning": "unit test"
+    },
+    {
+      "Japanese": "結合テスト",
+      "Furigana": "けつごうテスト",
+      "Meaning": "integration test"
+    },
+    {
+      "Japanese": "システムテスト",
+      "Furigana": "システムテスト",
+      "Meaning": "system test"
+    },
+    {
+      "Japanese": "受け入れテスト",
+      "Furigana": "うけいれテスト",
+      "Meaning": "acceptance test (UAT)"
+    },
+    {
+      "Japanese": "回帰テスト",
+      "Furigana": "かいきテスト",
+      "Meaning": "regression test"
+    },
+    {
+      "Japanese": "負荷テスト",
+      "Furigana": "ふかテスト",
+      "Meaning": "load test"
+    },
+    {
+      "Japanese": "ストレステスト",
+      "Furigana": "ストレステスト",
+      "Meaning": "stress test"
+    },
+    {
+      "Japanese": "セキュリティテスト",
+      "Furigana": "セキュリティテスト",
+      "Meaning": "security test"
+    },
+    {
+      "Japanese": "テスト自動化",
+      "Furigana": "テストじどうか",
+      "Meaning": "test automation"
+    },
+    {
+      "Japanese": "テストカバレッジ",
+      "Furigana": "テストカバレッジ",
+      "Meaning": "test coverage"
+    },
+    {
+      "Japanese": "TDD",
+      "Furigana": "ティーディーディー",
+      "Meaning": "test-driven development"
+    },
+    {
+      "Japanese": "BDD",
+      "Furigana": "ビーディーディー",
+      "Meaning": "behavior-driven development"
+    },
+    {
+      "Japanese": "モック",
+      "Furigana": "モック",
+      "Meaning": "mock"
+    },
+    {
+      "Japanese": "スタブ",
+      "Furigana": "スタブ",
+      "Meaning": "stub"
+    },
+    {
+      "Japanese": "フィクスチャ",
+      "Furigana": "フィクスチャ",
+      "Meaning": "fixture"
+    },
+    {
+      "Japanese": "テストデータ",
+      "Furigana": "テストデータ",
+      "Meaning": "test data"
+    },
+    {
+      "Japanese": "バグ報告",
+      "Furigana": "バグほうこく",
+      "Meaning": "bug report"
+    },
+    {
+      "Japanese": "再現手順",
+      "Furigana": "さいげんてじゅん",
+      "Meaning": "reproduction steps"
+    },
+    {
+      "Japanese": "期待値",
+      "Furigana": "きたいち",
+      "Meaning": "expected value"
+    },
+    {
+      "Japanese": "実際の値",
+      "Furigana": "じっさいのち",
+      "Meaning": "actual value"
+    },
+    {
+      "Japanese": "PASS/FAIL",
+      "Furigana": "パス/フェイル",
+      "Meaning": "pass/fail"
+    },
+    {
+      "Japanese": "テストスイート",
+      "Furigana": "テストスイート",
+      "Meaning": "test suite"
+    },
+    {
+      "Japanese": "CI上のテスト",
+      "Furigana": "シーアイじょうのテスト",
+      "Meaning": "tests on CI"
+    },
+    {
+      "Japanese": "テストが落ちる",
+      "Furigana": "テストがおちる",
+      "Meaning": "test fails (casual)"
+    },
+    {
+      "Japanese": "グリーンになる",
+      "Furigana": "グリーンになる",
+      "Meaning": "tests turn green (pass)"
+    },
+    {
+      "Japanese": "レッドになる",
+      "Furigana": "レッドになる",
+      "Meaning": "tests turn red (fail)"
+    }
+  ],
+  "checklist": []
+}

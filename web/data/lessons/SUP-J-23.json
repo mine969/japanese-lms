@@ -1,0 +1,130 @@
+{
+  "id": "SUP-J-23",
+  "title": "Supplement J: J IT Japanese Complete - Item 23",
+  "source_document": "SUPPLEMENT_J_IT_Japanese_Complete.md",
+  "markdown": "## J23 — Meetings & Technical Discussions\n\n### Meeting Types in Japanese Tech Companies\n\n| Japanese | Reading | English |\n|----------|---------|---------|\n| 朝会 | あさかい | morning standup |\n| 全体会議 | ぜんたいかいぎ | all-hands meeting |\n| 定例会議 | ていれいかいぎ | regular meeting |\n| スプリント計画会議 | スプリントけいかくかいぎ | sprint planning |\n| ふりかえり | ふりかえり | retrospective |\n| 1on1 | ワンオンワン | 1-on-1 meeting |\n| フルリモート | フルリモート | fully remote |\n| ハイブリッド勤務 | ハイブリッドきんむ | hybrid work |\n| オフライン | オフライン | in-person / offline |\n| ブレスト | ブレスト | brainstorm (abbreviated) |\n| 壁打ち | かべうち | sanity check / talk through an idea |\n| 認識合わせ | にんしきあわせ | alignment / making sure everyone understands the same thing |\n| 温度感 | おんどかん | the level of enthusiasm/urgency someone feels |\n| 熱量 | ねつりょう | enthusiasm / energy level |\n| 解像度を上げる | かいぞうどをあげる | to increase resolution/clarity of understanding |\n| 方向感 | ほうこうかん | sense of direction |\n| 整理する | せいりする | to organize / to clarify |\n| 叩き台 | たたきだい | rough draft / starting point for discussion |\n| ドラフト | ドラフト | draft |\n| ブラッシュアップ | ブラッシュアップ | polish / refine |\n| フィードバック | フィードバック | feedback |\n| 巻き込む | まきこむ | to involve / to loop in |\n| ループインする | ループインする | to loop in (from English \"loop in\") |\n| Slackで共有します | スラックでかんゆうします | I'll share on Slack |\n\n### Technical Presentation Phrases\n\n| Japanese | Meaning |\n|----------|---------|\n| 〜のアーキテクチャについてご説明します。 | I'll explain the ~ architecture. |\n| こちらのダイアグラムをご覧ください。 | Please look at this diagram. |\n| 処理の流れとしては、まず〜 | As for the processing flow, first ~ |\n| パフォーマンスの観点から言うと | From a performance perspective |\n| セキュリティ上の懸念として | As a security concern |\n| スケーラビリティを考慮すると | Considering scalability |\n| 技術的な制約として | As a technical constraint |\n| トレードオフとして | As a trade-off |\n| 実装コストを考えると | Considering implementation cost |\n| 代替案としては | As an alternative |\n| メリット・デメリットを整理すると | To summarize the pros and cons |\n| PoC（概念実証）として | As a proof of concept (PoC) |\n\n---\n\n# ══════════════════════════════════════════════════════\n# PART 16 — JAPANESE IT-SPECIFIC EXPRESSIONS & IDIOMS\n# ══════════════════════════════════════════════════════",
+  "objectives": [],
+  "vocabulary": [
+    {
+      "Japanese": "朝会",
+      "Furigana": "あさかい",
+      "Meaning": "morning standup"
+    },
+    {
+      "Japanese": "全体会議",
+      "Furigana": "ぜんたいかいぎ",
+      "Meaning": "all-hands meeting"
+    },
+    {
+      "Japanese": "定例会議",
+      "Furigana": "ていれいかいぎ",
+      "Meaning": "regular meeting"
+    },
+    {
+      "Japanese": "スプリント計画会議",
+      "Furigana": "スプリントけいかくかいぎ",
+      "Meaning": "sprint planning"
+    },
+    {
+      "Japanese": "ふりかえり",
+      "Furigana": "ふりかえり",
+      "Meaning": "retrospective"
+    },
+    {
+      "Japanese": "1on1",
+      "Furigana": "ワンオンワン",
+      "Meaning": "1-on-1 meeting"
+    },
+    {
+      "Japanese": "フルリモート",
+      "Furigana": "フルリモート",
+      "Meaning": "fully remote"
+    },
+    {
+      "Japanese": "ハイブリッド勤務",
+      "Furigana": "ハイブリッドきんむ",
+      "Meaning": "hybrid work"
+    },
+    {
+      "Japanese": "オフライン",
+      "Furigana": "オフライン",
+      "Meaning": "in-person / offline"
+    },
+    {
+      "Japanese": "ブレスト",
+      "Furigana": "ブレスト",
+      "Meaning": "brainstorm (abbreviated)"
+    },
+    {
+      "Japanese": "壁打ち",
+      "Furigana": "かべうち",
+      "Meaning": "sanity check / talk through an idea"
+    },
+    {
+      "Japanese": "認識合わせ",
+      "Furigana": "にんしきあわせ",
+      "Meaning": "alignment / making sure everyone understands the same thing"
+    },
+    {
+      "Japanese": "温度感",
+      "Furigana": "おんどかん",
+      "Meaning": "the level of enthusiasm/urgency someone feels"
+    },
+    {
+      "Japanese": "熱量",
+      "Furigana": "ねつりょう",
+      "Meaning": "enthusiasm / energy level"
+    },
+    {
+      "Japanese": "解像度を上げる",
+      "Furigana": "かいぞうどをあげる",
+      "Meaning": "to increase resolution/clarity of understanding"
+    },
+    {
+      "Japanese": "方向感",
+      "Furigana": "ほうこうかん",
+      "Meaning": "sense of direction"
+    },
+    {
+      "Japanese": "整理する",
+      "Furigana": "せいりする",
+      "Meaning": "to organize / to clarify"
+    },
+    {
+      "Japanese": "叩き台",
+      "Furigana": "たたきだい",
+      "Meaning": "rough draft / starting point for discussion"
+    },
+    {
+      "Japanese": "ドラフト",
+      "Furigana": "ドラフト",
+      "Meaning": "draft"
+    },
+    {
+      "Japanese": "ブラッシュアップ",
+      "Furigana": "ブラッシュアップ",
+      "Meaning": "polish / refine"
+    },
+    {
+      "Japanese": "フィードバック",
+      "Furigana": "フィードバック",
+      "Meaning": "feedback"
+    },
+    {
+      "Japanese": "巻き込む",
+      "Furigana": "まきこむ",
+      "Meaning": "to involve / to loop in"
+    },
+    {
+      "Japanese": "ループインする",
+      "Furigana": "ループインする",
+      "Meaning": "to loop in (from English \"loop in\")"
+    },
+    {
+      "Japanese": "Slackで共有します",
+      "Furigana": "スラックでかんゆうします",
+      "Meaning": "I'll share on Slack"
+    }
+  ],
+  "checklist": []
+}

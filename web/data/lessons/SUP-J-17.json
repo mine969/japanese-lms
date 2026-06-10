@@ -1,0 +1,60 @@
+{
+  "id": "SUP-J-17",
+  "title": "Supplement J: J IT Japanese Complete - Item 17",
+  "source_document": "SUPPLEMENT_J_IT_Japanese_Complete.md",
+  "markdown": "## J17 — AWS / GCP / Azure in Japanese Context\n\n### AWS Terms (Most common in Japan)\n\n| Japanese term | English | Notes |\n|--------------|---------|-------|\n| EC2インスタンス | EC2 instance | Most common compute |\n| S3バケット | S3 bucket | Object storage |\n| Lambdaファンクション | Lambda function | Serverless |\n| ECSクラスター | ECS cluster | Container service |\n| RDSインスタンス | RDS instance | Managed database |\n| CloudFormationテンプレート | CloudFormation template | IaC |\n| IAMロール | IAM role | Permissions |\n| VPC | Virtual Private Cloud | Networking |\n| セキュリティグループ | security group | Firewall rules |\n| ElasticIPアドレス | Elastic IP address | Static IP |\n| ルートテーブル | route table | Routing |\n| オートスケーリング | auto scaling | Scale |\n| CloudWatchアラーム | CloudWatch alarm | Monitoring |\n| コスト最適化 | cost optimization | FinOps |\n\n### Japanese Cloud Terminology\n\n| Japanese | Reading | English |\n|----------|---------|---------|\n| クラウド移行 | クラウドいこう | cloud migration |\n| リフトアンドシフト | リフトアンドシフト | lift and shift |\n| クラウドネイティブ | クラウドネイティブ | cloud native |\n| マルチクラウド | マルチクラウド | multi-cloud |\n| クラウドコスト | クラウドコスト | cloud cost |\n| FinOps | フィンオプス | FinOps |\n| 従量課金 | じゅうりょうかきん | pay-as-you-go |\n| 月額費用 | げつがくひよう | monthly cost |\n| コスト削減 | コストさくげん | cost reduction |\n| リザーブドインスタンス | リザーブドインスタンス | reserved instance |\n\n---\n\n# ══════════════════════════════════════════════════════\n# PART 10 — SOFTWARE TESTING (テスト)\n# ══════════════════════════════════════════════════════",
+  "objectives": [],
+  "vocabulary": [
+    {
+      "Japanese": "クラウド移行",
+      "Furigana": "クラウドいこう",
+      "Meaning": "cloud migration"
+    },
+    {
+      "Japanese": "リフトアンドシフト",
+      "Furigana": "リフトアンドシフト",
+      "Meaning": "lift and shift"
+    },
+    {
+      "Japanese": "クラウドネイティブ",
+      "Furigana": "クラウドネイティブ",
+      "Meaning": "cloud native"
+    },
+    {
+      "Japanese": "マルチクラウド",
+      "Furigana": "マルチクラウド",
+      "Meaning": "multi-cloud"
+    },
+    {
+      "Japanese": "クラウドコスト",
+      "Furigana": "クラウドコスト",
+      "Meaning": "cloud cost"
+    },
+    {
+      "Japanese": "FinOps",
+      "Furigana": "フィンオプス",
+      "Meaning": "FinOps"
+    },
+    {
+      "Japanese": "従量課金",
+      "Furigana": "じゅうりょうかきん",
+      "Meaning": "pay-as-you-go"
+    },
+    {
+      "Japanese": "月額費用",
+      "Furigana": "げつがくひよう",
+      "Meaning": "monthly cost"
+    },
+    {
+      "Japanese": "コスト削減",
+      "Furigana": "コストさくげん",
+      "Meaning": "cost reduction"
+    },
+    {
+      "Japanese": "リザーブドインスタンス",
+      "Furigana": "リザーブドインスタンス",
+      "Meaning": "reserved instance"
+    }
+  ],
+  "checklist": []
+}

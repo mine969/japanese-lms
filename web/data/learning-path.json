@@ -5756,7 +5756,7 @@
     "source_document": "SUPPLEMENT_A_RealWorld_Slang_Culture.md",
     "skill": "enrichment",
     "estimated_minutes": 30,
-    "content_ref": null
+    "content_ref": "data/lessons/SUP-A-01.json"
   },
   {
     "id": "SUP-A-02",
@@ -5769,7 +5769,7 @@
     "source_document": "SUPPLEMENT_A_RealWorld_Slang_Culture.md",
     "skill": "enrichment",
     "estimated_minutes": 30,
-    "content_ref": null
+    "content_ref": "data/lessons/SUP-A-02.json"
   },
   {
     "id": "SUP-A-03",
@@ -5782,7 +5782,7 @@
     "source_document": "SUPPLEMENT_A_RealWorld_Slang_Culture.md",
     "skill": "enrichment",
     "estimated_minutes": 30,
-    "content_ref": null
+    "content_ref": "data/lessons/SUP-A-03.json"
   },
   {
     "id": "SUP-A-04",
@@ -5795,7 +5795,7 @@
     "source_document": "SUPPLEMENT_A_RealWorld_Slang_Culture.md",
     "skill": "enrichment",
     "estimated_minutes": 30,
-    "content_ref": null
+    "content_ref": "data/lessons/SUP-A-04.json"
   },
   {
     "id": "SUP-A-05",
@@ -5808,7 +5808,7 @@
     "source_document": "SUPPLEMENT_A_RealWorld_Slang_Culture.md",
     "skill": "enrichment",
     "estimated_minutes": 30,
-    "content_ref": null
+    "content_ref": "data/lessons/SUP-A-05.json"
   },
   {
     "id": "SUP-A-06",
@@ -7706,7 +7706,7 @@
     "source_document": "SUPPLEMENT_D_Business_Industry.md",
     "skill": "enrichment",
     "estimated_minutes": 30,
-    "content_ref": null
+    "content_ref": "data/lessons/SUP-D-01.json"
   },
   {
     "id": "SUP-D-02",
@@ -7719,7 +7719,7 @@
     "source_document": "SUPPLEMENT_D_Business_Industry.md",
     "skill": "enrichment",
     "estimated_minutes": 30,
-    "content_ref": null
+    "content_ref": "data/lessons/SUP-D-02.json"
   },
   {
     "id": "SUP-D-03",
@@ -7732,7 +7732,7 @@
     "source_document": "SUPPLEMENT_D_Business_Industry.md",
     "skill": "enrichment",
     "estimated_minutes": 30,
-    "content_ref": null
+    "content_ref": "data/lessons/SUP-D-03.json"
   },
   {
     "id": "SUP-D-04",
@@ -7745,7 +7745,7 @@
     "source_document": "SUPPLEMENT_D_Business_Industry.md",
     "skill": "enrichment",
     "estimated_minutes": 30,
-    "content_ref": null
+    "content_ref": "data/lessons/SUP-D-04.json"
   },
   {
     "id": "SUP-D-05",
@@ -7758,7 +7758,7 @@
     "source_document": "SUPPLEMENT_D_Business_Industry.md",
     "skill": "enrichment",
     "estimated_minutes": 30,
-    "content_ref": null
+    "content_ref": "data/lessons/SUP-D-05.json"
   },
   {
     "id": "SUP-D-06",
@@ -7771,7 +7771,7 @@
     "source_document": "SUPPLEMENT_D_Business_Industry.md",
     "skill": "enrichment",
     "estimated_minutes": 30,
-    "content_ref": null
+    "content_ref": "data/lessons/SUP-D-06.json"
   },
   {
     "id": "SUP-D-07",
@@ -7784,7 +7784,7 @@
     "source_document": "SUPPLEMENT_D_Business_Industry.md",
     "skill": "enrichment",
     "estimated_minutes": 30,
-    "content_ref": null
+    "content_ref": "data/lessons/SUP-D-07.json"
   },
   {
     "id": "SUP-D-08",
@@ -7797,7 +7797,7 @@
     "source_document": "SUPPLEMENT_D_Business_Industry.md",
     "skill": "enrichment",
     "estimated_minutes": 30,
-    "content_ref": null
+    "content_ref": "data/lessons/SUP-D-08.json"
   },
   {
     "id": "SUP-D-09",
@@ -7810,7 +7810,7 @@
     "source_document": "SUPPLEMENT_D_Business_Industry.md",
     "skill": "enrichment",
     "estimated_minutes": 30,
-    "content_ref": null
+    "content_ref": "data/lessons/SUP-D-09.json"
   },
   {
     "id": "SUP-D-10",
@@ -7823,7 +7823,7 @@
     "source_document": "SUPPLEMENT_D_Business_Industry.md",
     "skill": "enrichment",
     "estimated_minutes": 30,
-    "content_ref": null
+    "content_ref": "data/lessons/SUP-D-10.json"
   },
   {
     "id": "SUP-D-11",
@@ -7836,7 +7836,7 @@
     "source_document": "SUPPLEMENT_D_Business_Industry.md",
     "skill": "enrichment",
     "estimated_minutes": 30,
-    "content_ref": null
+    "content_ref": "data/lessons/SUP-D-11.json"
   },
   {
     "id": "SUP-D-12",
@@ -7849,7 +7849,7 @@
     "source_document": "SUPPLEMENT_D_Business_Industry.md",
     "skill": "enrichment",
     "estimated_minutes": 30,
-    "content_ref": null
+    "content_ref": "data/lessons/SUP-D-12.json"
   },
   {
     "id": "SUP-D-13",
@@ -8356,7 +8356,7 @@
     "source_document": "SUPPLEMENT_E_Media_Academic_Culture.md",
     "skill": "enrichment",
     "estimated_minutes": 30,
-    "content_ref": null
+    "content_ref": "data/lessons/SUP-E-01.json"
   },
   {
     "id": "SUP-E-02",
@@ -8369,7 +8369,7 @@
     "source_document": "SUPPLEMENT_E_Media_Academic_Culture.md",
     "skill": "enrichment",
     "estimated_minutes": 30,
-    "content_ref": null
+    "content_ref": "data/lessons/SUP-E-02.json"
   },
   {
     "id": "SUP-E-03",
@@ -8382,7 +8382,7 @@
     "source_document": "SUPPLEMENT_E_Media_Academic_Culture.md",
     "skill": "enrichment",
     "estimated_minutes": 30,
-    "content_ref": null
+    "content_ref": "data/lessons/SUP-E-03.json"
   },
   {
     "id": "SUP-E-04",
@@ -8395,7 +8395,7 @@
     "source_document": "SUPPLEMENT_E_Media_Academic_Culture.md",
     "skill": "enrichment",
     "estimated_minutes": 30,
-    "content_ref": null
+    "content_ref": "data/lessons/SUP-E-04.json"
   },
   {
     "id": "SUP-E-05",
@@ -8408,7 +8408,7 @@
     "source_document": "SUPPLEMENT_E_Media_Academic_Culture.md",
     "skill": "enrichment",
     "estimated_minutes": 30,
-    "content_ref": null
+    "content_ref": "data/lessons/SUP-E-05.json"
   },
   {
     "id": "SUP-E-06",
@@ -8421,7 +8421,7 @@
     "source_document": "SUPPLEMENT_E_Media_Academic_Culture.md",
     "skill": "enrichment",
     "estimated_minutes": 30,
-    "content_ref": null
+    "content_ref": "data/lessons/SUP-E-06.json"
   },
   {
     "id": "SUP-E-07",
@@ -8434,7 +8434,7 @@
     "source_document": "SUPPLEMENT_E_Media_Academic_Culture.md",
     "skill": "enrichment",
     "estimated_minutes": 30,
-    "content_ref": null
+    "content_ref": "data/lessons/SUP-E-07.json"
   },
   {
     "id": "SUP-E-08",
@@ -8447,7 +8447,7 @@
     "source_document": "SUPPLEMENT_E_Media_Academic_Culture.md",
     "skill": "enrichment",
     "estimated_minutes": 30,
-    "content_ref": null
+    "content_ref": "data/lessons/SUP-E-08.json"
   },
   {
     "id": "SUP-E-09",
@@ -8460,7 +8460,7 @@
     "source_document": "SUPPLEMENT_E_Media_Academic_Culture.md",
     "skill": "enrichment",
     "estimated_minutes": 30,
-    "content_ref": null
+    "content_ref": "data/lessons/SUP-E-09.json"
   },
   {
     "id": "SUP-E-10",
@@ -8473,7 +8473,7 @@
     "source_document": "SUPPLEMENT_E_Media_Academic_Culture.md",
     "skill": "enrichment",
     "estimated_minutes": 30,
-    "content_ref": null
+    "content_ref": "data/lessons/SUP-E-10.json"
   },
   {
     "id": "SUP-E-11",
@@ -8486,7 +8486,7 @@
     "source_document": "SUPPLEMENT_E_Media_Academic_Culture.md",
     "skill": "enrichment",
     "estimated_minutes": 30,
-    "content_ref": null
+    "content_ref": "data/lessons/SUP-E-11.json"
   },
   {
     "id": "SUP-E-12",
@@ -8499,7 +8499,7 @@
     "source_document": "SUPPLEMENT_E_Media_Academic_Culture.md",
     "skill": "enrichment",
     "estimated_minutes": 30,
-    "content_ref": null
+    "content_ref": "data/lessons/SUP-E-12.json"
   },
   {
     "id": "SUP-E-13",
@@ -8512,7 +8512,7 @@
     "source_document": "SUPPLEMENT_E_Media_Academic_Culture.md",
     "skill": "enrichment",
     "estimated_minutes": 30,
-    "content_ref": null
+    "content_ref": "data/lessons/SUP-E-13.json"
   },
   {
     "id": "SUP-E-14",
@@ -8525,7 +8525,7 @@
     "source_document": "SUPPLEMENT_E_Media_Academic_Culture.md",
     "skill": "enrichment",
     "estimated_minutes": 30,
-    "content_ref": null
+    "content_ref": "data/lessons/SUP-E-14.json"
   },
   {
     "id": "SUP-E-15",
@@ -8538,7 +8538,7 @@
     "source_document": "SUPPLEMENT_E_Media_Academic_Culture.md",
     "skill": "enrichment",
     "estimated_minutes": 30,
-    "content_ref": null
+    "content_ref": "data/lessons/SUP-E-15.json"
   },
   {
     "id": "SUP-E-16",
@@ -8551,7 +8551,7 @@
     "source_document": "SUPPLEMENT_E_Media_Academic_Culture.md",
     "skill": "enrichment",
     "estimated_minutes": 30,
-    "content_ref": null
+    "content_ref": "data/lessons/SUP-E-16.json"
   },
   {
     "id": "SUP-E-17",
@@ -8564,7 +8564,7 @@
     "source_document": "SUPPLEMENT_E_Media_Academic_Culture.md",
     "skill": "enrichment",
     "estimated_minutes": 30,
-    "content_ref": null
+    "content_ref": "data/lessons/SUP-E-17.json"
   },
   {
     "id": "SUP-E-18",
@@ -8577,7 +8577,7 @@
     "source_document": "SUPPLEMENT_E_Media_Academic_Culture.md",
     "skill": "enrichment",
     "estimated_minutes": 30,
-    "content_ref": null
+    "content_ref": "data/lessons/SUP-E-18.json"
   },
   {
     "id": "SUP-E-19",
@@ -8590,7 +8590,7 @@
     "source_document": "SUPPLEMENT_E_Media_Academic_Culture.md",
     "skill": "enrichment",
     "estimated_minutes": 30,
-    "content_ref": null
+    "content_ref": "data/lessons/SUP-E-19.json"
   },
   {
     "id": "SUP-E-20",
@@ -8603,7 +8603,7 @@
     "source_document": "SUPPLEMENT_E_Media_Academic_Culture.md",
     "skill": "enrichment",
     "estimated_minutes": 30,
-    "content_ref": null
+    "content_ref": "data/lessons/SUP-E-20.json"
   },
   {
     "id": "SUP-E-21",
@@ -9006,7 +9006,7 @@
     "source_document": "SUPPLEMENT_F_Political_Methodology_Kanji.md",
     "skill": "enrichment",
     "estimated_minutes": 30,
-    "content_ref": null
+    "content_ref": "data/lessons/SUP-F-01.json"
   },
   {
     "id": "SUP-F-02",
@@ -9019,7 +9019,7 @@
     "source_document": "SUPPLEMENT_F_Political_Methodology_Kanji.md",
     "skill": "enrichment",
     "estimated_minutes": 30,
-    "content_ref": null
+    "content_ref": "data/lessons/SUP-F-02.json"
   },
   {
     "id": "SUP-F-03",
@@ -9032,7 +9032,7 @@
     "source_document": "SUPPLEMENT_F_Political_Methodology_Kanji.md",
     "skill": "enrichment",
     "estimated_minutes": 30,
-    "content_ref": null
+    "content_ref": "data/lessons/SUP-F-03.json"
   },
   {
     "id": "SUP-F-04",
@@ -9045,7 +9045,7 @@
     "source_document": "SUPPLEMENT_F_Political_Methodology_Kanji.md",
     "skill": "enrichment",
     "estimated_minutes": 30,
-    "content_ref": null
+    "content_ref": "data/lessons/SUP-F-04.json"
   },
   {
     "id": "SUP-F-05",
@@ -9058,7 +9058,7 @@
     "source_document": "SUPPLEMENT_F_Political_Methodology_Kanji.md",
     "skill": "enrichment",
     "estimated_minutes": 30,
-    "content_ref": null
+    "content_ref": "data/lessons/SUP-F-05.json"
   },
   {
     "id": "SUP-F-06",
@@ -9071,7 +9071,7 @@
     "source_document": "SUPPLEMENT_F_Political_Methodology_Kanji.md",
     "skill": "enrichment",
     "estimated_minutes": 30,
-    "content_ref": null
+    "content_ref": "data/lessons/SUP-F-06.json"
   },
   {
     "id": "SUP-F-07",
@@ -9084,7 +9084,7 @@
     "source_document": "SUPPLEMENT_F_Political_Methodology_Kanji.md",
     "skill": "enrichment",
     "estimated_minutes": 30,
-    "content_ref": null
+    "content_ref": "data/lessons/SUP-F-07.json"
   },
   {
     "id": "SUP-F-08",
@@ -9097,7 +9097,7 @@
     "source_document": "SUPPLEMENT_F_Political_Methodology_Kanji.md",
     "skill": "enrichment",
     "estimated_minutes": 30,
-    "content_ref": null
+    "content_ref": "data/lessons/SUP-F-08.json"
   },
   {
     "id": "SUP-F-09",
@@ -9110,7 +9110,7 @@
     "source_document": "SUPPLEMENT_F_Political_Methodology_Kanji.md",
     "skill": "enrichment",
     "estimated_minutes": 30,
-    "content_ref": null
+    "content_ref": "data/lessons/SUP-F-09.json"
   },
   {
     "id": "SUP-F-10",
@@ -9123,7 +9123,7 @@
     "source_document": "SUPPLEMENT_F_Political_Methodology_Kanji.md",
     "skill": "enrichment",
     "estimated_minutes": 30,
-    "content_ref": null
+    "content_ref": "data/lessons/SUP-F-10.json"
   },
   {
     "id": "SUP-F-11",
@@ -9136,7 +9136,7 @@
     "source_document": "SUPPLEMENT_F_Political_Methodology_Kanji.md",
     "skill": "enrichment",
     "estimated_minutes": 30,
-    "content_ref": null
+    "content_ref": "data/lessons/SUP-F-11.json"
   },
   {
     "id": "SUP-F-12",
@@ -9149,7 +9149,7 @@
     "source_document": "SUPPLEMENT_F_Political_Methodology_Kanji.md",
     "skill": "enrichment",
     "estimated_minutes": 30,
-    "content_ref": null
+    "content_ref": "data/lessons/SUP-F-12.json"
   },
   {
     "id": "SUP-F-13",
@@ -9162,7 +9162,7 @@
     "source_document": "SUPPLEMENT_F_Political_Methodology_Kanji.md",
     "skill": "enrichment",
     "estimated_minutes": 30,
-    "content_ref": null
+    "content_ref": "data/lessons/SUP-F-13.json"
   },
   {
     "id": "SUP-F-14",
@@ -9175,7 +9175,7 @@
     "source_document": "SUPPLEMENT_F_Political_Methodology_Kanji.md",
     "skill": "enrichment",
     "estimated_minutes": 30,
-    "content_ref": null
+    "content_ref": "data/lessons/SUP-F-14.json"
   },
   {
     "id": "SUP-F-15",
@@ -9188,7 +9188,7 @@
     "source_document": "SUPPLEMENT_F_Political_Methodology_Kanji.md",
     "skill": "enrichment",
     "estimated_minutes": 30,
-    "content_ref": null
+    "content_ref": "data/lessons/SUP-F-15.json"
   },
   {
     "id": "SUP-F-16",
@@ -9201,7 +9201,7 @@
     "source_document": "SUPPLEMENT_F_Political_Methodology_Kanji.md",
     "skill": "enrichment",
     "estimated_minutes": 30,
-    "content_ref": null
+    "content_ref": "data/lessons/SUP-F-16.json"
   },
   {
     "id": "SUP-F-17",
@@ -9656,7 +9656,7 @@
     "source_document": "SUPPLEMENT_G_N3extended_Classical_FoodService.md",
     "skill": "enrichment",
     "estimated_minutes": 30,
-    "content_ref": null
+    "content_ref": "data/lessons/SUP-G-01.json"
   },
   {
     "id": "SUP-G-02",
@@ -9669,7 +9669,7 @@
     "source_document": "SUPPLEMENT_G_N3extended_Classical_FoodService.md",
     "skill": "enrichment",
     "estimated_minutes": 30,
-    "content_ref": null
+    "content_ref": "data/lessons/SUP-G-02.json"
   },
   {
     "id": "SUP-G-03",
@@ -10956,7 +10956,7 @@
     "source_document": "SUPPLEMENT_I_TestStrategy_Roadmap_ExtendedVocab.md",
     "skill": "enrichment",
     "estimated_minutes": 30,
-    "content_ref": null
+    "content_ref": "data/lessons/SUP-I-01.json"
   },
   {
     "id": "SUP-I-02",
@@ -10969,7 +10969,7 @@
     "source_document": "SUPPLEMENT_I_TestStrategy_Roadmap_ExtendedVocab.md",
     "skill": "enrichment",
     "estimated_minutes": 30,
-    "content_ref": null
+    "content_ref": "data/lessons/SUP-I-02.json"
   },
   {
     "id": "SUP-I-03",
@@ -10982,7 +10982,7 @@
     "source_document": "SUPPLEMENT_I_TestStrategy_Roadmap_ExtendedVocab.md",
     "skill": "enrichment",
     "estimated_minutes": 30,
-    "content_ref": null
+    "content_ref": "data/lessons/SUP-I-03.json"
   },
   {
     "id": "SUP-I-04",
@@ -10995,7 +10995,7 @@
     "source_document": "SUPPLEMENT_I_TestStrategy_Roadmap_ExtendedVocab.md",
     "skill": "enrichment",
     "estimated_minutes": 30,
-    "content_ref": null
+    "content_ref": "data/lessons/SUP-I-04.json"
   },
   {
     "id": "SUP-I-05",
@@ -11008,7 +11008,7 @@
     "source_document": "SUPPLEMENT_I_TestStrategy_Roadmap_ExtendedVocab.md",
     "skill": "enrichment",
     "estimated_minutes": 30,
-    "content_ref": null
+    "content_ref": "data/lessons/SUP-I-05.json"
   },
   {
     "id": "SUP-I-06",
@@ -11021,7 +11021,7 @@
     "source_document": "SUPPLEMENT_I_TestStrategy_Roadmap_ExtendedVocab.md",
     "skill": "enrichment",
     "estimated_minutes": 30,
-    "content_ref": null
+    "content_ref": "data/lessons/SUP-I-06.json"
   },
   {
     "id": "SUP-I-07",
@@ -11034,7 +11034,7 @@
     "source_document": "SUPPLEMENT_I_TestStrategy_Roadmap_ExtendedVocab.md",
     "skill": "enrichment",
     "estimated_minutes": 30,
-    "content_ref": null
+    "content_ref": "data/lessons/SUP-I-07.json"
   },
   {
     "id": "SUP-I-08",
@@ -11047,7 +11047,7 @@
     "source_document": "SUPPLEMENT_I_TestStrategy_Roadmap_ExtendedVocab.md",
     "skill": "enrichment",
     "estimated_minutes": 30,
-    "content_ref": null
+    "content_ref": "data/lessons/SUP-I-08.json"
   },
   {
     "id": "SUP-I-09",
@@ -11060,7 +11060,7 @@
     "source_document": "SUPPLEMENT_I_TestStrategy_Roadmap_ExtendedVocab.md",
     "skill": "enrichment",
     "estimated_minutes": 30,
-    "content_ref": null
+    "content_ref": "data/lessons/SUP-I-09.json"
   },
   {
     "id": "SUP-I-10",
@@ -11073,7 +11073,7 @@
     "source_document": "SUPPLEMENT_I_TestStrategy_Roadmap_ExtendedVocab.md",
     "skill": "enrichment",
     "estimated_minutes": 30,
-    "content_ref": null
+    "content_ref": "data/lessons/SUP-I-10.json"
   },
   {
     "id": "SUP-I-11",
@@ -11086,7 +11086,7 @@
     "source_document": "SUPPLEMENT_I_TestStrategy_Roadmap_ExtendedVocab.md",
     "skill": "enrichment",
     "estimated_minutes": 30,
-    "content_ref": null
+    "content_ref": "data/lessons/SUP-I-11.json"
   },
   {
     "id": "SUP-I-12",
@@ -11099,7 +11099,7 @@
     "source_document": "SUPPLEMENT_I_TestStrategy_Roadmap_ExtendedVocab.md",
     "skill": "enrichment",
     "estimated_minutes": 30,
-    "content_ref": null
+    "content_ref": "data/lessons/SUP-I-12.json"
   },
   {
     "id": "SUP-I-13",
@@ -11591,6 +11591,656 @@
     "track": "OPTIONAL",
     "source_file": "SUPPLEMENT_I_TestStrategy_Roadmap_ExtendedVocab.md",
     "source_document": "SUPPLEMENT_I_TestStrategy_Roadmap_ExtendedVocab.md",
+    "skill": "enrichment",
+    "estimated_minutes": 30,
+    "content_ref": null
+  },
+  {
+    "id": "SUP-J-01",
+    "title": "Supplement J: J IT Japanese Complete - Item 01",
+    "level": "SUPPLEMENTS",
+    "module": "SUP-J",
+    "lesson": "01",
+    "track": "OPTIONAL",
+    "source_file": "SUPPLEMENT_J_IT_Japanese_Complete.md",
+    "source_document": "SUPPLEMENT_J_IT_Japanese_Complete.md",
+    "skill": "enrichment",
+    "estimated_minutes": 30,
+    "content_ref": "data/lessons/SUP-J-01.json"
+  },
+  {
+    "id": "SUP-J-02",
+    "title": "Supplement J: J IT Japanese Complete - Item 02",
+    "level": "SUPPLEMENTS",
+    "module": "SUP-J",
+    "lesson": "02",
+    "track": "OPTIONAL",
+    "source_file": "SUPPLEMENT_J_IT_Japanese_Complete.md",
+    "source_document": "SUPPLEMENT_J_IT_Japanese_Complete.md",
+    "skill": "enrichment",
+    "estimated_minutes": 30,
+    "content_ref": "data/lessons/SUP-J-02.json"
+  },
+  {
+    "id": "SUP-J-03",
+    "title": "Supplement J: J IT Japanese Complete - Item 03",
+    "level": "SUPPLEMENTS",
+    "module": "SUP-J",
+    "lesson": "03",
+    "track": "OPTIONAL",
+    "source_file": "SUPPLEMENT_J_IT_Japanese_Complete.md",
+    "source_document": "SUPPLEMENT_J_IT_Japanese_Complete.md",
+    "skill": "enrichment",
+    "estimated_minutes": 30,
+    "content_ref": "data/lessons/SUP-J-03.json"
+  },
+  {
+    "id": "SUP-J-04",
+    "title": "Supplement J: J IT Japanese Complete - Item 04",
+    "level": "SUPPLEMENTS",
+    "module": "SUP-J",
+    "lesson": "04",
+    "track": "OPTIONAL",
+    "source_file": "SUPPLEMENT_J_IT_Japanese_Complete.md",
+    "source_document": "SUPPLEMENT_J_IT_Japanese_Complete.md",
+    "skill": "enrichment",
+    "estimated_minutes": 30,
+    "content_ref": "data/lessons/SUP-J-04.json"
+  },
+  {
+    "id": "SUP-J-05",
+    "title": "Supplement J: J IT Japanese Complete - Item 05",
+    "level": "SUPPLEMENTS",
+    "module": "SUP-J",
+    "lesson": "05",
+    "track": "OPTIONAL",
+    "source_file": "SUPPLEMENT_J_IT_Japanese_Complete.md",
+    "source_document": "SUPPLEMENT_J_IT_Japanese_Complete.md",
+    "skill": "enrichment",
+    "estimated_minutes": 30,
+    "content_ref": "data/lessons/SUP-J-05.json"
+  },
+  {
+    "id": "SUP-J-06",
+    "title": "Supplement J: J IT Japanese Complete - Item 06",
+    "level": "SUPPLEMENTS",
+    "module": "SUP-J",
+    "lesson": "06",
+    "track": "OPTIONAL",
+    "source_file": "SUPPLEMENT_J_IT_Japanese_Complete.md",
+    "source_document": "SUPPLEMENT_J_IT_Japanese_Complete.md",
+    "skill": "enrichment",
+    "estimated_minutes": 30,
+    "content_ref": "data/lessons/SUP-J-06.json"
+  },
+  {
+    "id": "SUP-J-07",
+    "title": "Supplement J: J IT Japanese Complete - Item 07",
+    "level": "SUPPLEMENTS",
+    "module": "SUP-J",
+    "lesson": "07",
+    "track": "OPTIONAL",
+    "source_file": "SUPPLEMENT_J_IT_Japanese_Complete.md",
+    "source_document": "SUPPLEMENT_J_IT_Japanese_Complete.md",
+    "skill": "enrichment",
+    "estimated_minutes": 30,
+    "content_ref": "data/lessons/SUP-J-07.json"
+  },
+  {
+    "id": "SUP-J-08",
+    "title": "Supplement J: J IT Japanese Complete - Item 08",
+    "level": "SUPPLEMENTS",
+    "module": "SUP-J",
+    "lesson": "08",
+    "track": "OPTIONAL",
+    "source_file": "SUPPLEMENT_J_IT_Japanese_Complete.md",
+    "source_document": "SUPPLEMENT_J_IT_Japanese_Complete.md",
+    "skill": "enrichment",
+    "estimated_minutes": 30,
+    "content_ref": "data/lessons/SUP-J-08.json"
+  },
+  {
+    "id": "SUP-J-09",
+    "title": "Supplement J: J IT Japanese Complete - Item 09",
+    "level": "SUPPLEMENTS",
+    "module": "SUP-J",
+    "lesson": "09",
+    "track": "OPTIONAL",
+    "source_file": "SUPPLEMENT_J_IT_Japanese_Complete.md",
+    "source_document": "SUPPLEMENT_J_IT_Japanese_Complete.md",
+    "skill": "enrichment",
+    "estimated_minutes": 30,
+    "content_ref": "data/lessons/SUP-J-09.json"
+  },
+  {
+    "id": "SUP-J-10",
+    "title": "Supplement J: J IT Japanese Complete - Item 10",
+    "level": "SUPPLEMENTS",
+    "module": "SUP-J",
+    "lesson": "10",
+    "track": "OPTIONAL",
+    "source_file": "SUPPLEMENT_J_IT_Japanese_Complete.md",
+    "source_document": "SUPPLEMENT_J_IT_Japanese_Complete.md",
+    "skill": "enrichment",
+    "estimated_minutes": 30,
+    "content_ref": "data/lessons/SUP-J-10.json"
+  },
+  {
+    "id": "SUP-J-11",
+    "title": "Supplement J: J IT Japanese Complete - Item 11",
+    "level": "SUPPLEMENTS",
+    "module": "SUP-J",
+    "lesson": "11",
+    "track": "OPTIONAL",
+    "source_file": "SUPPLEMENT_J_IT_Japanese_Complete.md",
+    "source_document": "SUPPLEMENT_J_IT_Japanese_Complete.md",
+    "skill": "enrichment",
+    "estimated_minutes": 30,
+    "content_ref": "data/lessons/SUP-J-11.json"
+  },
+  {
+    "id": "SUP-J-12",
+    "title": "Supplement J: J IT Japanese Complete - Item 12",
+    "level": "SUPPLEMENTS",
+    "module": "SUP-J",
+    "lesson": "12",
+    "track": "OPTIONAL",
+    "source_file": "SUPPLEMENT_J_IT_Japanese_Complete.md",
+    "source_document": "SUPPLEMENT_J_IT_Japanese_Complete.md",
+    "skill": "enrichment",
+    "estimated_minutes": 30,
+    "content_ref": "data/lessons/SUP-J-12.json"
+  },
+  {
+    "id": "SUP-J-13",
+    "title": "Supplement J: J IT Japanese Complete - Item 13",
+    "level": "SUPPLEMENTS",
+    "module": "SUP-J",
+    "lesson": "13",
+    "track": "OPTIONAL",
+    "source_file": "SUPPLEMENT_J_IT_Japanese_Complete.md",
+    "source_document": "SUPPLEMENT_J_IT_Japanese_Complete.md",
+    "skill": "enrichment",
+    "estimated_minutes": 30,
+    "content_ref": "data/lessons/SUP-J-13.json"
+  },
+  {
+    "id": "SUP-J-14",
+    "title": "Supplement J: J IT Japanese Complete - Item 14",
+    "level": "SUPPLEMENTS",
+    "module": "SUP-J",
+    "lesson": "14",
+    "track": "OPTIONAL",
+    "source_file": "SUPPLEMENT_J_IT_Japanese_Complete.md",
+    "source_document": "SUPPLEMENT_J_IT_Japanese_Complete.md",
+    "skill": "enrichment",
+    "estimated_minutes": 30,
+    "content_ref": "data/lessons/SUP-J-14.json"
+  },
+  {
+    "id": "SUP-J-15",
+    "title": "Supplement J: J IT Japanese Complete - Item 15",
+    "level": "SUPPLEMENTS",
+    "module": "SUP-J",
+    "lesson": "15",
+    "track": "OPTIONAL",
+    "source_file": "SUPPLEMENT_J_IT_Japanese_Complete.md",
+    "source_document": "SUPPLEMENT_J_IT_Japanese_Complete.md",
+    "skill": "enrichment",
+    "estimated_minutes": 30,
+    "content_ref": "data/lessons/SUP-J-15.json"
+  },
+  {
+    "id": "SUP-J-16",
+    "title": "Supplement J: J IT Japanese Complete - Item 16",
+    "level": "SUPPLEMENTS",
+    "module": "SUP-J",
+    "lesson": "16",
+    "track": "OPTIONAL",
+    "source_file": "SUPPLEMENT_J_IT_Japanese_Complete.md",
+    "source_document": "SUPPLEMENT_J_IT_Japanese_Complete.md",
+    "skill": "enrichment",
+    "estimated_minutes": 30,
+    "content_ref": "data/lessons/SUP-J-16.json"
+  },
+  {
+    "id": "SUP-J-17",
+    "title": "Supplement J: J IT Japanese Complete - Item 17",
+    "level": "SUPPLEMENTS",
+    "module": "SUP-J",
+    "lesson": "17",
+    "track": "OPTIONAL",
+    "source_file": "SUPPLEMENT_J_IT_Japanese_Complete.md",
+    "source_document": "SUPPLEMENT_J_IT_Japanese_Complete.md",
+    "skill": "enrichment",
+    "estimated_minutes": 30,
+    "content_ref": "data/lessons/SUP-J-17.json"
+  },
+  {
+    "id": "SUP-J-18",
+    "title": "Supplement J: J IT Japanese Complete - Item 18",
+    "level": "SUPPLEMENTS",
+    "module": "SUP-J",
+    "lesson": "18",
+    "track": "OPTIONAL",
+    "source_file": "SUPPLEMENT_J_IT_Japanese_Complete.md",
+    "source_document": "SUPPLEMENT_J_IT_Japanese_Complete.md",
+    "skill": "enrichment",
+    "estimated_minutes": 30,
+    "content_ref": "data/lessons/SUP-J-18.json"
+  },
+  {
+    "id": "SUP-J-19",
+    "title": "Supplement J: J IT Japanese Complete - Item 19",
+    "level": "SUPPLEMENTS",
+    "module": "SUP-J",
+    "lesson": "19",
+    "track": "OPTIONAL",
+    "source_file": "SUPPLEMENT_J_IT_Japanese_Complete.md",
+    "source_document": "SUPPLEMENT_J_IT_Japanese_Complete.md",
+    "skill": "enrichment",
+    "estimated_minutes": 30,
+    "content_ref": "data/lessons/SUP-J-19.json"
+  },
+  {
+    "id": "SUP-J-20",
+    "title": "Supplement J: J IT Japanese Complete - Item 20",
+    "level": "SUPPLEMENTS",
+    "module": "SUP-J",
+    "lesson": "20",
+    "track": "OPTIONAL",
+    "source_file": "SUPPLEMENT_J_IT_Japanese_Complete.md",
+    "source_document": "SUPPLEMENT_J_IT_Japanese_Complete.md",
+    "skill": "enrichment",
+    "estimated_minutes": 30,
+    "content_ref": "data/lessons/SUP-J-20.json"
+  },
+  {
+    "id": "SUP-J-21",
+    "title": "Supplement J: J IT Japanese Complete - Item 21",
+    "level": "SUPPLEMENTS",
+    "module": "SUP-J",
+    "lesson": "21",
+    "track": "OPTIONAL",
+    "source_file": "SUPPLEMENT_J_IT_Japanese_Complete.md",
+    "source_document": "SUPPLEMENT_J_IT_Japanese_Complete.md",
+    "skill": "enrichment",
+    "estimated_minutes": 30,
+    "content_ref": "data/lessons/SUP-J-21.json"
+  },
+  {
+    "id": "SUP-J-22",
+    "title": "Supplement J: J IT Japanese Complete - Item 22",
+    "level": "SUPPLEMENTS",
+    "module": "SUP-J",
+    "lesson": "22",
+    "track": "OPTIONAL",
+    "source_file": "SUPPLEMENT_J_IT_Japanese_Complete.md",
+    "source_document": "SUPPLEMENT_J_IT_Japanese_Complete.md",
+    "skill": "enrichment",
+    "estimated_minutes": 30,
+    "content_ref": "data/lessons/SUP-J-22.json"
+  },
+  {
+    "id": "SUP-J-23",
+    "title": "Supplement J: J IT Japanese Complete - Item 23",
+    "level": "SUPPLEMENTS",
+    "module": "SUP-J",
+    "lesson": "23",
+    "track": "OPTIONAL",
+    "source_file": "SUPPLEMENT_J_IT_Japanese_Complete.md",
+    "source_document": "SUPPLEMENT_J_IT_Japanese_Complete.md",
+    "skill": "enrichment",
+    "estimated_minutes": 30,
+    "content_ref": "data/lessons/SUP-J-23.json"
+  },
+  {
+    "id": "SUP-J-24",
+    "title": "Supplement J: J IT Japanese Complete - Item 24",
+    "level": "SUPPLEMENTS",
+    "module": "SUP-J",
+    "lesson": "24",
+    "track": "OPTIONAL",
+    "source_file": "SUPPLEMENT_J_IT_Japanese_Complete.md",
+    "source_document": "SUPPLEMENT_J_IT_Japanese_Complete.md",
+    "skill": "enrichment",
+    "estimated_minutes": 30,
+    "content_ref": "data/lessons/SUP-J-24.json"
+  },
+  {
+    "id": "SUP-J-25",
+    "title": "Supplement J: J IT Japanese Complete - Item 25",
+    "level": "SUPPLEMENTS",
+    "module": "SUP-J",
+    "lesson": "25",
+    "track": "OPTIONAL",
+    "source_file": "SUPPLEMENT_J_IT_Japanese_Complete.md",
+    "source_document": "SUPPLEMENT_J_IT_Japanese_Complete.md",
+    "skill": "enrichment",
+    "estimated_minutes": 30,
+    "content_ref": "data/lessons/SUP-J-25.json"
+  },
+  {
+    "id": "SUP-J-26",
+    "title": "Supplement J: J IT Japanese Complete - Item 26",
+    "level": "SUPPLEMENTS",
+    "module": "SUP-J",
+    "lesson": "26",
+    "track": "OPTIONAL",
+    "source_file": "SUPPLEMENT_J_IT_Japanese_Complete.md",
+    "source_document": "SUPPLEMENT_J_IT_Japanese_Complete.md",
+    "skill": "enrichment",
+    "estimated_minutes": 30,
+    "content_ref": "data/lessons/SUP-J-26.json"
+  },
+  {
+    "id": "SUP-J-27",
+    "title": "Supplement J: J IT Japanese Complete - Item 27",
+    "level": "SUPPLEMENTS",
+    "module": "SUP-J",
+    "lesson": "27",
+    "track": "OPTIONAL",
+    "source_file": "SUPPLEMENT_J_IT_Japanese_Complete.md",
+    "source_document": "SUPPLEMENT_J_IT_Japanese_Complete.md",
+    "skill": "enrichment",
+    "estimated_minutes": 30,
+    "content_ref": "data/lessons/SUP-J-27.json"
+  },
+  {
+    "id": "SUP-J-28",
+    "title": "Supplement J: J IT Japanese Complete - Item 28",
+    "level": "SUPPLEMENTS",
+    "module": "SUP-J",
+    "lesson": "28",
+    "track": "OPTIONAL",
+    "source_file": "SUPPLEMENT_J_IT_Japanese_Complete.md",
+    "source_document": "SUPPLEMENT_J_IT_Japanese_Complete.md",
+    "skill": "enrichment",
+    "estimated_minutes": 30,
+    "content_ref": "data/lessons/SUP-J-28.json"
+  },
+  {
+    "id": "SUP-J-29",
+    "title": "Supplement J: J IT Japanese Complete - Item 29",
+    "level": "SUPPLEMENTS",
+    "module": "SUP-J",
+    "lesson": "29",
+    "track": "OPTIONAL",
+    "source_file": "SUPPLEMENT_J_IT_Japanese_Complete.md",
+    "source_document": "SUPPLEMENT_J_IT_Japanese_Complete.md",
+    "skill": "enrichment",
+    "estimated_minutes": 30,
+    "content_ref": "data/lessons/SUP-J-29.json"
+  },
+  {
+    "id": "SUP-J-30",
+    "title": "Supplement J: J IT Japanese Complete - Item 30",
+    "level": "SUPPLEMENTS",
+    "module": "SUP-J",
+    "lesson": "30",
+    "track": "OPTIONAL",
+    "source_file": "SUPPLEMENT_J_IT_Japanese_Complete.md",
+    "source_document": "SUPPLEMENT_J_IT_Japanese_Complete.md",
+    "skill": "enrichment",
+    "estimated_minutes": 30,
+    "content_ref": "data/lessons/SUP-J-30.json"
+  },
+  {
+    "id": "SUP-J-31",
+    "title": "Supplement J: J IT Japanese Complete - Item 31",
+    "level": "SUPPLEMENTS",
+    "module": "SUP-J",
+    "lesson": "31",
+    "track": "OPTIONAL",
+    "source_file": "SUPPLEMENT_J_IT_Japanese_Complete.md",
+    "source_document": "SUPPLEMENT_J_IT_Japanese_Complete.md",
+    "skill": "enrichment",
+    "estimated_minutes": 30,
+    "content_ref": "data/lessons/SUP-J-31.json"
+  },
+  {
+    "id": "SUP-J-32",
+    "title": "Supplement J: J IT Japanese Complete - Item 32",
+    "level": "SUPPLEMENTS",
+    "module": "SUP-J",
+    "lesson": "32",
+    "track": "OPTIONAL",
+    "source_file": "SUPPLEMENT_J_IT_Japanese_Complete.md",
+    "source_document": "SUPPLEMENT_J_IT_Japanese_Complete.md",
+    "skill": "enrichment",
+    "estimated_minutes": 30,
+    "content_ref": "data/lessons/SUP-J-32.json"
+  },
+  {
+    "id": "SUP-J-33",
+    "title": "Supplement J: J IT Japanese Complete - Item 33",
+    "level": "SUPPLEMENTS",
+    "module": "SUP-J",
+    "lesson": "33",
+    "track": "OPTIONAL",
+    "source_file": "SUPPLEMENT_J_IT_Japanese_Complete.md",
+    "source_document": "SUPPLEMENT_J_IT_Japanese_Complete.md",
+    "skill": "enrichment",
+    "estimated_minutes": 30,
+    "content_ref": null
+  },
+  {
+    "id": "SUP-J-34",
+    "title": "Supplement J: J IT Japanese Complete - Item 34",
+    "level": "SUPPLEMENTS",
+    "module": "SUP-J",
+    "lesson": "34",
+    "track": "OPTIONAL",
+    "source_file": "SUPPLEMENT_J_IT_Japanese_Complete.md",
+    "source_document": "SUPPLEMENT_J_IT_Japanese_Complete.md",
+    "skill": "enrichment",
+    "estimated_minutes": 30,
+    "content_ref": null
+  },
+  {
+    "id": "SUP-J-35",
+    "title": "Supplement J: J IT Japanese Complete - Item 35",
+    "level": "SUPPLEMENTS",
+    "module": "SUP-J",
+    "lesson": "35",
+    "track": "OPTIONAL",
+    "source_file": "SUPPLEMENT_J_IT_Japanese_Complete.md",
+    "source_document": "SUPPLEMENT_J_IT_Japanese_Complete.md",
+    "skill": "enrichment",
+    "estimated_minutes": 30,
+    "content_ref": null
+  },
+  {
+    "id": "SUP-J-36",
+    "title": "Supplement J: J IT Japanese Complete - Item 36",
+    "level": "SUPPLEMENTS",
+    "module": "SUP-J",
+    "lesson": "36",
+    "track": "OPTIONAL",
+    "source_file": "SUPPLEMENT_J_IT_Japanese_Complete.md",
+    "source_document": "SUPPLEMENT_J_IT_Japanese_Complete.md",
+    "skill": "enrichment",
+    "estimated_minutes": 30,
+    "content_ref": null
+  },
+  {
+    "id": "SUP-J-37",
+    "title": "Supplement J: J IT Japanese Complete - Item 37",
+    "level": "SUPPLEMENTS",
+    "module": "SUP-J",
+    "lesson": "37",
+    "track": "OPTIONAL",
+    "source_file": "SUPPLEMENT_J_IT_Japanese_Complete.md",
+    "source_document": "SUPPLEMENT_J_IT_Japanese_Complete.md",
+    "skill": "enrichment",
+    "estimated_minutes": 30,
+    "content_ref": null
+  },
+  {
+    "id": "SUP-J-38",
+    "title": "Supplement J: J IT Japanese Complete - Item 38",
+    "level": "SUPPLEMENTS",
+    "module": "SUP-J",
+    "lesson": "38",
+    "track": "OPTIONAL",
+    "source_file": "SUPPLEMENT_J_IT_Japanese_Complete.md",
+    "source_document": "SUPPLEMENT_J_IT_Japanese_Complete.md",
+    "skill": "enrichment",
+    "estimated_minutes": 30,
+    "content_ref": null
+  },
+  {
+    "id": "SUP-J-39",
+    "title": "Supplement J: J IT Japanese Complete - Item 39",
+    "level": "SUPPLEMENTS",
+    "module": "SUP-J",
+    "lesson": "39",
+    "track": "OPTIONAL",
+    "source_file": "SUPPLEMENT_J_IT_Japanese_Complete.md",
+    "source_document": "SUPPLEMENT_J_IT_Japanese_Complete.md",
+    "skill": "enrichment",
+    "estimated_minutes": 30,
+    "content_ref": null
+  },
+  {
+    "id": "SUP-J-40",
+    "title": "Supplement J: J IT Japanese Complete - Item 40",
+    "level": "SUPPLEMENTS",
+    "module": "SUP-J",
+    "lesson": "40",
+    "track": "OPTIONAL",
+    "source_file": "SUPPLEMENT_J_IT_Japanese_Complete.md",
+    "source_document": "SUPPLEMENT_J_IT_Japanese_Complete.md",
+    "skill": "enrichment",
+    "estimated_minutes": 30,
+    "content_ref": null
+  },
+  {
+    "id": "SUP-J-41",
+    "title": "Supplement J: J IT Japanese Complete - Item 41",
+    "level": "SUPPLEMENTS",
+    "module": "SUP-J",
+    "lesson": "41",
+    "track": "OPTIONAL",
+    "source_file": "SUPPLEMENT_J_IT_Japanese_Complete.md",
+    "source_document": "SUPPLEMENT_J_IT_Japanese_Complete.md",
+    "skill": "enrichment",
+    "estimated_minutes": 30,
+    "content_ref": null
+  },
+  {
+    "id": "SUP-J-42",
+    "title": "Supplement J: J IT Japanese Complete - Item 42",
+    "level": "SUPPLEMENTS",
+    "module": "SUP-J",
+    "lesson": "42",
+    "track": "OPTIONAL",
+    "source_file": "SUPPLEMENT_J_IT_Japanese_Complete.md",
+    "source_document": "SUPPLEMENT_J_IT_Japanese_Complete.md",
+    "skill": "enrichment",
+    "estimated_minutes": 30,
+    "content_ref": null
+  },
+  {
+    "id": "SUP-J-43",
+    "title": "Supplement J: J IT Japanese Complete - Item 43",
+    "level": "SUPPLEMENTS",
+    "module": "SUP-J",
+    "lesson": "43",
+    "track": "OPTIONAL",
+    "source_file": "SUPPLEMENT_J_IT_Japanese_Complete.md",
+    "source_document": "SUPPLEMENT_J_IT_Japanese_Complete.md",
+    "skill": "enrichment",
+    "estimated_minutes": 30,
+    "content_ref": null
+  },
+  {
+    "id": "SUP-J-44",
+    "title": "Supplement J: J IT Japanese Complete - Item 44",
+    "level": "SUPPLEMENTS",
+    "module": "SUP-J",
+    "lesson": "44",
+    "track": "OPTIONAL",
+    "source_file": "SUPPLEMENT_J_IT_Japanese_Complete.md",
+    "source_document": "SUPPLEMENT_J_IT_Japanese_Complete.md",
+    "skill": "enrichment",
+    "estimated_minutes": 30,
+    "content_ref": null
+  },
+  {
+    "id": "SUP-J-45",
+    "title": "Supplement J: J IT Japanese Complete - Item 45",
+    "level": "SUPPLEMENTS",
+    "module": "SUP-J",
+    "lesson": "45",
+    "track": "OPTIONAL",
+    "source_file": "SUPPLEMENT_J_IT_Japanese_Complete.md",
+    "source_document": "SUPPLEMENT_J_IT_Japanese_Complete.md",
+    "skill": "enrichment",
+    "estimated_minutes": 30,
+    "content_ref": null
+  },
+  {
+    "id": "SUP-J-46",
+    "title": "Supplement J: J IT Japanese Complete - Item 46",
+    "level": "SUPPLEMENTS",
+    "module": "SUP-J",
+    "lesson": "46",
+    "track": "OPTIONAL",
+    "source_file": "SUPPLEMENT_J_IT_Japanese_Complete.md",
+    "source_document": "SUPPLEMENT_J_IT_Japanese_Complete.md",
+    "skill": "enrichment",
+    "estimated_minutes": 30,
+    "content_ref": null
+  },
+  {
+    "id": "SUP-J-47",
+    "title": "Supplement J: J IT Japanese Complete - Item 47",
+    "level": "SUPPLEMENTS",
+    "module": "SUP-J",
+    "lesson": "47",
+    "track": "OPTIONAL",
+    "source_file": "SUPPLEMENT_J_IT_Japanese_Complete.md",
+    "source_document": "SUPPLEMENT_J_IT_Japanese_Complete.md",
+    "skill": "enrichment",
+    "estimated_minutes": 30,
+    "content_ref": null
+  },
+  {
+    "id": "SUP-J-48",
+    "title": "Supplement J: J IT Japanese Complete - Item 48",
+    "level": "SUPPLEMENTS",
+    "module": "SUP-J",
+    "lesson": "48",
+    "track": "OPTIONAL",
+    "source_file": "SUPPLEMENT_J_IT_Japanese_Complete.md",
+    "source_document": "SUPPLEMENT_J_IT_Japanese_Complete.md",
+    "skill": "enrichment",
+    "estimated_minutes": 30,
+    "content_ref": null
+  },
+  {
+    "id": "SUP-J-49",
+    "title": "Supplement J: J IT Japanese Complete - Item 49",
+    "level": "SUPPLEMENTS",
+    "module": "SUP-J",
+    "lesson": "49",
+    "track": "OPTIONAL",
+    "source_file": "SUPPLEMENT_J_IT_Japanese_Complete.md",
+    "source_document": "SUPPLEMENT_J_IT_Japanese_Complete.md",
+    "skill": "enrichment",
+    "estimated_minutes": 30,
+    "content_ref": null
+  },
+  {
+    "id": "SUP-J-50",
+    "title": "Supplement J: J IT Japanese Complete - Item 50",
+    "level": "SUPPLEMENTS",
+    "module": "SUP-J",
+    "lesson": "50",
+    "track": "OPTIONAL",
+    "source_file": "SUPPLEMENT_J_IT_Japanese_Complete.md",
+    "source_document": "SUPPLEMENT_J_IT_Japanese_Complete.md",
     "skill": "enrichment",
     "estimated_minutes": 30,
     "content_ref": null

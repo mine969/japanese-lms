@@ -8,6 +8,8 @@ const state = {
   progress: loadProgress(),
 };
 
+const DATA_VERSION = "20260611-supj";
+
 const els = {
   sidebar: document.querySelector("#sidebar"),
   mobileMenuButton: document.querySelector("#mobileMenuButton"),
@@ -48,7 +50,8 @@ async function boot() {
 }
 
 async function fetchJson(url) {
-  const response = await fetch(url);
+  const separator = url.includes("?") ? "&" : "?";
+  const response = await fetch(`${url}${separator}v=${DATA_VERSION}`);
   if (!response.ok) throw new Error(`Failed to load ${url}`);
   return response.json();
 }

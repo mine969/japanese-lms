@@ -2,9 +2,9 @@
   "title": "日本語大学 — JLPT 0→N1 Static LMS",
   "source": "handoff\\final\\FINAL_LMS_HANDOFF_COMPLETE_2026-06-07.md",
   "build_prompt": "handoff\\final\\GPT_LMS_BUILD_PROMPT_2026-06-07.txt",
-  "source_documents": 30,
-  "indexed_nodes": 892,
-  "content_blocks": 82,
+  "source_documents": 31,
+  "indexed_nodes": 942,
+  "content_blocks": 181,
   "levels": {
     "FOUNDATIONS": {
       "lesson_count": 7,
@@ -80,9 +80,9 @@
       }
     },
     "SUPPLEMENTS": {
-      "lesson_count": 450,
+      "lesson_count": 500,
       "main": 0,
-      "optional": 450,
+      "optional": 500,
       "modules": {
         "SUP-A": 50,
         "SUP-B": 50,
@@ -92,7 +92,8 @@
         "SUP-F": 50,
         "SUP-G": 50,
         "SUP-H": 50,
-        "SUP-I": 50
+        "SUP-I": 50,
+        "SUP-J": 50
       }
     }
   },

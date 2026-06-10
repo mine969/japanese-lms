@@ -4547,4 +4547,262 @@ Appendix A: Module vocabulary
 Appendix B: Module kanji
 Appendix C: Module grammar quick reference
 
+## PDF WORKBOOK: SUPPLEMENTS_SUP-J_Workbook.pdf
+### Contents:
+1. Module Overview
+2. Lesson 01: Supplement J: J IT Japanese Complete - Item 01
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+3. Lesson 02: Supplement J: J IT Japanese Complete - Item 02
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+4. Lesson 03: Supplement J: J IT Japanese Complete - Item 03
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+5. Lesson 04: Supplement J: J IT Japanese Complete - Item 04
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+6. Lesson 05: Supplement J: J IT Japanese Complete - Item 05
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+7. Lesson 06: Supplement J: J IT Japanese Complete - Item 06
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+8. Lesson 07: Supplement J: J IT Japanese Complete - Item 07
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+9. Lesson 08: Supplement J: J IT Japanese Complete - Item 08
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+10. Lesson 09: Supplement J: J IT Japanese Complete - Item 09
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+11. Lesson 10: Supplement J: J IT Japanese Complete - Item 10
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+12. Lesson 11: Supplement J: J IT Japanese Complete - Item 11
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+13. Lesson 12: Supplement J: J IT Japanese Complete - Item 12
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+14. Lesson 13: Supplement J: J IT Japanese Complete - Item 13
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+15. Lesson 14: Supplement J: J IT Japanese Complete - Item 14
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+16. Lesson 15: Supplement J: J IT Japanese Complete - Item 15
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+17. Lesson 16: Supplement J: J IT Japanese Complete - Item 16
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+18. Lesson 17: Supplement J: J IT Japanese Complete - Item 17
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+19. Lesson 18: Supplement J: J IT Japanese Complete - Item 18
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+20. Lesson 19: Supplement J: J IT Japanese Complete - Item 19
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+21. Lesson 20: Supplement J: J IT Japanese Complete - Item 20
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+22. Lesson 21: Supplement J: J IT Japanese Complete - Item 21
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+23. Lesson 22: Supplement J: J IT Japanese Complete - Item 22
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+24. Lesson 23: Supplement J: J IT Japanese Complete - Item 23
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+25. Lesson 24: Supplement J: J IT Japanese Complete - Item 24
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+26. Lesson 25: Supplement J: J IT Japanese Complete - Item 25
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+27. Lesson 26: Supplement J: J IT Japanese Complete - Item 26
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+28. Lesson 27: Supplement J: J IT Japanese Complete - Item 27
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+29. Lesson 28: Supplement J: J IT Japanese Complete - Item 28
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+30. Lesson 29: Supplement J: J IT Japanese Complete - Item 29
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+31. Lesson 30: Supplement J: J IT Japanese Complete - Item 30
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+32. Lesson 31: Supplement J: J IT Japanese Complete - Item 31
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+33. Lesson 32: Supplement J: J IT Japanese Complete - Item 32
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+34. Lesson 33: Supplement J: J IT Japanese Complete - Item 33
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+35. Lesson 34: Supplement J: J IT Japanese Complete - Item 34
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+36. Lesson 35: Supplement J: J IT Japanese Complete - Item 35
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+37. Lesson 36: Supplement J: J IT Japanese Complete - Item 36
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+38. Lesson 37: Supplement J: J IT Japanese Complete - Item 37
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+39. Lesson 38: Supplement J: J IT Japanese Complete - Item 38
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+40. Lesson 39: Supplement J: J IT Japanese Complete - Item 39
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+41. Lesson 40: Supplement J: J IT Japanese Complete - Item 40
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+42. Lesson 41: Supplement J: J IT Japanese Complete - Item 41
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+43. Lesson 42: Supplement J: J IT Japanese Complete - Item 42
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+44. Lesson 43: Supplement J: J IT Japanese Complete - Item 43
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+45. Lesson 44: Supplement J: J IT Japanese Complete - Item 44
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+46. Lesson 45: Supplement J: J IT Japanese Complete - Item 45
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+47. Lesson 46: Supplement J: J IT Japanese Complete - Item 46
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+48. Lesson 47: Supplement J: J IT Japanese Complete - Item 47
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+49. Lesson 48: Supplement J: J IT Japanese Complete - Item 48
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+50. Lesson 49: Supplement J: J IT Japanese Complete - Item 49
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+51. Lesson 50: Supplement J: J IT Japanese Complete - Item 50
+   - Vocabulary table when present in source
+   - Grammar summary from approved lesson source
+   - Exercise sets and answer key when present
+   - Writing / self-check prompt when present
+52. Module Review + Self-assessment checklist
+Appendix A: Module vocabulary
+Appendix B: Module kanji
+Appendix C: Module grammar quick reference
+
 Formatting: A4 or US Letter, readable sans-serif body, Japanese-capable font fallback, answer keys at back.

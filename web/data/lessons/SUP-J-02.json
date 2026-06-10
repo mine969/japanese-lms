@@ -1,0 +1,95 @@
+{
+  "id": "SUP-J-02",
+  "title": "Supplement J: J IT Japanese Complete - Item 02",
+  "source_document": "SUPPLEMENT_J_IT_Japanese_Complete.md",
+  "markdown": "## J2 — Data Structures & Algorithms\n\n| Japanese | Reading | English |\n|----------|---------|---------|\n| データ構造 | データこうぞう | data structure |\n| アルゴリズム | アルゴリズム | algorithm |\n| ソート | ソート | sort |\n| 検索 | けんさく | search |\n| バイナリサーチ | バイナリサーチ | binary search |\n| スタック | スタック | stack |\n| キュー | キュー | queue |\n| ハッシュテーブル | ハッシュテーブル | hash table |\n| 木構造 | きこうぞう | tree structure |\n| グラフ | グラフ | graph |\n| 再帰 | さいき | recursion |\n| 動的計画法 | どうてきけいかくほう | dynamic programming |\n| 計算量 | けいさんりょう | computational complexity |\n| オーダー記法 | オーダーきほう | Big O notation |\n| メモリ使用量 | メモリしようりょう | memory usage |\n| 最適化 | さいてきか | optimization |\n| ボトルネック | ボトルネック | bottleneck |",
+  "objectives": [],
+  "vocabulary": [
+    {
+      "Japanese": "データ構造",
+      "Furigana": "データこうぞう",
+      "Meaning": "data structure"
+    },
+    {
+      "Japanese": "アルゴリズム",
+      "Furigana": "アルゴリズム",
+      "Meaning": "algorithm"
+    },
+    {
+      "Japanese": "ソート",
+      "Furigana": "ソート",
+      "Meaning": "sort"
+    },
+    {
+      "Japanese": "検索",
+      "Furigana": "けんさく",
+      "Meaning": "search"
+    },
+    {
+      "Japanese": "バイナリサーチ",
+      "Furigana": "バイナリサーチ",
+      "Meaning": "binary search"
+    },
+    {
+      "Japanese": "スタック",
+      "Furigana": "スタック",
+      "Meaning": "stack"
+    },
+    {
+      "Japanese": "キュー",
+      "Furigana": "キュー",
+      "Meaning": "queue"
+    },
+    {
+      "Japanese": "ハッシュテーブル",
+      "Furigana": "ハッシュテーブル",
+      "Meaning": "hash table"
+    },
+    {
+      "Japanese": "木構造",
+      "Furigana": "きこうぞう",
+      "Meaning": "tree structure"
+    },
+    {
+      "Japanese": "グラフ",
+      "Furigana": "グラフ",
+      "Meaning": "graph"
+    },
+    {
+      "Japanese": "再帰",
+      "Furigana": "さいき",
+      "Meaning": "recursion"
+    },
+    {
+      "Japanese": "動的計画法",
+      "Furigana": "どうてきけいかくほう",
+      "Meaning": "dynamic programming"
+    },
+    {
+      "Japanese": "計算量",
+      "Furigana": "けいさんりょう",
+      "Meaning": "computational complexity"
+    },
+    {
+      "Japanese": "オーダー記法",
+      "Furigana": "オーダーきほう",
+      "Meaning": "Big O notation"
+    },
+    {
+      "Japanese": "メモリ使用量",
+      "Furigana": "メモリしようりょう",
+      "Meaning": "memory usage"
+    },
+    {
+      "Japanese": "最適化",
+      "Furigana": "さいてきか",
+      "Meaning": "optimization"
+    },
+    {
+      "Japanese": "ボトルネック",
+      "Furigana": "ボトルネック",
+      "Meaning": "bottleneck"
+    }
+  ],
+  "checklist": []
+}

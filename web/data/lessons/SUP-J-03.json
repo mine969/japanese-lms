@@ -1,0 +1,90 @@
+{
+  "id": "SUP-J-03",
+  "title": "Supplement J: J IT Japanese Complete - Item 03",
+  "source_document": "SUPPLEMENT_J_IT_Japanese_Complete.md",
+  "markdown": "## J3 — Object-Oriented Programming (OOP)\n\n| Japanese | Reading | English |\n|----------|---------|---------|\n| オブジェクト指向 | オブジェクトしこう | object-oriented |\n| カプセル化 | カプセルか | encapsulation |\n| 継承 | けいしょう | inheritance |\n| ポリモーフィズム | ポリモーフィズム | polymorphism |\n| 抽象クラス | ちゅうしょうクラス | abstract class |\n| 具象クラス | ぐしょうクラス | concrete class |\n| シングルトン | シングルトン | singleton |\n| デザインパターン | デザインパターン | design pattern |\n| ファクトリーパターン | ファクトリーパターン | factory pattern |\n| オブザーバーパターン | オブザーバーパターン | observer pattern |\n| MVCパターン | MVCパターン | MVC pattern |\n| 依存性注入 | いぞんせいちゅうにゅう | dependency injection |\n| インターフェース | インターフェース | interface |\n| 抽象化 | ちゅうしょうか | abstraction |\n| 疎結合 | そけつごう | loose coupling |\n| 密結合 | みつけつごう | tight coupling |\n\n---\n\n# ══════════════════════════════════════════════════════\n# PART 2 — WEB DEVELOPMENT (Web開発)\n# ══════════════════════════════════════════════════════",
+  "objectives": [],
+  "vocabulary": [
+    {
+      "Japanese": "オブジェクト指向",
+      "Furigana": "オブジェクトしこう",
+      "Meaning": "object-oriented"
+    },
+    {
+      "Japanese": "カプセル化",
+      "Furigana": "カプセルか",
+      "Meaning": "encapsulation"
+    },
+    {
+      "Japanese": "継承",
+      "Furigana": "けいしょう",
+      "Meaning": "inheritance"
+    },
+    {
+      "Japanese": "ポリモーフィズム",
+      "Furigana": "ポリモーフィズム",
+      "Meaning": "polymorphism"
+    },
+    {
+      "Japanese": "抽象クラス",
+      "Furigana": "ちゅうしょうクラス",
+      "Meaning": "abstract class"
+    },
+    {
+      "Japanese": "具象クラス",
+      "Furigana": "ぐしょうクラス",
+      "Meaning": "concrete class"
+    },
+    {
+      "Japanese": "シングルトン",
+      "Furigana": "シングルトン",
+      "Meaning": "singleton"
+    },
+    {
+      "Japanese": "デザインパターン",
+      "Furigana": "デザインパターン",
+      "Meaning": "design pattern"
+    },
+    {
+      "Japanese": "ファクトリーパターン",
+      "Furigana": "ファクトリーパターン",
+      "Meaning": "factory pattern"
+    },
+    {
+      "Japanese": "オブザーバーパターン",
+      "Furigana": "オブザーバーパターン",
+      "Meaning": "observer pattern"
+    },
+    {
+      "Japanese": "MVCパターン",
+      "Furigana": "MVCパターン",
+      "Meaning": "MVC pattern"
+    },
+    {
+      "Japanese": "依存性注入",
+      "Furigana": "いぞんせいちゅうにゅう",
+      "Meaning": "dependency injection"
+    },
+    {
+      "Japanese": "インターフェース",
+      "Furigana": "インターフェース",
+      "Meaning": "interface"
+    },
+    {
+      "Japanese": "抽象化",
+      "Furigana": "ちゅうしょうか",
+      "Meaning": "abstraction"
+    },
+    {
+      "Japanese": "疎結合",
+      "Furigana": "そけつごう",
+      "Meaning": "loose coupling"
+    },
+    {
+      "Japanese": "密結合",
+      "Furigana": "みつけつごう",
+      "Meaning": "tight coupling"
+    }
+  ],
+  "checklist": []
+}

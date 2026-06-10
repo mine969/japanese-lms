@@ -1,0 +1,170 @@
+{
+  "id": "SUP-J-14",
+  "title": "Supplement J: J IT Japanese Complete - Item 14",
+  "source_document": "SUPPLEMENT_J_IT_Japanese_Complete.md",
+  "markdown": "## J14 — Cybersecurity Vocabulary\n\n| Japanese | Reading | English |\n|----------|---------|---------|\n| セキュリティ | セキュリティ | security |\n| 情報セキュリティ | じょうほうセキュリティ | information security |\n| サイバーセキュリティ | サイバーセキュリティ | cybersecurity |\n| 脆弱性 | ぜいじゃくせい | vulnerability |\n| セキュリティホール | セキュリティホール | security hole |\n| 攻撃 | こうげき | attack |\n| 脅威 | きょうい | threat |\n| リスク | リスク | risk |\n| 不正アクセス | ふせいアクセス | unauthorized access |\n| マルウェア | マルウェア | malware |\n| ウイルス | ウイルス | virus |\n| ランサムウェア | ランサムウェア | ransomware |\n| フィッシング | フィッシング | phishing |\n| ソーシャルエンジニアリング | ソーシャルエンジニアリング | social engineering |\n| SQLインジェクション | SQLインジェクション | SQL injection |\n| XSS | クロスサイトスクリプティング | cross-site scripting |\n| CSRF | シーエスアールエフ | CSRF |\n| DDoS攻撃 | ディードスこうげき | DDoS attack |\n| ゼロデイ脆弱性 | ゼロデイぜいじゃくせい | zero-day vulnerability |\n| 暗号化 | あんごうか | encryption |\n| 復号 | ふくごう | decryption |\n| ハッシュ化 | ハッシュか | hashing |\n| 公開鍵 | こうかいかぎ | public key |\n| 秘密鍵 | ひみつかぎ | private key |\n| 認証 | にんしょう | authentication |\n| 二要素認証 | にようそにんしょう | two-factor authentication (2FA) |\n| SSO | シングルサインオン | single sign-on |\n| ペネトレーションテスト | ペネトレーションテスト | penetration testing (pentest) |\n| 脆弱性診断 | ぜいじゃくせいしんだん | vulnerability assessment |\n| セキュリティパッチ | セキュリティパッチ | security patch |\n| インシデントレスポンス | インシデントレスポンス | incident response |\n| フォレンジック | フォレンジック | forensics |\n\n---\n\n# ══════════════════════════════════════════════════════\n# PART 8 — AI / MACHINE LEARNING / DATA SCIENCE\n# ══════════════════════════════════════════════════════",
+  "objectives": [],
+  "vocabulary": [
+    {
+      "Japanese": "セキュリティ",
+      "Furigana": "セキュリティ",
+      "Meaning": "security"
+    },
+    {
+      "Japanese": "情報セキュリティ",
+      "Furigana": "じょうほうセキュリティ",
+      "Meaning": "information security"
+    },
+    {
+      "Japanese": "サイバーセキュリティ",
+      "Furigana": "サイバーセキュリティ",
+      "Meaning": "cybersecurity"
+    },
+    {
+      "Japanese": "脆弱性",
+      "Furigana": "ぜいじゃくせい",
+      "Meaning": "vulnerability"
+    },
+    {
+      "Japanese": "セキュリティホール",
+      "Furigana": "セキュリティホール",
+      "Meaning": "security hole"
+    },
+    {
+      "Japanese": "攻撃",
+      "Furigana": "こうげき",
+      "Meaning": "attack"
+    },
+    {
+      "Japanese": "脅威",
+      "Furigana": "きょうい",
+      "Meaning": "threat"
+    },
+    {
+      "Japanese": "リスク",
+      "Furigana": "リスク",
+      "Meaning": "risk"
+    },
+    {
+      "Japanese": "不正アクセス",
+      "Furigana": "ふせいアクセス",
+      "Meaning": "unauthorized access"
+    },
+    {
+      "Japanese": "マルウェア",
+      "Furigana": "マルウェア",
+      "Meaning": "malware"
+    },
+    {
+      "Japanese": "ウイルス",
+      "Furigana": "ウイルス",
+      "Meaning": "virus"
+    },
+    {
+      "Japanese": "ランサムウェア",
+      "Furigana": "ランサムウェア",
+      "Meaning": "ransomware"
+    },
+    {
+      "Japanese": "フィッシング",
+      "Furigana": "フィッシング",
+      "Meaning": "phishing"
+    },
+    {
+      "Japanese": "ソーシャルエンジニアリング",
+      "Furigana": "ソーシャルエンジニアリング",
+      "Meaning": "social engineering"
+    },
+    {
+      "Japanese": "SQLインジェクション",
+      "Furigana": "SQLインジェクション",
+      "Meaning": "SQL injection"
+    },
+    {
+      "Japanese": "XSS",
+      "Furigana": "クロスサイトスクリプティング",
+      "Meaning": "cross-site scripting"
+    },
+    {
+      "Japanese": "CSRF",
+      "Furigana": "シーエスアールエフ",
+      "Meaning": "CSRF"
+    },
+    {
+      "Japanese": "DDoS攻撃",
+      "Furigana": "ディードスこうげき",
+      "Meaning": "DDoS attack"
+    },
+    {
+      "Japanese": "ゼロデイ脆弱性",
+      "Furigana": "ゼロデイぜいじゃくせい",
+      "Meaning": "zero-day vulnerability"
+    },
+    {
+      "Japanese": "暗号化",
+      "Furigana": "あんごうか",
+      "Meaning": "encryption"
+    },
+    {
+      "Japanese": "復号",
+      "Furigana": "ふくごう",
+      "Meaning": "decryption"
+    },
+    {
+      "Japanese": "ハッシュ化",
+      "Furigana": "ハッシュか",
+      "Meaning": "hashing"
+    },
+    {
+      "Japanese": "公開鍵",
+      "Furigana": "こうかいかぎ",
+      "Meaning": "public key"
+    },
+    {
+      "Japanese": "秘密鍵",
+      "Furigana": "ひみつかぎ",
+      "Meaning": "private key"
+    },
+    {
+      "Japanese": "認証",
+      "Furigana": "にんしょう",
+      "Meaning": "authentication"
+    },
+    {
+      "Japanese": "二要素認証",
+      "Furigana": "にようそにんしょう",
+      "Meaning": "two-factor authentication (2FA)"
+    },
+    {
+      "Japanese": "SSO",
+      "Furigana": "シングルサインオン",
+      "Meaning": "single sign-on"
+    },
+    {
+      "Japanese": "ペネトレーションテスト",
+      "Furigana": "ペネトレーションテスト",
+      "Meaning": "penetration testing (pentest)"
+    },
+    {
+      "Japanese": "脆弱性診断",
+      "Furigana": "ぜいじゃくせいしんだん",
+      "Meaning": "vulnerability assessment"
+    },
+    {
+      "Japanese": "セキュリティパッチ",
+      "Furigana": "セキュリティパッチ",
+      "Meaning": "security patch"
+    },
+    {
+      "Japanese": "インシデントレスポンス",
+      "Furigana": "インシデントレスポンス",
+      "Meaning": "incident response"
+    },
+    {
+      "Japanese": "フォレンジック",
+      "Furigana": "フォレンジック",
+      "Meaning": "forensics"
+    }
+  ],
+  "checklist": []
+}

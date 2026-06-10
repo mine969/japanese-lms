@@ -12,6 +12,7 @@ Active source files:
 
 - `handoff/final/FINAL_LMS_HANDOFF_COMPLETE_2026-06-07.md`
 - `handoff/final/GPT_LMS_BUILD_PROMPT_2026-06-07.txt`
+- `handoff/final/SUPPLEMENT_J_IT_Japanese_Complete.md`
 
 Do not use old handoff files as curriculum source.
 
@@ -28,20 +29,20 @@ Do not use old handoff files as curriculum source.
 - Legacy lesson hashes redirect, e.g. `#/N5-OPT-01` -> `#/lesson/N5-OPT-01`
 - Local progress is stored in `localStorage`
 - LMS package exports are visible from the Package page
-- Generated data currently indexes 892 nodes
+- Generated data currently indexes 942 nodes
 
 ## Generated Scope
 
 | Area | Count |
 | --- | ---: |
-| Total indexed nodes | 892 |
+| Total indexed nodes | 942 |
 | Formal JLPT lessons | 400 |
 | Foundations | 7 |
 | Level optional lessons | 30 |
 | Mock exam SCOs | 5 |
-| Supplement SCOs | 450 |
-| Source documents | 30 |
-| Direct extracts | 82 |
+| Supplement SCOs | 500 |
+| Source documents | 31 |
+| Direct extracts | 181 |
 
 ## Key Files
 

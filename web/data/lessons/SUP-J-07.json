@@ -1,0 +1,160 @@
+{
+  "id": "SUP-J-07",
+  "title": "Supplement J: J IT Japanese Complete - Item 07",
+  "source_document": "SUPPLEMENT_J_IT_Japanese_Complete.md",
+  "markdown": "## J7 — Infrastructure Terms\n\n| Japanese | Reading | English |\n|----------|---------|---------|\n| インフラ | インフラ | infrastructure |\n| サーバー | サーバー | server |\n| オンプレミス | オンプレミス | on-premises |\n| クラウド | クラウド | cloud |\n| パブリッククラウド | パブリッククラウド | public cloud |\n| プライベートクラウド | プライベートクラウド | private cloud |\n| ハイブリッドクラウド | ハイブリッドクラウド | hybrid cloud |\n| サーバーレス | サーバーレス | serverless |\n| コンテナ | コンテナ | container |\n| 仮想マシン | かそうマシン | virtual machine (VM) |\n| ハイパーバイザー | ハイパーバイザー | hypervisor |\n| オーケストレーション | オーケストレーション | orchestration |\n| マネージドサービス | マネージドサービス | managed service |\n| ネットワーク | ネットワーク | network |\n| ファイアウォール | ファイアウォール | firewall |\n| VPN | ブイピーエン | VPN |\n| ロードバランサー | ロードバランサー | load balancer |\n| CDN | シーディーエヌ | CDN |\n| DNS | ディーエヌエス | DNS |\n| IPアドレス | IPアドレス | IP address |\n| サブネット | サブネット | subnet |\n| ポート | ポート | port |\n| プロキシ | プロキシ | proxy |\n| リバースプロキシ | リバースプロキシ | reverse proxy |\n| SSL/TLS | エスエスエル/ティーエルエス | SSL/TLS |\n| 証明書 | しょうめいしょ | certificate |\n| 死活監視 | しかつかんし | uptime monitoring / health check |\n| アラート | アラート | alert |\n| メトリクス | メトリクス | metrics |\n| ダッシュボード | ダッシュボード | dashboard |",
+  "objectives": [],
+  "vocabulary": [
+    {
+      "Japanese": "インフラ",
+      "Furigana": "インフラ",
+      "Meaning": "infrastructure"
+    },
+    {
+      "Japanese": "サーバー",
+      "Furigana": "サーバー",
+      "Meaning": "server"
+    },
+    {
+      "Japanese": "オンプレミス",
+      "Furigana": "オンプレミス",
+      "Meaning": "on-premises"
+    },
+    {
+      "Japanese": "クラウド",
+      "Furigana": "クラウド",
+      "Meaning": "cloud"
+    },
+    {
+      "Japanese": "パブリッククラウド",
+      "Furigana": "パブリッククラウド",
+      "Meaning": "public cloud"
+    },
+    {
+      "Japanese": "プライベートクラウド",
+      "Furigana": "プライベートクラウド",
+      "Meaning": "private cloud"
+    },
+    {
+      "Japanese": "ハイブリッドクラウド",
+      "Furigana": "ハイブリッドクラウド",
+      "Meaning": "hybrid cloud"
+    },
+    {
+      "Japanese": "サーバーレス",
+      "Furigana": "サーバーレス",
+      "Meaning": "serverless"
+    },
+    {
+      "Japanese": "コンテナ",
+      "Furigana": "コンテナ",
+      "Meaning": "container"
+    },
+    {
+      "Japanese": "仮想マシン",
+      "Furigana": "かそうマシン",
+      "Meaning": "virtual machine (VM)"
+    },
+    {
+      "Japanese": "ハイパーバイザー",
+      "Furigana": "ハイパーバイザー",
+      "Meaning": "hypervisor"
+    },
+    {
+      "Japanese": "オーケストレーション",
+      "Furigana": "オーケストレーション",
+      "Meaning": "orchestration"
+    },
+    {
+      "Japanese": "マネージドサービス",
+      "Furigana": "マネージドサービス",
+      "Meaning": "managed service"
+    },
+    {
+      "Japanese": "ネットワーク",
+      "Furigana": "ネットワーク",
+      "Meaning": "network"
+    },
+    {
+      "Japanese": "ファイアウォール",
+      "Furigana": "ファイアウォール",
+      "Meaning": "firewall"
+    },
+    {
+      "Japanese": "VPN",
+      "Furigana": "ブイピーエン",
+      "Meaning": "VPN"
+    },
+    {
+      "Japanese": "ロードバランサー",
+      "Furigana": "ロードバランサー",
+      "Meaning": "load balancer"
+    },
+    {
+      "Japanese": "CDN",
+      "Furigana": "シーディーエヌ",
+      "Meaning": "CDN"
+    },
+    {
+      "Japanese": "DNS",
+      "Furigana": "ディーエヌエス",
+      "Meaning": "DNS"
+    },
+    {
+      "Japanese": "IPアドレス",
+      "Furigana": "IPアドレス",
+      "Meaning": "IP address"
+    },
+    {
+      "Japanese": "サブネット",
+      "Furigana": "サブネット",
+      "Meaning": "subnet"
+    },
+    {
+      "Japanese": "ポート",
+      "Furigana": "ポート",
+      "Meaning": "port"
+    },
+    {
+      "Japanese": "プロキシ",
+      "Furigana": "プロキシ",
+      "Meaning": "proxy"
+    },
+    {
+      "Japanese": "リバースプロキシ",
+      "Furigana": "リバースプロキシ",
+      "Meaning": "reverse proxy"
+    },
+    {
+      "Japanese": "SSL/TLS",
+      "Furigana": "エスエスエル/ティーエルエス",
+      "Meaning": "SSL/TLS"
+    },
+    {
+      "Japanese": "証明書",
+      "Furigana": "しょうめいしょ",
+      "Meaning": "certificate"
+    },
+    {
+      "Japanese": "死活監視",
+      "Furigana": "しかつかんし",
+      "Meaning": "uptime monitoring / health check"
+    },
+    {
+      "Japanese": "アラート",
+      "Furigana": "アラート",
+      "Meaning": "alert"
+    },
+    {
+      "Japanese": "メトリクス",
+      "Furigana": "メトリクス",
+      "Meaning": "metrics"
+    },
+    {
+      "Japanese": "ダッシュボード",
+      "Furigana": "ダッシュボード",
+      "Meaning": "dashboard"
+    }
+  ],
+  "checklist": []
+}

@@ -1,0 +1,160 @@
+{
+  "id": "SUP-J-21",
+  "title": "Supplement J: J IT Japanese Complete - Item 21",
+  "source_document": "SUPPLEMENT_J_IT_Japanese_Complete.md",
+  "markdown": "## J21 — IT Job Titles in Japan\n\n| Japanese | Reading | English | Notes |\n|----------|---------|---------|-------|\n| エンジニア | エンジニア | engineer | General term |\n| ソフトウェアエンジニア | ソフトウェアエンジニア | software engineer | SWE |\n| バックエンドエンジニア | バックエンドエンジニア | backend engineer | |\n| フロントエンドエンジニア | フロントエンドエンジニア | frontend engineer | |\n| フルスタックエンジニア | フルスタックエンジニア | full-stack engineer | |\n| インフラエンジニア | インフラエンジニア | infrastructure engineer | |\n| SREエンジニア | SREエンジニア | SRE (Site Reliability Engineer) | |\n| DevOpsエンジニア | DevOpsエンジニア | DevOps engineer | |\n| データエンジニア | データエンジニア | data engineer | |\n| データサイエンティスト | データサイエンティスト | data scientist | |\n| MLエンジニア | エムエルエンジニア | ML engineer | |\n| AIエンジニア | AIエンジニア | AI engineer | |\n| セキュリティエンジニア | セキュリティエンジニア | security engineer | |\n| QAエンジニア | キューエーエンジニア | QA engineer | |\n| モバイルエンジニア | モバイルエンジニア | mobile engineer | |\n| iOSエンジニア | アイオーエスエンジニア | iOS engineer | |\n| Androidエンジニア | アンドロイドエンジニア | Android engineer | |\n| プロダクトマネージャー | プロダクトマネージャー | product manager | PM |\n| テクニカルリード | テクニカルリード | tech lead | TL |\n| エンジニアリングマネージャー | エンジニアリングマネージャー | engineering manager | EM |\n| CTO | シーティーオー | Chief Technology Officer | |\n| VPoE | ブイピーオブエンジニアリング | VP of Engineering | |\n| アーキテクト | アーキテクト | architect | |\n| コンサルタント | コンサルタント | consultant | |\n| PMO | ピーエムオー | project management office | |\n| スクラムマスター | スクラムマスター | scrum master | |\n| UXデザイナー | ユーエックスデザイナー | UX designer | |\n| UIデザイナー | ユーアイデザイナー | UI designer | |\n| テクニカルライター | テクニカルライター | technical writer | |\n| サポートエンジニア | サポートエンジニア | support engineer | |\n\n---\n\n# ══════════════════════════════════════════════════════\n# PART 14 — IT CERTIFICATIONS IN JAPAN\n# ══════════════════════════════════════════════════════",
+  "objectives": [],
+  "vocabulary": [
+    {
+      "Japanese": "エンジニア",
+      "Furigana": "エンジニア",
+      "Meaning": "engineer"
+    },
+    {
+      "Japanese": "ソフトウェアエンジニア",
+      "Furigana": "ソフトウェアエンジニア",
+      "Meaning": "software engineer"
+    },
+    {
+      "Japanese": "バックエンドエンジニア",
+      "Furigana": "バックエンドエンジニア",
+      "Meaning": "backend engineer"
+    },
+    {
+      "Japanese": "フロントエンドエンジニア",
+      "Furigana": "フロントエンドエンジニア",
+      "Meaning": "frontend engineer"
+    },
+    {
+      "Japanese": "フルスタックエンジニア",
+      "Furigana": "フルスタックエンジニア",
+      "Meaning": "full-stack engineer"
+    },
+    {
+      "Japanese": "インフラエンジニア",
+      "Furigana": "インフラエンジニア",
+      "Meaning": "infrastructure engineer"
+    },
+    {
+      "Japanese": "SREエンジニア",
+      "Furigana": "SREエンジニア",
+      "Meaning": "SRE (Site Reliability Engineer)"
+    },
+    {
+      "Japanese": "DevOpsエンジニア",
+      "Furigana": "DevOpsエンジニア",
+      "Meaning": "DevOps engineer"
+    },
+    {
+      "Japanese": "データエンジニア",
+      "Furigana": "データエンジニア",
+      "Meaning": "data engineer"
+    },
+    {
+      "Japanese": "データサイエンティスト",
+      "Furigana": "データサイエンティスト",
+      "Meaning": "data scientist"
+    },
+    {
+      "Japanese": "MLエンジニア",
+      "Furigana": "エムエルエンジニア",
+      "Meaning": "ML engineer"
+    },
+    {
+      "Japanese": "AIエンジニア",
+      "Furigana": "AIエンジニア",
+      "Meaning": "AI engineer"
+    },
+    {
+      "Japanese": "セキュリティエンジニア",
+      "Furigana": "セキュリティエンジニア",
+      "Meaning": "security engineer"
+    },
+    {
+      "Japanese": "QAエンジニア",
+      "Furigana": "キューエーエンジニア",
+      "Meaning": "QA engineer"
+    },
+    {
+      "Japanese": "モバイルエンジニア",
+      "Furigana": "モバイルエンジニア",
+      "Meaning": "mobile engineer"
+    },
+    {
+      "Japanese": "iOSエンジニア",
+      "Furigana": "アイオーエスエンジニア",
+      "Meaning": "iOS engineer"
+    },
+    {
+      "Japanese": "Androidエンジニア",
+      "Furigana": "アンドロイドエンジニア",
+      "Meaning": "Android engineer"
+    },
+    {
+      "Japanese": "プロダクトマネージャー",
+      "Furigana": "プロダクトマネージャー",
+      "Meaning": "product manager"
+    },
+    {
+      "Japanese": "テクニカルリード",
+      "Furigana": "テクニカルリード",
+      "Meaning": "tech lead"
+    },
+    {
+      "Japanese": "エンジニアリングマネージャー",
+      "Furigana": "エンジニアリングマネージャー",
+      "Meaning": "engineering manager"
+    },
+    {
+      "Japanese": "CTO",
+      "Furigana": "シーティーオー",
+      "Meaning": "Chief Technology Officer"
+    },
+    {
+      "Japanese": "VPoE",
+      "Furigana": "ブイピーオブエンジニアリング",
+      "Meaning": "VP of Engineering"
+    },
+    {
+      "Japanese": "アーキテクト",
+      "Furigana": "アーキテクト",
+      "Meaning": "architect"
+    },
+    {
+      "Japanese": "コンサルタント",
+      "Furigana": "コンサルタント",
+      "Meaning": "consultant"
+    },
+    {
+      "Japanese": "PMO",
+      "Furigana": "ピーエムオー",
+      "Meaning": "project management office"
+    },
+    {
+      "Japanese": "スクラムマスター",
+      "Furigana": "スクラムマスター",
+      "Meaning": "scrum master"
+    },
+    {
+      "Japanese": "UXデザイナー",
+      "Furigana": "ユーエックスデザイナー",
+      "Meaning": "UX designer"
+    },
+    {
+      "Japanese": "UIデザイナー",
+      "Furigana": "ユーアイデザイナー",
+      "Meaning": "UI designer"
+    },
+    {
+      "Japanese": "テクニカルライター",
+      "Furigana": "テクニカルライター",
+      "Meaning": "technical writer"
+    },
+    {
+      "Japanese": "サポートエンジニア",
+      "Furigana": "サポートエンジニア",
+      "Meaning": "support engineer"
+    }
+  ],
+  "checklist": []
+}

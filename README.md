@@ -17,7 +17,7 @@ The current build is a fresh June 7 rebuild from `handoff/final/FINAL_LMS_HANDOF
 | --- | --- |
 | Static LMS | Browser app in `web/` with search, reading view, local progress, and package export links |
 | Source | June 7 handoff and prompt in `handoff/final/` |
-| Generated Data | 892 SCO/index nodes, source docs, lesson extracts, and LMS package exports in `web/data/` |
+| Generated Data | 942 SCO/index nodes, source docs, lesson extracts, and LMS package exports in `web/data/` |
 | Backend | Optional FastAPI beta API retained for future tooling |
 | Database | Not required for learner-facing zero-budget mode |
 | Deployment | GitHub Pages workflow for `web/` |
@@ -30,9 +30,9 @@ The current build is a fresh June 7 rebuild from `handoff/final/FINAL_LMS_HANDOF
 | Foundations | 7 |
 | Level optional lessons | 30 |
 | Mock exam SCOs | 5 |
-| Supplement SCOs | 450 |
-| Source documents | 30 |
-| Extracted lesson/source blocks | 82 |
+| Supplement SCOs | 500 |
+| Source documents | 31 |
+| Extracted lesson/source blocks | 181 |
 
 ## Static Quick Start
 
