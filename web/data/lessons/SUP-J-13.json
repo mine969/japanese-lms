@@ -1,9 +1,0 @@
-{
-  "id": "SUP-J-13",
-  "title": "Supplement J: J IT Japanese Complete - Item 13",
-  "source_document": "SUPPLEMENT_J_IT_Japanese_Complete.md",
-  "markdown": "## J13 — Japanese IT Project Management Tools\n\n| Tool | Japanese name | Notes |\n|------|--------------|-------|\n| Backlog | バックログ | Japanese PM tool (Nulab) — widely used in JP |\n| Jira | ジラ | Common in internationalized companies |\n| Redmine | レッドマイン | Open source, popular in older JP companies |\n| Confluence | コンフルエンス | Wiki/documentation |\n| Notion | ノーション | Modern teams |\n| Slack | スラック | Primary chat tool |\n| Chatwork | チャットワーク | Japanese business chat alternative |\n| Teams | チームズ | Microsoft, enterprise |\n| GitHub Issues | ギットハブイシュー | Dev-focused |\n| GitLab | ギットラボ | Self-hosted common in JP |\n\n---\n\n# ══════════════════════════════════════════════════════\n# PART 7 — SECURITY (セキュリティ)\n# ══════════════════════════════════════════════════════",
-  "objectives": [],
-  "vocabulary": [],
-  "checklist": []
-}

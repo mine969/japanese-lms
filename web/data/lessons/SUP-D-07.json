@@ -1,9 +1,0 @@
-{
-  "id": "SUP-D-07",
-  "title": "Supplement D: D Business Industry - Item 07",
-  "source_document": "SUPPLEMENT_D_Business_Industry.md",
-  "markdown": "## D7 — IT / Technology Japanese\n\n| Japanese | Reading | Meaning |\n|----------|---------|---------|\n| ソフトウェア開発 | ソフトウェアかいはつ | software development |\n| プログラミング | プログラミング | programming |\n| アプリケーション | アプリケーション | application |\n| クラウド | クラウド | cloud |\n| データベース | データベース | database |\n| セキュリティ | セキュリティ | security |\n| バグ | バグ | bug |\n| デバッグ | デバッグ | debugging |\n| リリース | リリース | release |\n| アップデート | アップデート | update |\n| システム障害 | システムしょうがい | system failure |\n| サーバーダウン | サーバーダウン | server down |\n| バックアップ | バックアップ | backup |\n| インフラ | インフラ | infrastructure |\n| AI / 人工知能 | じんこうちのう | artificial intelligence |\n| 機械学習 | きかいがくしゅう | machine learning |\n| ビッグデータ | ビッグデータ | big data |\n| DX | ディーエックス | digital transformation |\n| 仕様書 | しようしょ | specification document |\n| 要件定義 | ようけんていぎ | requirements definition |\n| テスト | テスト | testing |\n| コードレビュー | コードレビュー | code review |\n| プロジェクト管理 | プロジェクトかんり | project management |\n| アジャイル | アジャイル | agile |\n| スクラム | スクラム | scrum |\n| デプロイ | デプロイ | deployment |\n| オープンソース | オープンソース | open source |\n| API | エーピーアイ | API |\n| UI/UX | ユーアイ/ユーエックス | user interface/experience |",
-  "objectives": [],
-  "vocabulary": [],
-  "checklist": []
-}

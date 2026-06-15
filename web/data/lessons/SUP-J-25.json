@@ -1,9 +1,0 @@
-{
-  "id": "SUP-J-25",
-  "title": "Supplement J: J IT Japanese Complete - Item 25",
-  "source_document": "SUPPLEMENT_J_IT_Japanese_Complete.md",
-  "markdown": "## J25 — Slack Message Templates\n\n### Daily Standup (朝会) Format\n\n```\n【本日の作業】\n- 〇〇機能の実装（見積もり：3h）\n- PRレビュー対応\n- ミーティング（14:00-15:00）\n\n【昨日の作業】\n- 〇〇のバグ修正 → 完了\n- テストコード追加 → 完了\n\n【ブロッカー】\n- なし（特になし）\n```\n\n### Bug Report Slack Format\n\n```\n【不具合報告】\n\n発生日時：〇月〇日 XX:XX\n環境：本番環境 / ステージング / 開発環境\n重要度：Critical / High / Medium / Low\n\n【事象】\n〜という操作をすると、〜が発生します。\n\n【再現手順】\n1. 〇〇ページにアクセスする\n2. 〇〇ボタンをクリックする\n3. エラーが表示される\n\n【期待動作】\n〜されるはずです。\n\n【ログ・スクリーンショット】\n（添付）\n\n担当者アサイン：@XXX\n```\n\n### Deployment Announcement\n\n```\n【リリース告知】\n\n本日 XX:XX に以下の内容をリリースします。\n\n■ 変更内容\n- 〇〇機能の追加\n- △△のバグ修正\n\n■ 影響範囲\n- 〇〇システム\n\n■ ダウンタイム\n- なし（ゼロダウンタイムリリース）\n\n何かあれば @XX まで連絡ください。\n```\n\n### Incident Report (障害報告) Format\n\n```\n【障害報告】\n\n発生時刻：〇月〇日 XX:XX\n復旧時刻：XX:XX（XX分の障害）\n影響：〇〇機能が使用不可\n\n【原因】\n〜が原因でサーバーが落ちました。\n\n【対応内容】\n1. XX:XXに障害を検知\n2. XX:XXに原因を特定\n3. XX:XXに〜で復旧\n\n【再発防止策】\n- 〇〇の監視を強化する\n- △△のアラートを追加する\n\n詳細はポストモーテムを参照してください：（リンク）\n```",
-  "objectives": [],
-  "vocabulary": [],
-  "checklist": []
-}

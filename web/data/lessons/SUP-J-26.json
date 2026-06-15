@@ -1,9 +1,0 @@
-{
-  "id": "SUP-J-26",
-  "title": "Supplement J: J IT Japanese Complete - Item 26",
-  "source_document": "SUPPLEMENT_J_IT_Japanese_Complete.md",
-  "markdown": "## J26 — Email Templates for IT Professionals\n\n### Technical Proposal Email\n\n```\n件名：〇〇システムの改善提案について\n\n〇〇部 △△様\n\nお世話になっております。エンジニアの〇〇です。\n\n現在の〇〇システムにおいて、以下の課題が発生しています。\n\n【課題】\n・レスポンスタイムが平均3秒を超えている\n・月次エラー率が5%に達している\n\n【改善案】\nキャッシュ層の追加とDBクエリの最適化により、\nレスポンスタイムを1秒未満に改善できると考えております。\n\n概算工数は約2週間、コストは〇〇円を見込んでいます。\n\nご検討のほど、よろしくお願いいたします。\n\n〇〇 エンジニアリング部\n〇〇 太郎\n```\n\n---\n\n# ══════════════════════════════════════════════════════\n# PART 18 — MOBILE DEVELOPMENT (モバイル開発)\n# ══════════════════════════════════════════════════════",
-  "objectives": [],
-  "vocabulary": [],
-  "checklist": []
-}

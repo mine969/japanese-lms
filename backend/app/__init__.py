@@ -1,2 +1,0 @@
-"""JLPT LMS backend package."""
-
